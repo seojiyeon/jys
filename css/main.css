@@ -56,7 +56,7 @@ header .tit_hide{display:none;}
 nav ul li{display: inline-block; padding: 0 1.25%;}
 nav ul li a{font-size: 16px; line-height: 40px;}
 
-.visual{ height: 752px; background: url(../img/pp_bg.jpg); background-size: cover; }
+.visual{ height: 752px; background: fixed; background-img: url(../img/pp_bg.jpg); background-size: cover; }
 .main_content{position: absolute; top: 350px; left: 50%; font-size: 80px; font-family: 'Raleway', sans-serif; color: #fff;  text-align: center;transform:translateX(-50%); }
 .main_subcontent{position: absolute; top: 216px; left: 50%; font-size: 16px; font-family: 'Raleway', sans-serif; color: #fff; transform:translateX(-50%); }
 .main:after{content: ""; position: absolute; top: 540px; left: 50%; width: 23%; height: 5px; background-color: #fff;  transform: translateX(-50%); }

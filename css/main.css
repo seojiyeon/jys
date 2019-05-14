@@ -90,7 +90,6 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 	
 /*portfolio */
 .portfolio{height: 100%; min-height: 890px !important; text-align-last: center; }
-.portfolio .portfolio_inner img{padding-top: 70px;}
 .portfolio .portfolio_inner > ul{margin: 30px auto 0; width: 70%;}
 .portfolio .portfolio_inner > ul::after{content:''; display:block; clear:both;}
 .portfolio .portfolio_inner > ul > li{float:left; width: 30%; margin-left: 3%; vertical-align: top;}

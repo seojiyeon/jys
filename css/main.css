@@ -95,8 +95,8 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .portfolio .portfolio_inner > ul::after{content:''; display:block; clear:both;}
 .portfolio .portfolio_inner > ul > li{float:left; width: 30%; margin-left: 3%; vertical-align: top;}
 .portfolio .portfolio_inner > ul > li:hover{background:#eee;}
-.portfolio .portfolio_inner > ul > li > a{display: inline-block; margin-bottom: 20px; width: 100%; height: 210px; background: url(../img/ckcentmoup.png) no-repeat; background-size: cover; background-position: center; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0, 0, 0, 0.6); vertical-align: top;}
-.portfolio .portfolio_inner > ul > li > a >img{width: 100%; height: 100%;}
+.portfolio .portfolio_inner > ul > li > a{width: 100%; height: 210px;}
+.portfolio .portfolio_inner > ul > li > a > img{width: 100%; height: 100%;}
 .portfolio .portfolio_inner > ul > li > a > span{position: relative; padding: 15px 0;}
 .portfolio .portfolio_inner > ul > li > a > span::after{display: block; position: absolute; top: 52px; left: 0; content: ''; width: 100%; height: 1px; background: #eaeaea;}
 .portfolio .portfolio_inner > ul > li > a > p{display: block; font-size: 15px; line-height: 26px;}   

@@ -40,7 +40,7 @@
 	.portfolio {padding-top: 100px;}
 }
 
-.container{width: 80%; margin: 0 auto; padding-top: 150px;}
+.container{width: 80%; margin: 0 auto;}
 h1{font-family: 'Quicksand', sans-serif; font-weight: bold; color: #666666;}
 h2{font-family: 'Kodchasan', sans-serif; font-weight: bold; color: #5f5f5f;}
 
@@ -56,11 +56,11 @@ header .tit_hide{display:none;}
 nav ul li{display: inline-block; padding: 0 1.25%;}
 nav ul li a{font-size: 16px; line-height: 40px;}
 
-.visual{ height: 752px; background: fixed; background-image: url(../img/pp_bg.png); background-size: cover; }
-.main_content{color: #fff;  text-align: center;}
-.main_content > span{font-size: 2em; color: #fff;  text-align: center;}
-.main_subcontent{font-size: 16px;}
-.main:after{content: ""; position: absolute; top: 540px; left: 50%; width: 23%; height: 5px; background-color: #fff;  transform: translateX(-50%); }
+.visual{ height: 582px; background: fixed; background-image: url(../img/pp_bg.png); background-size: cover; }
+
+.main_content{padding-top: 10%; color: #fff;  text-align: center;}
+.main_content > span{font-size: 2em; font-weight: bold; line-height: 1.2;}
+.main_subcontent{font-size: 1.2em; line-height: 1.5; padding-top: 15px;}
 .visual .background{background: rgba(0,0,0,0.3);}
 
 /* about&skill  */

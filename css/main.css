@@ -56,9 +56,9 @@ header .tit_hide{display:none;}
 nav ul li{display: inline-block; padding: 0 1.25%;}
 nav ul li a{font-size: 16px; line-height: 40px;}
 
-.visual{ height: 582px; background: fixed; background-image: url(../img/pp_bg.png); background-size: cover; }
+.visual{ height: 706px; background: fixed; background-image: url(../img/pp_bg.png); background-size: cover; }
 
-.main_content{padding-top: 10%; color: #fff;  text-align: center;}
+.main_content{padding-top: 11%; color: #fff;  text-align: center;}
 .main_content > span{font-size: 5em; font-weight: bold; line-height: 1.2;}
 .main_subcontent{font-size: 1.2em; line-height: 1.5; padding-top: 15px;}
 .visual .background{background: rgba(0,0,0,0.3);}

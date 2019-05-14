@@ -69,8 +69,8 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 
 .about_skill .about{width: 100%; padding-top: 6%;}
 .about_skill .about .about_content{padding-top: 98px; line-height: 2;}
-.about_skill .about .about_content .intro ul::after{content:''; display:block; clear:both;}
-.about_skill .about .about_content .intro ul > li {float:left;}
+/* .about_skill .about .about_content .intro ul::after{content:''; display:block; clear:both;} */
+.about_skill .about .about_content .intro ul > li {}
 .about_skill .about .about_content .reco ul::after{content:''; display:block; clear:both;}
 .about_skill .about .about_content .reco ul > li {float:left; }
 /* .about_skill .about .about_content > ul > li{margin-left: 20%;text-align: left;}

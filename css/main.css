@@ -160,7 +160,8 @@ address{ height: 100%; min-height: 40px; background:#373737; color: #fff; text-a
 	header > nav > ul > li > a{font-size: 14px;}
 	.visual{height: 306px;}
 	.container{width:100%;}
-	.main .main_content{top: 5%;font-size: 3em; }
+	.main .main_content{top: 5%;}
+	.main_content > span{font-size: 3em; }
 	.main:after{top: 188px;}
 	.main .main_subcontent{top: 112%; font-size: 9px;}
 	.about_skill .about .about_content{margin-left: 0; padding-top: 55px;}

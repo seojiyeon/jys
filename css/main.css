@@ -189,6 +189,6 @@ address{ height: 100%; min-height: 40px; background:#373737; color: #fff; text-a
 	.about_skill .container .skill{display: block; padding-top: 60px; width: 100%;}
 	.about_skill .container .skill ul{padding-top: 55px;}
 	.about_skill .container .skill ul > li{margin: 0 0 41px 6%;}
-	.portfolio .container .portfolio_inner > ul > li{width: 373px; height: 100%; }
+	.portfolio .container .portfolio_inner > ul > li{width: 100%; height: 100%; }
 	.portfolio {padding-top: 100px;}
 }

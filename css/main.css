@@ -6,7 +6,11 @@
 
 @media (max-width: 1024px){ 
 } 
-
+@media (max-width: 900px){
+	.about_skill .about .about_content::before{diplay:none;}
+	.about_skill .about .about_content .about_photo{float:none; width:100%;}
+	.about_skill .about .about_content .about_text{float:none; padding-left: 0; width:100%;}
+}
 /* 모바일 */
 @media (max-width: 720px){
 	h2{font-size: 30px;}

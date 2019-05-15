@@ -25,7 +25,7 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .visual .background{background: rgba(0,0,0,0.3);}
 
 /* about&skill  */
-.about_skill{position :relative; height: 100%; min-height: 800px;  text-align: center;}
+.about_skill{position :relative; height: 878px; text-align: center;}
 /* .about_skill:after{content: ""; position: absolute; top: 237px; left: 50%; width: 0.25%; height: 430px; background-color: #8E8D8D;  transform: translateX(-50%); } */
 
 .about_skill .about{position:relative; width: 100%; padding-top: 6%;}

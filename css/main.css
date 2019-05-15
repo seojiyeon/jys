@@ -68,7 +68,7 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 /* .about_skill:after{content: ""; position: absolute; top: 237px; left: 50%; width: 0.25%; height: 430px; background-color: #8E8D8D;  transform: translateX(-50%); } */
 
 .about_skill .about{position:relative; width: 100%; padding-top: 6%;}
-.about_skill .about .about_content{padding-top: 98px; line-height: 2;}
+.about_skill .about .about_content{padding-top: 98px; line-height: 2; font-size: 0.8em;}
 .about_skill .about .about_content::before{content:''; display:block; width:2px; height:49%; position: absolute; top: 229px; left: 50%; background: #cecece;}
 .about_skill .about .about_content::after{content:''; display:block; clear: both;}
 .about_skill .about .about_content > ul{padding: 5px 10px;}

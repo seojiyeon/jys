@@ -37,7 +37,7 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .about_skill .about .about_content .about_photo{float:left; width:50%;}
 .about_skill .about .about_content .about_photo >img{}
 .about_skill .about .about_content .about_text{float:left; padding-left: 3%; width:50%; text-align: left;}
-.about_skill .about .about_content .about_text h2::after{content:''; display:block; width:70%; height:2px; background:#6f6f6f;}
+.about_skill .about .about_content .about_text h2::after{content:''; display:block; width:70%; height:2px; background:#feae1a;}
 .about_skill .about .about_content .about_text .intro ul > li {}
 /* .about_skill .about .about_content .about_text .reco ul::after{content:''; display:block; clear:both;} */
 .about_skill .about .about_content .about_text .reco ul > li {/*float:left; width: 15%; */}
@@ -150,6 +150,7 @@ address{ height: 100%; min-height: 40px; background:#373737; color: #fff; text-a
 	.about_skill .about .about_content::before{display:none;}
 	.about_skill .about .about_content .about_photo{float:none; width:100%;}
 	.about_skill .about .about_content .about_text{float:none; padding-left: 0; width:100%; text-align:center;}
+	.about_skill .about .about_content .about_text h2::after{margin: 0 auto; background:#feae1a;}
 }
 /* 모바일 */
 @media (max-width: 720px){

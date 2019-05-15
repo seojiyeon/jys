@@ -70,10 +70,12 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .about_skill .about{width: 100%; padding-top: 6%;}
 .about_skill .about .about_content{padding-top: 98px; line-height: 2;}
 /* .about_skill .about .about_content .intro ul::after{content:''; display:block; clear:both;} */
-.about_skill .about .about_content .intro ul > li {}
-.about_skill .about .about_content .reco ul::after{content:''; display:block; clear:both;}
-.about_skill .about .about_content .reco ul > li {float:left; width: 15%; font-size: 0.8em;}
-.about_skill .about .about_content .reco ul > li > span{ font-weight: bold;}
+.about_skill .about .about_content .aobt_photo{}
+.about_skill .about .about_content .aobt_photo >img{}
+.about_skill .about .about_content .about_text .intro ul > li {}
+.about_skill .about .about_content .about_text .reco ul::after{content:''; display:block; clear:both;}
+.about_skill .about .about_content .about_text .reco ul > li {float:left; width: 15%; font-size: 0.8em;}
+.about_skill .about .about_content .about_text .reco ul > li > span{ font-weight: bold;}
 /* .about_skill .about .about_content > ul > li{margin-left: 20%;text-align: left;}
 .about_skill .skill{display: inline-block; width: 45%; vertical-align: top;}
 .about_skill .skill ul {padding-top: 75px;}

@@ -167,9 +167,8 @@ address{ height: 100%; min-height: 40px; background:#373737; color: #fff; text-a
 	.about_skill .about .about_content{margin-left: 0; padding-top: 55px;}
 	.about_skill .about .about_content > ul > li{margin-left: 0;}
 	.about_skill .skill ul{padding-top: 55px;}
-	.portfolio .portfolio_inner > ul{margin: 0; width: 100%;}
+	.portfolio .portfolio_inner > ul{margin: 30px 0 0; width: 100%;}
 	.portfolio .container .portfolio_inner > ul > li{width: 42%; height: 100%;}
-	
 	.contact_inner > ul > li{font-size: 25px;}
 	
 

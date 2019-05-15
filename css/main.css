@@ -151,6 +151,8 @@ address{ height: 100%; min-height: 40px; background:#373737; color: #fff; text-a
 	.about_skill .about .about_content .about_photo{float:none; width:100%;}
 	.about_skill .about .about_content .about_text{float:none; padding-left: 0; width:100%; text-align:center;}
 	.about_skill .about .about_content .about_text h2::after{margin: 0 auto; width:31%; background:#525251;}
+	.about_skill .about .about_content .about_text .intre{padding-bottom: 25px;}
+	.about_skill .about .about_content .about_text .reco{padding-bottom: 25px;}
 }
 /* 모바일 */
 @media (max-width: 720px){

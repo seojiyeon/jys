@@ -64,11 +64,11 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .portfolio .portfolio_inner > ul > li::first-child{margin-left: 0%;}
 .portfolio .portfolio_inner > ul > li{position: relative; float:left; width: 24%; height: 288px; margin-left: 6%; /*border: 1px solid #cecece;*/}
 .portfolio .portfolio_inner > ul > li:hover::before{content: ''; position: absolute; background: rgba(0, 0, 0, 0.6); width: 100%; height: 100%; top: 0;left: 0;}
-/*.portfolio .portfolio_inner > ul > li:hover > a > span{color:#456979;}
+.portfolio .portfolio_inner > ul > li:hover > a > span{color:#456979;}
 .portfolio .portfolio_inner > ul > li > a {display: block; padding: 13px 0 3px;}
 .portfolio .portfolio_inner > ul > li > a >span{font-weight: bold;color: #565454;}
-.portfolio .portfolio_inner > ul > li > p{font-size: 0.8em; line-height: 1.5;}   
-*/
+.portfolio .portfolio_inner > ul > li > p{font-size: 0.8em; line-height: 1.5;} 
+
 /* CONTACT */
 .contact{height: 850px; text-align: center; }
 .contact .contact_inner{padding-top: 130px;}

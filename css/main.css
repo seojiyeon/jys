@@ -190,7 +190,7 @@ address{ height: 100%; min-height: 40px; background:#373737; color: #fff; text-a
 	.wrap header > nav > ul > li > a{font-size: 14px;}
 	.container .main:after{top: 234px; height: 2px;}
 	.main_content{padding-top: 26%;}
-	.main_content > span{font-size: 1em;}
+	.main_content > span{font-size: 2.4em;}
 	.main .main_subcontent{top: 125%; font-size: 9px;}
 	.about_skill:after{display: none;}
 	.about_skill .container .about{display: block; margin: 0 auto; width: 100%;}

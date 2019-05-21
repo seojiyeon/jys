@@ -290,23 +290,33 @@
     </div>
     <script type="text/javascript">
 	$(document).ready(function(){
-            $(".cdev").circlos();
+		$("nav > a").click(function(){
+			$(this).addClass("active");
+			$(this).siblings().removeClass("active");
+			if(this.hash !== ""){
+				var zzz = this.hash;
+				$("html").animate({
+					scrollTop : $(zzz).offset().top
+				});
+			}
+		});
+           	 $(".cdev").circlos();
             
-			$('#fullpage').fullpage({
-				anchors: ['nav_home','nav_about_skill','nav_portfolio','nav_contact'],
-				scrollBar: true,
-				verticalCentered: true,
-				css3: true,
-				navigation: false,
-				menu: 'nav ul',
-				onLeave: function(anchor, index){
-					if(index == 1){
-						$('.nav').removeClass('chang');
-					}else{
-						$('.nav').addClass('chang');
-					}
+		$('#fullpage').fullpage({
+			anchors: ['nav_home','nav_about_skill','nav_portfolio','nav_contact'],
+			scrollBar: true,
+			verticalCentered: true,
+			css3: true,
+			navigation: false,
+			menu: 'nav ul',
+			onLeave: function(anchor, index){
+				if(index == 1){
+					$('.nav').removeClass('chang');
+				}else{
+					$('.nav').addClass('chang');
 				}
-            });  
+			}
+		 });  
             
 
             var away = false;

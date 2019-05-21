@@ -65,6 +65,7 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .portfolio .portfolio_inner .port_btn > ul::after{ content:'';  diplay:block; clear:both;}
 .portfolio .portfolio_inner .port_btn > ul > li{float:left;  margin-left: 24px;}
 .portfolio .portfolio_inner .port_btn > ul > li > a{padding: 5px 22px; background: #c7c6c2; color: #fff; border-radius: 15px;}
+.portfolio .portfolio_inner .port_btn > ul > li.active > a{background: #ffca00;}
 .portfolio .portfolio_inner .port_btn > ul > li > a:active{background: #ffca00;}
 .portfolio .portfolio_inner .port_btn > ul > li > a:hover{background: #ffca00;}
 .portfolio .portfolio_inner .port_content > ul{width: 100%;}

@@ -178,37 +178,37 @@
                     <div class="portfolio_inner">
                         <h2>PORTFOLIO</h2>
 			<div class="port_btn">
-				<ul>
-					<li><a href="#" title="전체보기">#전체</a></li>
-					<li><a href="#" title="퍼블리싱">#퍼블리싱</a></li>
-					<li><a href="#" title="반응형퍼블리싱">#반응형퍼블리싱</a></li>
-					<li><a href="#" title="유지보수">#유지보수</a></li>
+				<ul class="filters">
+					<li data-filter="*"><a href="#" title="전체보기">#전체</a></li>
+					<li data-filter=".pub"><a href="#" title="퍼블리싱">#퍼블리싱</a></li>
+					<li data-filter=".pub2"><a href="#" title="반응형퍼블리싱">#반응형퍼블리싱</a></li>
+					<li data-filter=".mainten"><a href="#" title="유지보수">#유지보수</a></li>
 				</ul>
 			</div>
 			<div class="port_content">
 				<ul>
-				    <li class="fade_in">
+				    <li class="fade_in item ">
 					<a href="http://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000128000000000" target="_blank">
 					<img src="img/port5.png" alt="면접정장바로가기">			
 					</a>
 				   	<span>경상남도면접정장대여슛골 </span>
 					<p>퍼블리싱</p>                                
 				    </li>	
-				    <li class="fade_in">
+				    <li class="fade_in item ">
 				    	<a href="http://www.ynsenergy.com/" target="_blank">
 						<img src="img/port4.png" alt="YNS Energy 바로가기">			
 					</a>
 				   	<span>YNS Energy</span>
 					<p>퍼블리싱</p>                                
 				    </li>
-				    <li class="fade_in">
+				    <li class="fade_in item ">
 					<a href="http://www.gyeongnam.go.kr/index.gyeong" target="_blank">
 					<img src="img/port6.png" alt="경상남도청 바로가기">			
 					</a>
 				   	<span>경상남도청</span>
 					<p>유지보수</p>                                
 				    </li>
-				    <li class="fade_in">
+				    <li class="fade_in item ">
 					<a href="http://w3.changwon.ac.kr/kor/html/00_main/index.php" target="_blank">
 					    <img src="img/port7.png" alt="창원대학교 바로가기">			
 					</a>
@@ -216,21 +216,21 @@
 					<p>유지보수</p>                                
 				    </li>
 				    					
-				    <li class="fade_in">
+				    <li class="fade_in item ">
 					<a href="portfolio/ckcent/index.html" target="_blank">
 					    <img src="img/port1.png" alt="ck의료센터 바로가기">			
 					</a>
 					<span>CK MEDICAL CENTER(개인)</span>
 					<p>퍼블리싱</p>                                
 				    </li>
-				    <li class="fade_in">
+				    <li class="fade_in item ">
 					<a href="portfolio/centlevel/index.html" target="_blank">
 					    <img src="img/port2.png" alt="센트레빌 바로가기">
 					</a>
 			    		<span>센트레빌(개인)</span>
 					<p>퍼블리싱</p>
 				    </li>
-				    <li class="fade_in "> 
+				    <li class="fade_in item "> 
 					<a href="portfolio/kcc/index.html"  target="_blank" >
 					    <img src="img/port3.png" alt="kcc 홈페이지 바로가기">
 					</a>
@@ -242,17 +242,17 @@
 					<h3>COWAY</h3>
 					<span>퍼블리싱</span>
 				    </li> -->
-				    <!-- <li class="fade_in">
+				    <!-- <li class="fade_in item ">
 					<a href="portfolio/rockandlock/index.html" target="_blank" ></a>
 					<h3>ROCK & ROCK</h3>
 					<span>퍼블리싱 100%</span>
 				    </li>
-				    <li class="fade_in">
+				    <li class="fade_in item ">
 					<a href="#a" target="_blank" ></a>
 					<h3>준비중</h3>
 					<span>준비중</span>
 				    </li>
-				    <li class="fade_in"li>
+				    <li class="fade_in item">
 					<a href="#a" target="_blank" ></a>
 					<h3>준비중</h3>
 					<span>준비중</span>
@@ -303,6 +303,29 @@
 				});
 			}
 		});
+		
+		   'use strict';
+
+
+		    var $port_content = $('.port_content');
+
+		    $projects.isotope({
+			itemSelector: '.item',
+			layoutMode: 'fitRows'
+		    });
+
+		    $('ul.filters > li').on('click', function(e){
+
+			e.preventDefault();
+
+			var filter = $(this).attr('data-filter');
+
+			$('ul.filters > li').removeClass('active');
+			$(this).addClass('active');
+
+			$projects.isotope({filter: filter});
+
+		    });
            	 $(".cdev").circlos();
             
 		$('#fullpage').fullpage({

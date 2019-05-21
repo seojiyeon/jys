@@ -195,6 +195,7 @@ address{ height: 100%; min-height: 40px; background:#373737; color: #fff; text-a
 	.main_content{padding-top: 26%;}
 	.main_content > span{font-size: 2.4em;}
 	.main .main_subcontent{top: 125%; font-size: 9px;}
+	.visual{background-position: 25%;}
 	.about_skill:after{display: none;}
 	.about_skill .container .about{display: block; margin: 0 auto; width: 100%;}
 	.about_skill .container .about .about_content{margin-left: 0; padding-top: 51px; font-size: 11px;}

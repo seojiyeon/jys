@@ -150,7 +150,9 @@ address{ height: 100%; min-height: 40px; background:#373737; color: #fff; text-a
 }
 /* ========== 미디어쿼리 ========== */
 /* pc: 1570px ~ */
-@media (min-width:1570px) {}
+@media (min-width:1200px) {
+.container{width: 100%;}
+}
 
 @media (max-width: 1024px){ 
 } 

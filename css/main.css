@@ -204,4 +204,6 @@ address{ height: 100%; min-height: 40px; background:#373737; color: #fff; text-a
 	.portfolio {padding-top: 100px;}
 	.portfolio .portfolio_inner .port_content{width: 330px; margin: 0 auto;}
 	.portfolio .portfolio_inner .port_content > ul > li{width: 100%; margin-left: 0;}
+	.portfolio .portfolio_inner .port_btn{width: 330px;}
+	.portfolio .portfolio_inner .port_btn > ul > li{margin-left: 6px;width: 159px; padding-top: 17px;}
 }

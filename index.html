@@ -290,13 +290,15 @@
     </div>
     <script type="text/javascript">
 	$(document).ready(function(){
+		
+		//해당페이지로 부드럽게 원페이지
 		$("nav > ul > li > a").click(function(){
 			$(this).addClass("active");
 			$(this).siblings().removeClass("active");
 			if(this.hash !== ""){
-				var zzz = this.hash;
+				var op = this.hash;
 				$("html").animate({
-					scrollTop : $(zzz).offset().top
+					scrollTop : $(op).offset().top
 				});
 			}
 		});

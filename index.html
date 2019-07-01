@@ -319,7 +319,10 @@
 
 		$port_content.isotope({
 		itemSelector: '.item',
-		layoutMode: 'fitRows'
+		layoutMode: 'fitRows',
+ 		cellsByColumn: {
+  			rowHeight: '.grid-sizer'
+			}
 		});
 
 		$('ul.filters > li').on('click', function(e){

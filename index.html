@@ -295,7 +295,11 @@
     </div>
     <script type="text/javascript">
 	$(document).ready(function(){
-		
+	
+	$('nav > ul > li').on('click' ,function(){
+            $('nav > ul > li').removeClass('active');
+            $(this).addClass('active');
+        });
 		//해당페이지로 부드럽게 원페이지
 		$("nav > ul > li > a").click(function(){
 			$(this).addClass("active");

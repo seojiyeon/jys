@@ -70,7 +70,7 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .portfolio .portfolio_inner .port_btn > ul > li.active > a{background: #ffca00;}
 .portfolio .portfolio_inner .port_btn > ul > li > a:active{background: #ffca00;}
 .portfolio .portfolio_inner .port_btn > ul > li > a:hover{background: #ffca00;}
-.portfolio .portfolio_inner .port_content{padding-bottom:20px;}
+.portfolio .portfolio_inner .port_content{padding-bottom:87px;}
 .portfolio .portfolio_inner .port_content > ul{width: 100%;}
 .portfolio .portfolio_inner .port_content > ul::after{content:''; display:block; clear:both;}
 .portfolio .portfolio_inner .port_content > ul > li(-3n+4){margin-left: 0%;}

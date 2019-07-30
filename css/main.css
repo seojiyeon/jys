@@ -63,13 +63,14 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .grid-sizer{height: 1170px;}
 .portfolio{height: auto; padding-top: 80px; text-align-last: center; }
 .portfolio .portfolio_inner .port_btn{display: inline-block; padding :30px 0 ; font-size: 0.98em;}
-.portfolio .portfolio_inner .port_btn > ul{}
+.portfolio .portfolio_inner .port_btn > ul{padding-bottom: 43px;}
 .portfolio .portfolio_inner .port_btn > ul::after{ content:'';  diplay:block; clear:both;}
 .portfolio .portfolio_inner .port_btn > ul > li{float:left;  margin-left: 24px;}
 .portfolio .portfolio_inner .port_btn > ul > li > a{padding: 5px 22px; background: #c7c6c2; color: #fff; border-radius: 15px;}
 .portfolio .portfolio_inner .port_btn > ul > li.active > a{background: #ffca00;}
 .portfolio .portfolio_inner .port_btn > ul > li > a:active{background: #ffca00;}
 .portfolio .portfolio_inner .port_btn > ul > li > a:hover{background: #ffca00;}
+.portfolio .portfolio_inner .port_content{}
 .portfolio .portfolio_inner .port_content > ul{width: 100%;}
 .portfolio .portfolio_inner .port_content > ul::after{content:''; display:block; clear:both;}
 .portfolio .portfolio_inner .port_content > ul > li(-3n+4){margin-left: 0%;}
@@ -87,7 +88,6 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .contact .contact_inner{padding-top: 130px;}
 .contact .contact_inner > ul{padding-top: 80px; font-family: 'Quicksand', sans-serif; font-size: 40px; color: #666666;}
 /* footer */
-footer{ position: absolute; bottom: 0; left: 0; right: 0; text-align: center;}
 address{ height: 100%; min-height: 40px; background:#373737; color: #fff; text-align: center; line-height: 40px;} 
 
 

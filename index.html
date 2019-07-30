@@ -194,7 +194,7 @@
 							</ul>
 						</div>
 						<div class="port_content">
-							<ul>
+							<ul class="on">
 								<li class="pub2 on">
 									<a href="http://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000128000000000" target="_blank">
 									<img src="img/port5.png" alt="면접정장바로가기">			
@@ -327,6 +327,8 @@
 			if( li_idx === 0){
 				$('.port_btn ul > li').removeClass('active');
 				$(this).addClass('active');
+				$(this).parent().removeClass('on');
+				$(this).parent().addClass('on');
 				$('.port_content ul li').removeClass('on');
 				$('.port_content ul li.pub').addClass('on');
 				$('.port_content ul li.pub2').addClass('on');
@@ -337,6 +339,8 @@
 			}else if(li_idx === 1){
 				$('.port_btn ul > li').removeClass('active');
 				$(this).addClass('active');
+				$(this).parent().removeClass('on');
+				$(this).parent().addClass('on');
 				$('.port_content ul li.pub').show();
 				$('.port_content ul li.pub2').hide();
 				$('.port_content ul li.mainten').hide();
@@ -345,6 +349,8 @@
 			}else if(li_idx === 2){
 				$('.port_btn ul > li').removeClass('active');
 				$(this).addClass('active');
+				$(this).parent().removeClass('on');
+				$(this).parent().addClass('on');
 				$('.port_content ul li.pub').hide();
 				$('.port_content ul li.pub2').show();
 				$('.port_content ul li.mainten').hide();
@@ -353,6 +359,8 @@
 			}else{
 				$('.port_btn ul > li').removeClass('active');
 				$(this).addClass('active');
+				$(this).parent().removeClass('on');
+				$(this).parent().addClass('on');
 				$('.port_content ul li.pub').hide();
 				$('.port_content ul li.pub2').hide();
 				$('.port_content ul li.mainten').show();

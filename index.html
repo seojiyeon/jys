@@ -194,7 +194,7 @@
 							</ul>
 						</div>
 						<div class="port_content">
-							<ul class="on">
+							<ul>
 								<li class="pub2 on">
 									<a href="http://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000128000000000" target="_blank">
 									<img src="img/port5.png" alt="면접정장바로가기">			
@@ -322,7 +322,6 @@
 		console.log("nav_about_me"+nav_about_me);
 		
 		$('.port_btn ul > li').click(function() {
-			$('.port_content ul').fadeIn(1500);
 			var li_idx = $(this).index();
 			if( li_idx === 0){
 				$('.port_btn ul > li').removeClass('active');

@@ -322,7 +322,7 @@
 		console.log("nav_about_me"+nav_about_me);
 		
 		$('.port_btn ul > li').click(function() {
-			$('.port_content ul').css('animation= fadeIn 2s');
+			$('.port_content ul').fadeIn(1500);
 			var li_idx = $(this).index();
 			if( li_idx === 0){
 				$('.port_btn ul > li').removeClass('active');

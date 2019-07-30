@@ -63,7 +63,8 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .grid-sizer{height: 1170px;}
 .portfolio{height: auto; padding-top: 80px; text-align-last: center; }
 .portfolio .portfolio_inner .port_btn{display: inline-block; padding :30px 0 ; font-size: 0.98em;}
-.portfolio .portfolio_inner .port_btn > ul{padding-bottom: 43px;}
+.portfolio .portfolio_inner .port_btn > ul{padding-bottom: 43px; animation: fadeIn 2s;-moz-animation: fadeIn 2s; /* Firefox */ -webkit-animation: fadein 2s; /* Safari and Chrome */
+-o-animation: fadeIn 2s; /* Opera */}
 .portfolio .portfolio_inner .port_btn > ul::after{ content:'';  diplay:block; clear:both;}
 .portfolio .portfolio_inner .port_btn > ul > li{float:left;  margin-left: 24px;}
 .portfolio .portfolio_inner .port_btn > ul > li > a{padding: 5px 22px; background: #c7c6c2; color: #fff; border-radius: 15px;}

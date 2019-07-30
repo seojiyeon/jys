@@ -326,6 +326,10 @@
 			if( li_idx === 0){
 				$('.port_btn ul > li').removeClass('active');
 				$(this).addClass('active');
+				$('.port_content ul li').removeClass('on');
+				$('.port_content ul li.pub').addClass('on');
+				$('.port_content ul li.pub2').addClass('on');
+				$('.port_content ul li.mainten').addClass('on');
 				$('.port_content ul li.pub').show();
 				$('.port_content ul li.pub2').show();
 				$('.port_content ul li.mainten').show();
@@ -335,18 +339,24 @@
 				$('.port_content ul li.pub').show();
 				$('.port_content ul li.pub2').hide();
 				$('.port_content ul li.mainten').hide();
+				$('.port_content ul li').removeClass('on');
+				$('.port_content ul li.pub').addClass('on');
 			}else if(li_idx === 2){
 				$('.port_btn ul > li').removeClass('active');
 				$(this).addClass('active');
 				$('.port_content ul li.pub').hide();
 				$('.port_content ul li.pub2').show();
 				$('.port_content ul li.mainten').hide();
+				$('.port_content ul li').removeClass('on');
+				$('.port_content ul li.pub2').addClass('on');
 			}else{
 				$('.port_btn ul > li').removeClass('active');
 				$(this).addClass('active');
 				$('.port_content ul li.pub').hide();
 				$('.port_content ul li.pub2').hide();
 				$('.port_content ul li.mainten').show();
+				$('.port_content ul li').removeClass('on');
+				$('.port_content ul li.mainten').addClass('on');
 			}
 
 		});

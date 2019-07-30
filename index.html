@@ -321,8 +321,8 @@
 		var $nav_about_me = $("#nav_about_me").offset().top;
 		console.log("nav_about_me"+nav_about_me);
 		
-		$('.port_btn ul > li > a').click(function() {
-			var li_idx = $(this).parents.index();
+		$('.port_btn ul > li').click(function() {
+			var li_idx = $(this).index();
 			alert(li_idx);
 			if( li_idx === 0){
 				$('.port_btn ul li.pub').show();

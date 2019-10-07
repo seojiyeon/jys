@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>맘스터치</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script type="text/javascript" src="../js/momjs.js"></script>
+    <script type="text/javascript" src="../js/jquery-3.4.1.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
+    <script>
+        
+        $(document).ready(function(){
+            $('.slider').bxSlider({ 
+                auto: true, 
+                speed: 500, 
+                pause: 4000, 
+                mode: 'horizontal', 
+                autoControls: false, 
+                controls : false,	
+                pager:true
+
+            });
+            allMenuToggle();
+            function allMenuToggle() {
+                var all_menu = $('.all_menu_btn');
+                var all_mlist = $('.all_mlist');
+
+                all_menu.on('click', function(e){
+                    e.preventDefault();  //a태그의 이동금지시킴
+                    if(all_mlist.hasClass('on') === false){
+                        all_mlist.addClass('on');
+
+                    }else{
+                        all_mlist.removeClass('on');
+                    }
+                    
+                });
+            };
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img src="../images/common/190506_banner1.jpg" alt="">
+        </div>
+        <div class="top ">
+            <div class="container top_inner clearfix">
+                <a href="" class="bn_hid"><span class="fs-0">배너보이기/숨기기</span></a>
+                <ul class="top_l">
+                    <li><a href=""><span class="img"></span>즐겨찾기</a></li>
+                    <li><a href="">브랜드소개</a></li>
+                </ul>
+                <ul class="top_r">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                    <li><a href="">고객센터</a></li>
+                    <li><a href="">마이페이지</a></li>
+                    <li><a href="">장바구니<span class="wish">0</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="../images/common/logo.png" alt="mom'stouchmall">
+        </div>
+        <nav>
+            <div class="container">
+                <span  class="all_menu_btn"><a href="#" ><i class="bar_btn"></i></a></span>   
+                <div class="all_mlist container">
+                    <ul class="clearfix">
+                        <li>
+                            <div class="all_mlist1">
+                                <span>라이트도시락</span>
+                                <ul>
+                                    <li><a href="#">라이트맘스터치도시락</a></li>
+                                </ul>
+                            </div>
+                            <div class="all_mlist2">
+                                <span>든든한 & 밥,반찬</span>
+                                <ul>
+                                    <li><a href="#">맘스터치 든든한 한끼</a></li>
+                                    <li><a href="#">반찬단지 소포장</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="all_mlist1">
+                                <span>맘닭브레스트</span>
+                                <ul>
+                                    <li><a href="#">맘닭브레스트</a></li>
+                                    <li><a href="#">소소맘닭브레스트</a></li>
+                                </ul>
+                            </div>
+                            <div class="all_mlist2">
+                                <span>맘닭소시지,스테이크,볼</span>
+                                <ul>
+                                    <li><a href="#">맘닭소시지</a></li>
+                                    <li><a href="#">맘닭스테이크</a></li>
+                                    <li><a href="#">맘닭볼</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="all_mlist1">
+                                <span>특가패키지</span>
+                            </div>
+                            <div class="all_mlist2">
+                                <span><a href="#"></a>리뷰보기</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="all_mlist1">
+                                <span>고객센터</span>
+                                <ul>
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">이밴트</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">1:1문의</a></li>
+                                    <li><a href="#">등급혜택</a></li>
+                                    <li><a href="#">브랜드소개</a></li>
+                                </ul>
+                            </div>
+                            
+                        </li>
+                        <li>
+                            <div class="all_mlist1">
+                                <ul>
+                                    <li><a href="#">로그인</a></li>
+                                    <li><a href="#">회원가입</a></li>
+                                    <li><a href="#">아이디/비밀번호 찾기</a></li>
+                                </ul>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="clearfix nav">
+                    <li><a href="#">이벤트</a></li>
+                    <li><a href="#">라이트도시락</a></li>
+                    <li><a href="#">맘닭브레스트</a></li>
+                    <li><a href="#">소스맘닭브레스트</a></li>
+                    <li><a href="#">맘닭소시지,스테이크,볼</a></li>
+                    <li><a href="#">든든한끼&밥반찬</a></li>
+                    <li><a href="#ß">특가패키지</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="main_content">
+        <div class="main_visule">
+            <div class="btn_lr">
+                <ul class="clearfix">
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <ul class="imgs slider">
+                <li><img src="../images/main/1565749960.png" alt=""></li>
+                <li><img src="../images/main/1565749262.png" alt=""></li>
+                <li><img src="../images/main/1567403950.png" alt=""></li>
+                <li><img src="../images/main/1567404041.png" alt=""></li>
+            </ul>
+            <div class="round_btn">
+                <ul class="clearfix">
+                    <li class="on"><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container cont1">
+            <ul class="clearfix type1">
+                <li>
+                    <h4>닭가슴살 골라담기</h4>
+                    <div class="txt">
+                        <div class="event">
+                            <div class="event_cont">
+                                <p>최소<span>8팩</span></p>
+                            </div>
+                            <img src="../images/main/icon_pack08.jpg" alt="">
+                        </div>
+                        <a href="">
+                            <p class="cont1_img"></p>
+                            <span>맘닭 골라담기</span>
+                            <p><strong>1,900 </strong>/ <span>1,900</p>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <h4>맘닭 전제품 맛보기</h4>
+                    <div class="txt">
+                        <div class="event">
+                            <div class="event_cont">
+                                <p>16종<span>16팩</span></p>
+                            </div>
+                            <img src="../images/main/icon_pack06.jpg" alt="">
+                        </div>
+                        <a href="">
+                            <p class="cont1_img"></p>
+                            <span>맘닭 전제품 맛보기(16종, 16종)</span>
+                            <p><strong>29,500 </strong> <span>/ 42,300</span></p>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <h4>맘닭 소.스.볼 맛보기</h4>
+                    <div class="txt">
+                        <div class="event">
+                            <div class="event_cont">
+                                <p>9종<span>18팩</span></p>
+                            </div>
+                            <img src="../images/main/icon_pack06.jpg" alt="">
+                        </div>
+                        <a href="">
+                            <p class="cont1_img"></p>
+                            <span>맘닭 소.스.볼. 맛고비(9종,18종)</span>
+                            <p><strong>26,900 </strong>/  <span>38,200</span></p>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <h4>꼬치형 소시지 2종</h4>
+                    <div class="txt">
+                        <div class="event">
+                            <div class="event_cont">
+                                <p>2종<span>20팩</span></p>
+                            </div>
+                            <img src="../images/main/icon_pack06.jpg" alt="">
+                        </div>
+                        <a href="">
+                            <p class="cont1_img"></p>
+                            <span>꼬치형 소시지 2종 -20팩</span>
+                            <p><strong>28,900 </strong> / <span>40,000</span></p>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="m_banner">
+            <a href=""><img src="../images/main/banner_1905202.png" alt=""></a>
+        </div>
+
+        <div class="cont2 container">
+            <h2><span>카테고리</span> 상품보기</h2>
+            <ul class="clearfix">
+                <li>
+                    <a href="">소스맘닭브레스트</a>
+                </li>
+                <li>
+                    <a href="">멈덜브레스트</a>
+                </li>
+                <li>
+                    <a href="">맘닭소시지</a>
+                </li>
+                <li>
+                    <a href="">맘닭스테이크</a>
+                </li>
+                <li>
+                    <a href="">맘닭볼</a>
+                </li>
+                <li>
+                    <a href="">라이트 도시락</a>
+                </li>
+                <li>
+                    <a href="">든든한끼&밥반찬</a>
+                </li>
+                <li>
+                    <a href="">특가패키지</a>
+                </li>
+            </ul>
+        </div>
+        <div class="cont3 container">
+            <h2><span>MD추천</span> 인기상품</h2>
+            <ul class="clearfix type1">
+                <li>
+                    <div class="txt">
+                        <div class="event">
+                            <div class="event_cont">
+                                <p>130g<span>24ea</span></p>
+                            </div>
+                        </div>
+                        <a href="">
+                            <p class="cont3_img"></p>
+                            <span>[간편한끼] 햇반 100% 현미밥 1box - 24ea</span>
+                            <p><strong>30,0000 </strong>/<span> 0원</p>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="txt">
+                        <div class="event">
+                            <div class="event_cont">
+                                <p>2종<span>20팩</span></p>
+                            </div>
+                            <img src="../images/main/icon_pack06.jpg" alt="">
+                        </div>
+                        <a href="">
+                            <p class="cont3_img"></p>
+                            <span>꼬치형 소시지 2종 - 20팩</span>
+                            <p><strong>28,000 </strong> / <span>40,000</span></p>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="txt">
+                        <div class="event">
+                            <div class="event_cont">
+                                <p>120g<span>10팩</span></p>
+                            </div>
+                        </div>
+                        <a href="">
+                            <p class="cont3_img"></p>
+                            <span>새우 맘닭소시지 - 10팩</span>
+                            <p><strong>18,500 </strong> / <span>25,000</span></p>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="txt">
+                        <div class="event">
+                            <div class="event_cont">
+                                <p>100g<span>10팩</span></p>
+                            </div>
+                            <img src="../images/main/icon_pack06.jpg" alt="">
+                        </div>
+                        <a href="">
+                            <p class="cont3_img"></p>
+                            <span>깻잎송송 맘닭볼-10팩</span>
+                            <p><strong>16,000 </strong> / <span>20,000</span></p>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="cont4 container">
+            <span class="insta">Momstouch.mall@instagram</span>
+            <ul class="clearfix">
+                <li>
+                    <a href=""><img src="../images/main/69916566_1521113584698369_173933508138859657_n.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="../images/main/67692263_741500179604161_431141698441359966_n.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="../images/main/69873135_469709417209091_1185518418231811804_n.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="../images/main/66823906_2479278958778158_4540157475201708958_n.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="../images/main/67581225_735191310265313_7178797778499095167_n.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="../images/main/66823906_2479278958778158_4540157475201708958_n.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="../images/main/66641744_1806938706119276_3782545216256385513_n.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="../images/main/69358353_747928255649571_1651601356669141370_n.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="../images/main/67966606_2454823184564138_49913849473839272_n.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="../images/main/69269129_2439638526059377_749587836277125879_n.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="../images/main/66203656_163005381520882_2725095885294835961_n.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="../images/main/66784962_162716508190956_4224486037534133039_n.jpg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+        <div class="custom container clearfix">
+            <h2>고객센터</h2>
+            <div class="call">
+                <span class="tit">전화번호 1661-9162</span>
+                <p>
+                    평일 오전 10시~오후 6시<br/>
+                    (점심시간 오후 12시~오후 1시)<br/>
+                    주말과 공휴일,<br/>
+                    상담시간 외에는1:1 상담을 이용해주세요.<br/>
+                </p>
+            </div>
+            <div class="bank">
+                <span class="tit">입금 계좌안내</span>
+                <p>
+                    <span> 예금주 해마로푸드서비스 (주)</span>
+                    <ul class="bnak_d">
+                        <li>기업 475-036061-01-022</li>
+                        <li>국민 358801-04-192120</li>
+                        <li>우리 1005-603-648575</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="consul">
+                <span class="tit">1:1 상담</span>
+                <a href="">
+                    <p>궁금한 점이 있으신가요?<br/>1:1 상담에 남겨주시면 답변 드리겠습니다.</p>
+                </a>
+            </div>
+            <div class="alliance">
+                <span class="tit">제휴문의</span>
+                <a href="">
+                    <p>맘스터치몰은 다양한 기회를 기다리고 있습니다.<br/>
+                       제휴문의 주시면 정성껏 살펴보겠습니다.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="family_site">
+
+            </div>
+            <div class="f_list1">
+                <ul class="clearfix">
+                    <li><a href="" class="red"> 개인정보처리방침</a></li>
+                    <li><a href="">이용약관</a></li>
+                    <li><a href="">이메일무단수집거부</a></li>
+                </ul>
+            </div>
+            <div class="f_list2">
+                <ul class="clearfix">
+                    <li>해마로푸드서비스㈜</li>
+                    <li>대표 :전명일</li>
+                    <li>서울시 강동구 천호대로 1077 이스트센트럴타워 24층, 25층</li>
+                    <li>사업자등록번호 :676-86-00102</li>
+                    <li>통신판매업 신고번호 :제 2015-서울강동-0155호</li>
+                    <li>대표전화 :1661-9162</li>
+                    <li>팩스 :02-418-0279, 070-4676-0635</li>
+                </ul>
+            </div>
+            <div class="f_list3">
+                <span>COPYRIGHT © BY MOMS TOUCH MALL ALL RIGHTS RESERVED</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

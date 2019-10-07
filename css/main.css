@@ -184,8 +184,8 @@ address{ height: 100%; min-height: 40px; background:#373737; color: #fff; text-a
 } 
 @media (max-width: 900px){
 	.about_skill .about .about_content::before{display:none;}
-	.about_skill .about .about_content .about_photo{float:none; width:100%;}
-	.about_skill .about .about_content .about_text{float:none; padding-left: 0; width:100%; text-align:center;}
+	.about_skill .about .about_content .about_photo{width:100%;}
+	.about_skill .about .about_content .about_text{padding-left: 0;width:100%;height: 100%;text-align:center;}
 	.about_skill .about .about_content .about_text h2::after{margin: 0 auto; width:31%; background:#525251;}
 
 }

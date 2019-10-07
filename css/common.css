@@ -262,26 +262,6 @@ h1 .small,h2 .small,h3 .small,h4 .small,h5 .small,h6 .small{font-size:80%; font-
 /* 말줄임 ··· */
 .ellipsis{overflow:hidden;white-space:nowrap;}
 
-/* 블릿 스타일01 */
-/*.bl_h2:before{content:""; display:inline-block; width:8px; height:8px; margin:0 6px 3px -22px; border:4px solid ; border-radius:0%; vertical-align:middle}
-.bl_h3{background:url(../images/common/bl_h2.png) no-repeat 1px 2px; color:#4c8bdb; margin:0 6px 3px -22px; padding:0 0 5px 25px;}
-.bl_h4:before{content:""; display:inline-block; width:8px; height:8px; margin:0 6px 3px -22px; border:4px solid ; border-radius:0%; vertical-align:middle}
-.bl_h5:before{content:""; display:inline-block; width:6px; height:6px; margin:0 5px 3px -15px; border:3px solid ; border-radius:0%; vertical-align:middle}
-.bl_h6:before{content:""; display:inline-block; width:4px; height:4px; margin:0 5px 3px -10px; border-radius:0%; vertical-align:middle}*/
-
-/* 블릿 스타일02 */
-.bl_h2{background:url(../images/common/bl_h2.png) no-repeat 1px 2px;}
-.bl_h3{background:url(../images/common/bl_h3.gif) no-repeat 1px 2px;}
-.bl_h4{background:url(../images/common/bl_h4.gif) no-repeat 5px 5px;}
-.bl_h5{background:url(../images/common/bl_h5.gif) no-repeat 22px 8px;}
-.bl_h6{background:url(../images/common/bl_h6.gif) no-repeat 29px 8px;}
-
-.bl_arr{padding:3px 0 3px 13px; background:url(../images/common/bl_arr.png) no-repeat 0px 11px;}
-
-/*.bl_h2{background:url(../images/common/bl_h2.png) no-repeat 1px 2px; padding-bottom:5px;color:#4c8bdb;}
-.bl_h3{background:url(../images/common/bl_h3.gif) no-repeat 1px 2px;} 
-.bl_h4{background:url(../images/common/bl_h4.gif) no-repeat 1px 2px;padding-bottom:5px;} 
-.bl_h5{background:url(../images/common/bl_h5.gif) no-repeat 1px 2px;padding-bottom:5px;}
 .bl_h6{background:url(../images/common/bl_h6.gif) no-repeat 1px 2px;padding-bottom:5px;}*/
 
 /*=========================================== Border ==============================================*/
@@ -345,12 +325,6 @@ dl.list1{margin-bottom:20px;margin-left:27px;}
 .box4.line{padding:20px 30px 10px 40px; border:1px solid #4a558d; border-radius:5px; background:#fff;}
 .box5{border:1px solid #4a558d; background:#dadef1; overflow:hidden; border-radius:5px;}
 .box5.line{padding:20px 30px 10px 40px; border:6px solid #dadef1; border-radius:5px; background:#fff;}
-
-/*list*/
-.litype_dia li {padding-left:10px; background:url('../images/juknok/bl_diamond.png') 0 8px no-repeat;}
-.litype_dia_p{padding-left:15px; background:url('../images/juknok/bl_diamond.png') 0 8px no-repeat;}
-.litype_cir li {padding-left:10px; background:url('../images/juknok/bl_cir.png') 0 8px no-repeat;}
-.litype_cir_p{padding-left:15px; background:url('../images/juknok/bl_cir.png') 0 8px no-repeat;}
 
 
 

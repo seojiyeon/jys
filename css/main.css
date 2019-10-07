@@ -73,7 +73,7 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .portfolio .portfolio_inner .port_btn > ul > li > a:hover{background: #ffca00;}
 
 
-.portfolio .portfolio_inner .port_content{padding-top: 45px;padding-bottom:87px;}
+.portfolio .portfolio_inner .port_content{padding-top: 45px;padding-bottom:87px;margin: 0 auto;}
 .portfolio .portfolio_inner .port_content > ul{width: 100%; animation:toggle 2s;}
 .portfolio .portfolio_inner .port_content > ul::after{content:''; display:block; clear:both;}
 .portfolio .portfolio_inner .port_content > ul > li{position: relative;float:left;width: 29%;margin-top: 30px;margin-left: 6%;padding-bottom: 30px;}
@@ -90,7 +90,7 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 
 .portfolio .portfolio_inner .port_content > ul > li:nth-child(-3n+7){margin-left: 0%;}
 .portfolio .portfolio_inner .port_content > ul > li.on{animation:toggle 2s;}
-.portfolio .portfolio_inner .port_content > ul > li > a > img{}
+.portfolio .portfolio_inner .port_content > ul > li > a > img{height: 348px;}
 .portfolio .portfolio_inner .port_content > ul > li:hover > a > img{cursor: pointer; opacity:0.5; transition: all .4s ease-in-out;}
 /*.portfolio .portfolio_inner .port_content > ul > li:hover::before{content: ''; position: absolute; background: rgba(255, 255 , 255 , 0.48); width: 100%; height: 269px; top: 0;left: 0;}*/
 .portfolio .portfolio_inner .port_content > ul > li:hover span.tit{color:#456979;}
@@ -203,9 +203,14 @@ address{ height: 100%; min-height: 40px; background:#373737; color: #fff; text-a
 	.about_skill .about .about_content > ul > li{margin-left: 0;}
 	.about_skill .skill ul{padding-top: 55px;}
 	.portfolio .portfolio_inner > ul{margin: 30px 0 0; width: 100%;}
-	.portfolio .portfolio_inner .port_content > ul > li{width: 42%; }
+	.portfolio .portfolio_inner .port_content{width: 95%;}
+	.portfolio .portfolio_inner .port_content > ul > li{width: 47%;}
 	.portfolio .container .portfolio_inner > ul > li{width: 42%; height: 100%;}
+	.portfolio .portfolio_inner .port_content > ul > li:nth-child(-3n+7){margin-left: 6%;}
+	.portfolio .portfolio_inner .port_content > ul > li:nth-child(-2n+7){margin-left: 0;}
+
 	.contact_inner > ul > li{font-size: 25px;}
+
 	
 
 }
@@ -232,7 +237,8 @@ address{ height: 100%; min-height: 40px; background:#373737; color: #fff; text-a
 	.portfolio .portfolio_inner > ul{padding-top: 16px; width: 93%; margin: 0 auto;}
 	.portfolio .container .portfolio_inner > ul > li{margin-left: 0; width: 100%; height: 100%;}
 	.portfolio {padding-top: 100px; min-height: 3280px !important;}
-	.portfolio .portfolio_inner .port_content{width: 330px; margin: 0 auto;}
 	.portfolio .portfolio_inner .port_content > ul > li{width: 100%; margin-left: 0;}
+	.portfolio .portfolio_inner .port_content > ul > li:nth-child(-3n+7){margin-left: 0;}
+	
 	
 }

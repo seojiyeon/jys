@@ -76,10 +76,12 @@ footer .f_list3 > span{font-size: 14px;}
 
 
 
-@media screen and (max-width:1301px){
+@media screen and (max-width: 1301px){
 
     .cont1 ul > li div.txt > a > p.cont1_img{ height: 624px;}
     .cont3 ul > li div.txt > a > p.cont3_img{height: 624px;}
+    .cont2 ul{padding:56px 7%; }
+    .cont2 ul >li >a{font-size: 0.8em;}
 }
 
 @media screen and (max-width:480px){

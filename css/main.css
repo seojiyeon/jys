@@ -76,7 +76,7 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .portfolio .portfolio_inner .port_content{padding-top: 45px;padding-bottom:87px;}
 .portfolio .portfolio_inner .port_content > ul{width: 100%; animation:toggle 2s;}
 .portfolio .portfolio_inner .port_content > ul::after{content:''; display:block; clear:both;}
-.portfolio .portfolio_inner .port_content > ul > li{position: relative;float:left;width: 24%;margin-top: 30px;margin-left: 6%;}
+.portfolio .portfolio_inner .port_content > ul > li{position: relative;float:left;width: 29%;margin-top: 30px;margin-left: 6%;padding-bottom: 30px;}
 .portfolio .portfolio_inner .port_content > ul > li > span{font-size: 0;background: #bed6eb;transition:1s all ease;}
 .portfolio .portfolio_inner .port_content > ul > li > span.top-right{position: absolute;top: 0;right: 0; width: 0px;height: 1px;}
 .portfolio .portfolio_inner .port_content > ul > li > span.top-down{position: absolute;top: 0;right: 0; width: 1px; height: 0px;}
@@ -95,8 +95,8 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 /*.portfolio .portfolio_inner .port_content > ul > li:hover::before{content: ''; position: absolute; background: rgba(255, 255 , 255 , 0.48); width: 100%; height: 269px; top: 0;left: 0;}*/
 .portfolio .portfolio_inner .port_content > ul > li:hover span.tit{color:#456979;}
 /*.portfolio .portfolio_inner .port_content > ul > li > a {display: block; padding: 13px 0 3px;}*/
-.portfolio .portfolio_inner .port_content > ul > li > .txt span.tit{display: inline-block;padding-top: 10px;width: 100%;font-weight: bold;color: #565454;} 
-.portfolio .portfolio_inner .port_content > ul > li > .txt p{padding-top: 6px;padding-bottom: 10px;width: 100%;font-size: 0.8em;line-height: 1.5;}
+.portfolio .portfolio_inner .port_content > ul > li .txt span.tit{display: inline-block;padding-top: 10px;width: 100%;font-weight: bold;color: #565454;} 
+.portfolio .portfolio_inner .port_content > ul > li .txt p{padding-top: 6px;padding-bottom: 10px;width: 100%;font-size: 0.8em;line-height: 1.5;}
 
 
 

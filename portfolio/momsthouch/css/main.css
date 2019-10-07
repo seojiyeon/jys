@@ -73,3 +73,17 @@ footer .f_list2 ul > li{float: left;padding-right: 2%;line-height: 1.2;font-size
 footer .f_list2 ul > li::after{content:''; display: inline-block; margin-left: 10px; width: 2px; height: 13px; background: #3e3e3e;}
 footer .f_list3{padding-top: 18px;} 
 footer .f_list3 > span{font-size: 14px;} 
+
+
+
+@media screen and (max-width:1301px){
+
+    .cont1 ul > li div.txt > a > p.cont1_img{ height: 624px;}
+    .cont3 ul > li div.txt > a > p.cont3_img{height: 624px;}
+}
+
+@media screen and (max-width:480px){
+    
+    .cont1 ul > li div.txt > a > p.cont1_img{ height: 1200px;}
+    .cont3 ul > li div.txt > a > p.cont3_img{height: 1200px;}
+}

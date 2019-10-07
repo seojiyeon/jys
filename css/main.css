@@ -88,7 +88,7 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .portfolio .portfolio_inner .port_content > ul > li:hover  > span.bottom-top{height: 100%;}
 .portfolio .portfolio_inner .port_content > ul > li:hover  > span.bottom-left{width: 100%;}
 
-.portfolio .portfolio_inner .port_content > ul > li:nth-child(-3n+4){margin-left: 0%;}
+.portfolio .portfolio_inner .port_content > ul > li:nth-child(-3n+7){margin-left: 0%;}
 .portfolio .portfolio_inner .port_content > ul > li.on{animation:toggle 2s;}
 .portfolio .portfolio_inner .port_content > ul > li > a > img{}
 .portfolio .portfolio_inner .port_content > ul > li:hover > a > img{cursor: pointer; opacity:0.5; transition: all .4s ease-in-out;}

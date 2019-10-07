@@ -76,16 +76,16 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .portfolio .portfolio_inner .port_content{padding-top: 45px;padding-bottom:87px;}
 .portfolio .portfolio_inner .port_content > ul{width: 100%; animation:toggle 2s;}
 .portfolio .portfolio_inner .port_content > ul::after{content:''; display:block; clear:both;}
-.portfolio .portfolio_inner .port_content > ul > li{position: relative;float:left;width: 24%; margin-top: 30px;margin-left: 6%;/*border: 1px solid #cecece;*/}
-.portfolio .portfolio_inner .port_content > ul > li > span.top-right{position: absolute;top: 0;right: 0;background: #3e3e3e;transition:0.5s all ease;}
-.portfolio .portfolio_inner .port_content > ul > li > span.top-down{position: absolute;top: 0;right: 0;background: #3e3e3e;transition:0.5s all ease;}
-.portfolio .portfolio_inner .port_content > ul > li > span.bottom-top{position: absolute;bottom: 0;left: 0;background: #3e3e3e;transition:0.5s all ease;}
-.portfolio .portfolio_inner .port_content > ul > li > span.bottom-left{position: absolute;bottom: 0;left: 0;background: #3e3e3e;transition:0.5s all ease;}
+.portfolio .portfolio_inner .port_content > ul > li{position: relative;float:left;width: 24%;margin-top: 30px;margin-left: 6%;/* border: 1px solid #cecece; */}
+.portfolio .portfolio_inner .port_content > ul > li > span.top-right{position: absolute;top: 0;right: 0;padding-top : 0;width: 0px;height: 0px;font-size: 0;font-weight: normal;background: #cecece;transition:0.5s all ease;}
+.portfolio .portfolio_inner .port_content > ul > li > span.top-down{position: absolute;top: 0;right: 0;padding-top : 0;width: 0px;height: 0px;font-size: 0;font-weight: normal;background: #cecece;transition:0.5s all ease;}
+.portfolio .portfolio_inner .port_content > ul > li > span.bottom-top{position: absolute;bottom: 0;left: 0;padding-top : 0;width: 0px;height: 0px;font-size: 0;font-weight: normal;background: #cecece;;transition:0.5s all ease;}
+.portfolio .portfolio_inner .port_content > ul > li > span.bottom-left{position: absolute;bottom: 0;left: 0;padding-top : 0;margin: 0;width: 0px;height: 0px;font-size: 0;font-weight: normal;background: #cecece;transition:0.5s all ease;}
 
 .portfolio .portfolio_inner .port_content > ul > li:hover > span.top-right{width:100%; height: 1px;}
-.portfolio .portfolio_inner .port_content > ul > li:hover  > span.top-down{width: 1px; height: 100%; background: #3e3e3e;}
-.portfolio .portfolio_inner .port_content > ul > li:hover  > span.bottom-top{width: 1px; height: 100%; background: #3e3e3e;}
-.portfolio .portfolio_inner .port_content > ul > li:hover  > span.bottom-left{width: 100%; height: 1px;background: #3e3e3e;}
+.portfolio .portfolio_inner .port_content > ul > li:hover  > span.top-down{width: 1px; height: 100%; background: #cecece;}
+.portfolio .portfolio_inner .port_content > ul > li:hover  > span.bottom-top{width: 1px; height: 100%; background: #cecece;}
+.portfolio .portfolio_inner .port_content > ul > li:hover  > span.bottom-left{width: 100%; height: 1px;background: #cecece;}
 
 .portfolio .portfolio_inner .port_content > ul > li:nth-child(-3n+4){margin-left: 0%;}
 .portfolio .portfolio_inner .port_content > ul > li.on{animation:toggle 2s;}

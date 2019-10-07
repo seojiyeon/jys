@@ -80,10 +80,13 @@ footer .f_list3 > span{font-size: 14px;}
 
     .cont1 ul > li div.txt > a > p.cont1_img{ height: 624px;}
     .cont3 ul > li div.txt > a > p.cont3_img{height: 624px;}
+
 }
 
 @media screen and (max-width:900px){
-    .f_list2{width:100%;}
+    
+    footer .f_list2{width: 100%;} 
+    
 }
 @media screen and (max-width:480px){
     

@@ -8,8 +8,8 @@ h2{font-size: 2em;font-weight: 600;color: #5f5f5f;}
 .wrap{position: relative;}
 
 header{position: fixed; top: 0; right: 0; width: 100%; z-index: 9999; background: #fff; border-bottom: 1px solid #d8d8d8; box-shadow: 0 4px 5px -3px #ececec;}
-header > span{position: absolute; top: 0; left: 0; width: 100%; height: inherit; background: rgb a(0,0,0, 0.3);}
-header > span.logo {position: absolute;top: 21px;left: 26px;width: 5%;height: inherit;font-size: 1.1em;font-weight: 200;background:none;}
+header a > span{position: absolute; top: 0; left: 0; width: 100%; height: inherit; background: rgb a(0,0,0, 0.3);}
+header a > span.logo {position: absolute;top: 21px;left: 26px;width: 5%;height: inherit;font-size: 1.1em;font-weight: 200;background:none;}
 header > nav{padding: 13px; text-align: right;}
 header > nav > ul > li > a{font-size: 18px;font-weight: 300;color: #5f5c5c;}
 header > nav > ul > li > a:hover{color: #ffca00;transition: all ease 0.4s 0s;}

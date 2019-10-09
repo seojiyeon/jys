@@ -14,42 +14,11 @@
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
 
-    <script>
-        
-        $(document).ready(function(){
-            $('.slider').bxSlider({ 
-                auto: true, 
-                speed: 500, 
-                pause: 4000, 
-                mode: 'horizontal', 
-                autoControls: false, 
-                controls : false,	
-                pager:true
-
-            });
-            allMenuToggle();
-            function allMenuToggle() {
-                var all_menu = $('.all_menu_btn');
-                var all_mlist = $('.all_mlist');
-
-                all_menu.on('click', function(e){
-                    e.preventDefault();  //a태그의 이동금지시킴
-                    if(all_mlist.hasClass('on') === false){
-                        all_mlist.addClass('on');
-
-                    }else{
-                        all_mlist.removeClass('on');
-                    }
-                    
-                });
-            };
-        });
-    </script>
 </head>
 <body>
     <header>
         <div class="banner">
-            <img src="../images/common/190506_banner1.jpg" alt="">
+            <img src="../images/common/190517_banner1.png" alt="">
         </div>
         <div class="top ">
             <div class="container top_inner clearfix">
@@ -68,7 +37,7 @@
             </div>
         </div>
         <div class="logo">
-            <img src="../images/common/logo.png" alt="mom'stouchmall">
+            <a href="../html/index.html"><img src="../images/common/logo.png" alt="mom'stouchmall"></a>
         </div>
         <nav>
             <div class="container">
@@ -143,13 +112,13 @@
                 </div>
 
                 <ul class="clearfix nav">
-                    <li><a href="#">이벤트</a></li>
-                    <li><a href="#">라이트도시락</a></li>
-                    <li><a href="#">맘닭브레스트</a></li>
-                    <li><a href="#">소스맘닭브레스트</a></li>
-                    <li><a href="#">맘닭소시지,스테이크,볼</a></li>
-                    <li><a href="#">든든한끼&밥반찬</a></li>
-                    <li><a href="#ß">특가패키지</a></li>
+                    <li><a href="../html/sub1.html">이벤트</a></li>
+                    <li><a class="on" href="../html/sub2.html">라이트도시락</a></li>
+                    <li><a href="javascript:alert('준비중입니다.');">맘닭브레스트</a></li>
+                    <li><a href="javascript:alert('준비중입니다.');">소스맘닭브레스트</a></li>
+                    <li><a href="javascript:alert('준비중입니다.');">맘닭소시지,스테이크,볼</a></li>
+                    <li><a href="javascript:alert('준비중입니다.');">든든한끼&밥반찬</a></li>
+                    <li><a href="javascript:alert('준비중입니다.');">특가패키지</a></li>
                 </ul>
             </div>
         </nav>
@@ -182,14 +151,13 @@
             <ul class="clearfix type1">
                 <li>
                     <h4>닭가슴살 골라담기</h4>
-                    <div class="txt">
+                    <div class="txt"><a href="#">
                         <div class="event">
                             <div class="event_cont">
                                 <p>최소<span>8팩</span></p>
                             </div>
-                            <img src="../images/main/icon_pack08.jpg" alt="">
+                            <img class="per" src="../images/main/icon_pack08.jpg" alt="">
                         </div>
-                        <a href="">
                             <p class="cont1_img"></p>
                             <span>맘닭 골라담기</span>
                             <p><strong>1,900 </strong>/ <span>1,900</p>
@@ -198,14 +166,13 @@
                 </li>
                 <li>
                     <h4>맘닭 전제품 맛보기</h4>
-                    <div class="txt">
+                    <div class="txt"><a href="#">
                         <div class="event">
                             <div class="event_cont">
                                 <p>16종<span>16팩</span></p>
                             </div>
-                            <img src="../images/main/icon_pack06.jpg" alt="">
+                            <img class="per" src="../images/main/icon_pack06.jpg" alt="">
                         </div>
-                        <a href="">
                             <p class="cont1_img"></p>
                             <span>맘닭 전제품 맛보기(16종, 16종)</span>
                             <p><strong>29,500 </strong> <span>/ 42,300</span></p>
@@ -214,14 +181,13 @@
                 </li>
                 <li>
                     <h4>맘닭 소.스.볼 맛보기</h4>
-                    <div class="txt">
+                    <div class="txt"><a href="#">
                         <div class="event">
                             <div class="event_cont">
                                 <p>9종<span>18팩</span></p>
                             </div>
-                            <img src="../images/main/icon_pack06.jpg" alt="">
+                            <img class="per" src="../images/main/icon_pack06.jpg" alt="">
                         </div>
-                        <a href="">
                             <p class="cont1_img"></p>
                             <span>맘닭 소.스.볼. 맛고비(9종,18종)</span>
                             <p><strong>26,900 </strong>/  <span>38,200</span></p>
@@ -230,14 +196,13 @@
                 </li>
                 <li>
                     <h4>꼬치형 소시지 2종</h4>
-                    <div class="txt">
+                    <div class="txt"><a href="#">
                         <div class="event">
                             <div class="event_cont">
                                 <p>2종<span>20팩</span></p>
                             </div>
-                            <img src="../images/main/icon_pack06.jpg" alt="">
+                            <img class="per" src="../images/main/icon_pack06.jpg" alt="">
                         </div>
-                        <a href="">
                             <p class="cont1_img"></p>
                             <span>꼬치형 소시지 2종 -20팩</span>
                             <p><strong>28,900 </strong> / <span>40,000</span></p>
@@ -280,16 +245,17 @@
             </ul>
         </div>
         <div class="cont3 container">
-            <h2><span>MD추천</span> 인기상품</h2>
+            <h2  class="pb70"><span >MD추천</span> 인기상품</h2>
             <ul class="clearfix type1">
                 <li>
-                    <div class="txt">
+
+                    <div class="txt"><a href="#">
+
                         <div class="event">
                             <div class="event_cont">
                                 <p>130g<span>24ea</span></p>
                             </div>
                         </div>
-                        <a href="">
                             <p class="cont3_img"></p>
                             <span>[간편한끼] 햇반 100% 현미밥 1box - 24ea</span>
                             <p><strong>30,0000 </strong>/<span> 0원</p>
@@ -297,14 +263,13 @@
                     </div>
                 </li>
                 <li>
-                    <div class="txt">
+                    <div class="txt"><a href="#">
                         <div class="event">
                             <div class="event_cont">
                                 <p>2종<span>20팩</span></p>
                             </div>
-                            <img src="../images/main/icon_pack06.jpg" alt="">
+                            <img class="per" src="../images/main/icon_pack06.jpg" alt="">
                         </div>
-                        <a href="">
                             <p class="cont3_img"></p>
                             <span>꼬치형 소시지 2종 - 20팩</span>
                             <p><strong>28,000 </strong> / <span>40,000</span></p>
@@ -312,13 +277,12 @@
                     </div>
                 </li>
                 <li>
-                    <div class="txt">
+                    <div class="txt"><a href="#">
                         <div class="event">
                             <div class="event_cont">
                                 <p>120g<span>10팩</span></p>
                             </div>
                         </div>
-                        <a href="">
                             <p class="cont3_img"></p>
                             <span>새우 맘닭소시지 - 10팩</span>
                             <p><strong>18,500 </strong> / <span>25,000</span></p>
@@ -326,14 +290,13 @@
                     </div>
                 </li>
                 <li>
-                    <div class="txt">
+                    <div class="txt"><a href="#"><a href="#">
                         <div class="event">
                             <div class="event_cont">
                                 <p>100g<span>10팩</span></p>
                             </div>
-                            <img src="../images/main/icon_pack06.jpg" alt="">
+                            <img class="per" src="../images/main/icon_pack06.jpg" alt="">
                         </div>
-                        <a href="">
                             <p class="cont3_img"></p>
                             <span>깻잎송송 맘닭볼-10팩</span>
                             <p><strong>16,000 </strong> / <span>20,000</span></p>
@@ -383,41 +346,42 @@
                 </li>
             </ul>
         </div>
-        <div class="custom container clearfix">
-            <h2>고객센터</h2>
-            <div class="call">
-                <span class="tit">전화번호 1661-9162</span>
-                <p>
-                    평일 오전 10시~오후 6시<br/>
-                    (점심시간 오후 12시~오후 1시)<br/>
-                    주말과 공휴일,<br/>
-                    상담시간 외에는1:1 상담을 이용해주세요.<br/>
-                </p>
-            </div>
-            <div class="bank">
-                <span class="tit">입금 계좌안내</span>
-                <p>
-                    <span> 예금주 해마로푸드서비스 (주)</span>
-                    <ul class="bnak_d">
-                        <li>기업 475-036061-01-022</li>
-                        <li>국민 358801-04-192120</li>
-                        <li>우리 1005-603-648575</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="consul">
-                <span class="tit">1:1 상담</span>
-                <a href="">
-                    <p>궁금한 점이 있으신가요?<br/>1:1 상담에 남겨주시면 답변 드리겠습니다.</p>
-                </a>
-            </div>
-            <div class="alliance">
-                <span class="tit">제휴문의</span>
-                <a href="">
-                    <p>맘스터치몰은 다양한 기회를 기다리고 있습니다.<br/>
-                       제휴문의 주시면 정성껏 살펴보겠습니다.</p>
-                </a>
-            </div>
+     
+    </section>
+    <section class="custom container clearfix">
+        <h3>고객센터</h3>
+        <div class="call">
+            <span class="tit">전화번호 1661-9162</span>
+            <p>
+                평일 오전 10시~오후 6시<br/>
+                (점심시간 오후 12시~오후 1시)<br/>
+                주말과 공휴일,<br/>
+                상담시간 외에는1:1 상담을 이용해주세요.<br/>
+            </p>
+        </div>
+        <div class="bank">
+            <span class="tit">입금 계좌안내</span>
+            <p>
+                <span> 예금주 해마로푸드서비스 (주)</span>
+                <ul class="bnak_d">
+                    <li>기업 475-036061-01-022</li>
+                    <li>국민 358801-04-192120</li>
+                    <li>우리 1005-603-648575</li>
+                </ul>
+            </p>
+        </div>
+        <div class="consul">
+            <span class="tit">1:1 상담</span>
+            <a href="">
+                <p>궁금한 점이 있으신가요?<br/>1:1 상담에 남겨주시면 답변 드리겠습니다.</p>
+            </a>
+        </div>
+        <div class="alliance">
+            <span class="tit">제휴문의</span>
+            <a href="">
+                <p>맘스터치몰은 다양한 기회를 기다리고 있습니다.<br/>
+                   제휴문의 주시면 정성껏 살펴보겠습니다.</p>
+            </a>
         </div>
     </section>
     <footer>
@@ -449,5 +413,36 @@
         </div>
     </footer>
 
+    <script>
+        
+        $(document).ready(function(){
+            $('.slider').bxSlider({ 
+                auto: true, 
+                speed: 500, 
+                pause: 4000, 
+                mode: 'horizontal', 
+                autoControls: false, 
+                controls : false,	
+                pager:true
+
+            });
+            allMenuToggle();
+            function allMenuToggle() {
+                var all_menu = $('.all_menu_btn');
+                var all_mlist = $('.all_mlist');
+
+                all_menu.on('click', function(e){
+                    e.preventDefault();  //a태그의 이동금지시킴
+                    if(all_mlist.hasClass('on') === false){
+                        all_mlist.addClass('on');
+
+                    }else{
+                        all_mlist.removeClass('on');
+                    }
+                    
+                });
+            };
+        });
+    </script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+h2{padding-bottom: 62px;}
+
+.sub1{}
+.sub1 ul.tab{}
+.sub1 ul.tab > li{float: left;width: 33.3333%;height: 47px;line-height: 46px;background: #f7f7f9;border-bottom: 1px solid #686868;border-top: 1px solid #686868;border-left: 1px solid #848484;border-right: 1px solid #848484;}
+.sub1 ul.tab > li.on{color: #fff; background: #ed2542;}
+.sub1 ul.tab > li > a{display: inline-block; width: 100%; height: 100%;}
+.sub1 ul.tab > li.tab1{}
+.sub1 ul.tab > li.tab2{border-left:0; }
+.sub1 ul.tab > li.tab3{border-left:0; }
+
+.sub1 > div{}
+.sub1 > div.ing_event{display: block;}
+.sub1 > div.end_event{display: none;}
+.sub1 > div.winning{display: none;}
+.sub1 > div > ul{}
+.sub1 > div > ul > li{overflow: hidden;margin-top: 33px;height: 350px;background: #f7f7f9;outline: 1px solid #edeef1;}
+.sub1 > div > ul > li:hover{outline: 2px solid #ed2542;}
+.sub1 > div > ul > li > a{overflow:hidden;width: 100%;height: 100%;display: block;}
+.sub1 > div > ul > li > a > img{float: left;}
+.sub1 > div > ul > li > a > div{padding: 132px 0 132px 38px; float: left;height: 100%; text-align: left;}
+.sub1 > div > ul > li > a > div > p.date{font-size: 13px;font-weight: 700; color: #929fa9;letter-spacing: -0.5px;}
+.sub1 > div > ul > li > a > div > span.tit{display: inline-block;padding-top: 14px;font-size: 21px;}
+.sub1 > div > ul > li > a > div > p.cnt{margin-top: 25px;font-size: 15px;color: #8a8b8c;}
+

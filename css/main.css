@@ -82,7 +82,7 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .portfolio .portfolio_inner .port_content > ul > li > span.top-right{position: absolute;top: -1px;right: 0;width: 0px;height: 1px;}
 .portfolio .portfolio_inner .port_content > ul > li > span.top-down{position: absolute;top: 0;right: -1px;width: 1px;height: 0px;}
 .portfolio .portfolio_inner .port_content > ul > li > span.bottom-top{position: absolute;bottom: 0;left: -1px;width: 1px;height: 0px;}
-.portfolio .portfolio_inner .port_content > ul > li > span.bottom-left{position: absolute;bottom: -1px;left: 0;margin: 0;width: 0px;height: 1px;}
+.portfolio .portfolio_inner .port_content > ul > li > span.bottom-left{position: absolute;bottom: 0px;left: 0;margin: 0;width: 0px;height: 1px;}
 
 
 .portfolio .portfolio_inner .port_content > ul > li:hover > span.top-right{width:100%;}

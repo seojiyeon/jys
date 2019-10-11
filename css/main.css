@@ -79,10 +79,10 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .portfolio .portfolio_inner .port_content > ul > li{position: relative;float:left;width: 29%;margin-top: 30px;margin-left: 6%;padding-bottom: 20px;}
 .portfolio .portfolio_inner .port_content > ul > li:hover{box-shadow: 0px 0px 7px 8px rgba(122, 122, 122, 0.08);}
 .portfolio .portfolio_inner .port_content > ul > li > span{font-size: 0;background: #cccccc;transition:1s all ease;}
-.portfolio .portfolio_inner .port_content > ul > li > span.top-right{position: absolute;top: 0;right: 0; width: 0px;height: 1px;}
-.portfolio .portfolio_inner .port_content > ul > li > span.top-down{position: absolute;top: 0;right: 0; width: 1px; height: 0px;}
-.portfolio .portfolio_inner .port_content > ul > li > span.bottom-top{position: absolute;bottom: 0;left: 0; width: 1px;height: 0px;}
-.portfolio .portfolio_inner .port_content > ul > li > span.bottom-left{position: absolute;bottom: 0;left: 0; margin: 0;width: 0px;height: 1px;}
+.portfolio .portfolio_inner .port_content > ul > li > span.top-right{position: absolute;top: -1px;right: 0;width: 0px;height: 1px;}
+.portfolio .portfolio_inner .port_content > ul > li > span.top-down{position: absolute;top: 0;right: -1px;width: 1px;height: 0px;}
+.portfolio .portfolio_inner .port_content > ul > li > span.bottom-top{position: absolute;bottom: 0;left: -1px;width: 1px;height: 0px;}
+.portfolio .portfolio_inner .port_content > ul > li > span.bottom-left{position: absolute;bottom: -1px;left: 0;margin: 0;width: 0px;height: 1px;}
 
 
 .portfolio .portfolio_inner .port_content > ul > li:hover > span.top-right{width:100%;}

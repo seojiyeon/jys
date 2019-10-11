@@ -443,10 +443,12 @@
                 });
             };
 						$('.bn_hid').click(function(){
-							if($('.banner').hasClass('on')===false){
+							if($('.banner').hasClass('on')===false&&$('.bn_hid').hasClass('on')===false){
 								$('.banner').addClass('on');
+								$('.bn_hid').addClass('on');
 							}else{
 								$('.banner').removeClass('on');
+								$('.bn_hid').removeClass('on');
 							}
 						});
         });

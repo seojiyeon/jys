@@ -8,23 +8,21 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/content.css">
     <script type="text/javascript" src="../js/momjs.js"></script>
     <script type="text/javascript" src="../js/jquery-3.4.1.js"></script>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 
 
-
 </head>
 <body>
     <header>
-        <div class="banner">
-            <img src="../images/common/190517_banner1.png" alt="">
+        <div class="banner on">
+            <img src="../images/common/190517_banner1.png" alt="배너1">
         </div>
         <div class="top ">
             <div class="container top_inner clearfix">
-                <a href="" class="bn_hid"><span class="fs-0">배너보이기/숨기기</span></a>
+                <a href="#" onclick="return false" class="bn_hid on"><span class="fs-0">배너보이기/숨기기</span></a>
                 <ul class="top_l">
                     <li><a href=""><span class="img"></span>즐겨찾기</a></li>
                     <li><a href="">브랜드소개</a></li>
@@ -114,14 +112,14 @@
                 </div>
 
                 <ul class="clearfix nav">
-                    <li><a class="on" href="../html/sub1.html">이벤트</a></li>
-                    <li><a  href="../html/sub2.html">라이트도시락</a></li>
+                    <li><a href="../html/sub1.html">이벤트</a></li>
+                    <li><a href="../html/sub2.html">라이트도시락</a></li>
                     <li><a href="javascript:alert('준비중입니다.');">맘닭브레스트</a></li>
                     <li><a href="javascript:alert('준비중입니다.');">소스맘닭브레스트</a></li>
                     <li><a href="javascript:alert('준비중입니다.');">맘닭소시지,스테이크,볼</a></li>
                     <li><a href="javascript:alert('준비중입니다.');">든든한끼&밥반찬</a></li>
                     <li><a href="javascript:alert('준비중입니다.');">특가패키지</a></li>
-                </ul>   
+                </ul>
             </div>
         </nav>
     </header>
@@ -326,6 +324,7 @@
     </footer>
 
 
+
     <script>
         
         $(document).ready(function(){
@@ -355,28 +354,15 @@
                     
                 });
             };
-
-            $(".tab > li").click(function(){
-                var tab = $(this).index();
-                $('.tab > li').removeClass('on');
-                if(tab === 0){
-                    $(this).addClass('on');
-                    $('.ing_event').css('display', 'block');
-                    $('.end_event').css('display','none');
-                    $('.winning').css('display','none')
-                }else if(tab === 1){
-                    $(this).addClass('on');
-                    $('.ing_event').css('display','none')
-                    $('.end_event').css('display','block');
-                    $('.winning').css('display','none')
-                }else if(tab === 2){
-                    $(this).addClass('on');
-                    $('.ing_event').css('display', 'none');
-                    $('.end_event').css('display','none');
-                    $('.winning').css('display','block');
-                };
-
-            });           
+            $('.bn_hid').click(function(){
+                if($('.banner').hasClass('on')===false&&$('.bn_hid').hasClass('on')===false){
+                    $('.banner').addClass('on');
+                    $('.bn_hid').addClass('on');
+                }else{
+                    $('.banner').removeClass('on');
+                    $('.bn_hid').removeClass('on');
+                }
+            });
         });
     </script>
 </body>

@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <div class="banner">
+        <div class="banner on">
             <img src="../images/common/190517_banner1.png" alt="">
         </div>
         <div class="top ">
@@ -442,6 +442,13 @@
                     
                 });
             };
+						$('.bn_hid').click(function(){
+							if($('.banner').hasClass('on')===false){
+								$('.banner').addClass('on');
+							}else{
+								$('.banner').removeClass('on');
+							}
+						});
         });
     </script>
 </body>

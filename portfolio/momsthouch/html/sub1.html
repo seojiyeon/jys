@@ -364,6 +364,27 @@
                     $('.bn_hid').removeClass('on');
                 }
             });
+            
+           $(".tab > li").click(function(){
+            var tab = $(this).index();
+            $('.tab > li').removeClass('on');
+            if(tab === 0){
+                $(this).addClass('on');
+                $('.ing_event').css('display', 'block');
+                $('.end_event').css('display','none');
+                $('.winning').css('display','none')
+            }else if(tab === 1){
+                $(this).addClass('on');
+                $('.ing_event').css('display','none')
+                $('.end_event').css('display','block');
+                $('.winning').css('display','none')
+            }else if(tab === 2){
+                $(this).addClass('on');
+                $('.ing_event').css('display', 'none');
+                $('.end_event').css('display','none');
+                $('.winning').css('display','block');
+            };
+        });        
         });
     </script>
 </body>

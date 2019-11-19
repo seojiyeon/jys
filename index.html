@@ -394,32 +394,51 @@
 				var prt_h = prt.clientHeight;
 				
 
+
+
 			}
 			
 			$(document).ready(function(){
 					
-					$('nav > ul > li').on('click' ,function(){
-							$('nav > ul > li').removeClass('active');
-							$(this).addClass('active');
-					});
 
-					$('.down_cl').click(function(){
-						var offset = $('#nav_portfolio').offset(); //선택한 태그의 위치를 반환
-						$('html').animate({scrollTop : offset.top}, 400);//animate()메서드를 이용해서 0.4초동안 부드럽게 해당 위치로 이동
-					});
+					
+				var voffset = $('.visual').offset();
+				var aoffset = $('.about_skill').offset();
+				var poffset = $('.portfolio').offset();
+				var nav_idx = $('nav ul li').index();
+				nav_idx.reomveClass('active');
+
+				if(voffset == true){	
+					nav_idx.eq(1).addClass('active');
+				}else if(aoffset == true){
+					nav_idx.eq(2).addClass('active');
+				}else{
+					nav_idx.eq(3).addClass('active');
+				}
 
 
-					//해당페이지로 부드럽게 원페이지
-					$("nav > ul > li > a").click(function(){
-						$(this).addClass("active");
-						$(this).siblings().removeClass("active");
-						if(this.hash !== ""){
-							var op = this.hash;
-							$("html").animate({
-								scrollTop : $(op).offset().top
-							});
-						}
-					});
+				$('nav > ul > li').on('click' ,function(){
+						$('nav > ul > li').removeClass('active');
+						$(this).addClass('active');
+				});
+
+				$('.down_cl').click(function(){
+					var offset = $('#nav_portfolio').offset(); //선택한 태그의 위치를 반환
+					$('html').animate({scrollTop : offset.top}, 400);//animate()메서드를 이용해서 0.4초동안 부드럽게 해당 위치로 이동
+				});
+
+
+				//해당페이지로 부드럽게 원페이지
+				$("nav > ul > li > a").click(function(){
+					$(this).addClass("active");
+					$(this).siblings().removeClass("active");
+					if(this.hash !== ""){
+						var op = this.hash;
+						$("html").animate({
+							scrollTop : $(op).offset().top
+						});
+					}
+				});
 			});
  
 	</script>

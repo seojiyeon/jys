@@ -385,9 +385,9 @@
     </div>
 		<script type="text/javascript">
 			window.onload = function () {
-				var vs = document.getElementsByClassName('visual');
-				var abs = document.getElementsByClassName('about_skill ');
-				var prt = document.getElementsByClassName('portfolio');
+				var vs = document.querySelector('.visual');
+				var abs = document.querySelector('.about_skill ');
+				var prt = document.querySelector('.portfolio');
 			
 				var vs_h =  vs.clientHeight;
 				var abs_h = abs.clientHeight;
@@ -400,25 +400,29 @@
 			
 			$(document).ready(function(){
 					
-
+        const vs = document.querySelector('.visual'),
+				      abs = document.querySelector('.about_skill '),
+				      prt = document.querySelector('.portfolio'),
+              nav = document.querySelector('nav'),
+              navLi = document.querySelector('li'),
 					
-				var voffset = $('.visual').offset();
-				var aoffset = $('.about_skill').offset();
-				var poffset = $('.portfolio').offset();
-				var nav_idx = $('nav ul li').index();
+				var voffset = vs.offset();
+				var aoffset = abs.offset();
+				var poffset = prt.offset();
+				var nav_idx = navLi.index();
 				nav_idx.reomveClass('active');
 
 				if(voffset == true){	
-					nav_idx.eq(1).addClass('active');
+					nav_idx.eq(1).classList.add('active');
 				}else if(aoffset == true){
-					nav_idx.eq(2).addClass('active');
+					nav_idx.eq(2).classList.add('active');
 				}else{
-					nav_idx.eq(3).addClass('active');
+					nav_idx.eq(3).classList.add('active');
 				}
 
 
-				$('nav > ul > li').on('click' ,function(){
-						$('nav > ul > li').removeClass('active');
+				navLi.on('click',function(){
+          navLi.classList.remove('active');
 						$(this).addClass('active');
 				});
 

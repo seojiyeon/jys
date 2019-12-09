@@ -26,7 +26,7 @@ nav ul li a{font-size: 16px; line-height: 40px;}
 .main_subcontent{font-size: 1.2em; line-height: 1.5; padding-top: 15px;}
 .visual .background{background: rgba(0,0,0,0.3);}
 .main_content a > .down_btn{position: relative;margin: 55px auto 0;width: 124px;height: 44px;line-height: 43px;text-align: center;font-weight: 300;color: #fff;border: 1px solid #fff;border-radius: 30px;}
-.main_content a > .down_btn::after{content:'';display: block;position: absolute;bottom: -57px;left: 51px;width: 22px;height: 45px;background: url('../img/mouse_arr.png')no-repeat;animation-duration: 1.3s;animation-iteration-count: infinite;animation-name: scroll;}
+/* .main_content a > .down_btn::after{content:'';display: block;position: absolute;bottom: -57px;left: 51px;width: 22px;height: 45px;background: url('../img/mouse_arr.png')no-repeat;animation-duration: 1.3s;animation-iteration-count: infinite;animation-name: scroll;} */
 .main_content .down_cl2{position: absolute;bottom: -57px;left: 51px;width: 22px;height: 45px;background: url('../img/mouse_arr.png')no-repeat;animation-duration: 1.3s;animation-iteration-count: infinite;animation-name: scroll;}
 @keyframes scroll {
   0% {opacity: 1;}

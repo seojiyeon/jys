@@ -400,12 +400,12 @@
 			
 			$(document).ready(function(){
 					
-        const vs = document.querySelector('.visual'),
+				const vs = document.querySelector('.visual'),
 				      abs = document.querySelector('.about_skill '),
 				      prt = document.querySelector('.portfolio'),
-              nav = document.querySelector('nav'),
-              navLi = document.querySelector('li'),
-					
+				      nav = document.querySelector('nav'),
+				      navLi = document.querySelector('li'),
+
 				var voffset = vs.offset();
 				var aoffset = abs.offset();
 				var poffset = prt.offset();
@@ -422,7 +422,7 @@
 
 
 				navLi.on('click',function(){
-          navLi.classList.remove('active');
+          			navLi.classList.remove('active');
 						$(this).addClass('active');
 				});
 
@@ -432,17 +432,10 @@
 				});
 
 
-				//해당페이지로 부드럽게 원페이지
-				$("nav > ul > li > a").click(function(){
-					$(this).addClass("active");
-					$(this).siblings().removeClass("active");
-					if(this.hash !== ""){
-						var op = this.hash;
-						$("html").animate({
-							scrollTop : $(op).offset().top
-						});
-					}
-				});
+				$(".scroll").click(function(event){            
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 300);
+			    	});
 			});
  
 	</script>

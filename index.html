@@ -501,7 +501,8 @@
 				$(".scroll").click(function(event){            
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 300);
-					$(this).css('color', '#ffca00');
+					$('nav ul li').removeClass('active');
+                        		$(this).removeClass('active');
 			    	});
 			});
  

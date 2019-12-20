@@ -465,7 +465,7 @@
 				if($(window).scrollTop() >= $(this).offset().top) {
 				    var id = $(this).attr('id');
 				    $('nav ul li a').removeClass('active');
-				    $('nav ul li a[href$=#'+ id +']').addClass('active');
+				    $("nav ul li a[href$='#"+ id +"']").addClass('active');
 				}
 			    });
 			});

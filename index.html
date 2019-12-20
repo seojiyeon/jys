@@ -460,7 +460,7 @@
 
 			}
 			
-			$(document).ready(function(){
+			jQuery(document).ready(function($) {
 				
 				
 				$(".scroll").click(function(event){            
@@ -494,17 +494,14 @@
 
 
 				navLi.on('click',function(){
-          			navLi.classList.remove('active');
-						$(this).addClass('active');
+					navLi.classList.remove('active');
+					$(this).addClass('active');
 				});
 
-				// $('.down_cl').click(function(){
-				// 	var offset = $('#nav_portfolio').offset(); //선택한 태그의 위치를 반환
-				// 	$('html').animate({scrollTop : offset.top}, 400);//animate()메서드를 이용해서 0.4초동안 부드럽게 해당 위치로 이동
-				// });
+				
 
 
-			});	
+			 });
  
 	</script>
     

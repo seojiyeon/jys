@@ -460,6 +460,16 @@
 
 			}
 			
+			 $(window).on('scroll', function() {
+			    $('.section').each(function() {
+				if($(window).scrollTop() >= $(this).offset().top) {
+				    var id = $(this).attr('id');
+				    $('nav li a').removeClass('active');
+				    $('nav li a[href=#'+ id +']').addClass('active');
+				}
+			    });
+			});
+
 			jQuery(document).ready(function($) {
 				
 				
@@ -470,16 +480,7 @@
 				    $(this).parent('li').addClass('active');
 				});
 
-                $(window).on('scroll', function() {
-                    $('.section').each(function() {
-                        if($(window).scrollTop() >= $(this).offset().top) {
-                            var id = $(this).attr('id');
-                            $('nav li a').removeClass('active');
-                            $('nav li a[href=#'+ id +']').addClass('active');
-                        }
-                    });
-                });
-                                    
+                          
 				const vs = document.querySelector('.visual'),
 				      abs = document.querySelector('.about_skill '),
 				      prt = document.querySelector('.portfolio'),

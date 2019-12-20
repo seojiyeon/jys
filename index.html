@@ -467,7 +467,7 @@
 				    event.preventDefault();
 				    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 300);
 				    $('nav ul li').removeClass('active');
-				    $(this).addClass('active');
+				    $(this).parent('li').addClass('active');
 				});
 
 

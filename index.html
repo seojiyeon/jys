@@ -455,11 +455,7 @@
 				var abs_h = abs.clientHeight;
 				var prt_h = prt.clientHeight;
 				
-				$(".scroll").click(function(event){            
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-				});
-
+			
 
 
 			}
@@ -492,18 +488,20 @@
 						$(this).addClass('active');
 				});
 
-				$('.down_cl').click(function(){
-					var offset = $('#nav_portfolio').offset(); //선택한 태그의 위치를 반환
-					$('html').animate({scrollTop : offset.top}, 400);//animate()메서드를 이용해서 0.4초동안 부드럽게 해당 위치로 이동
-				});
+				// $('.down_cl').click(function(){
+				// 	var offset = $('#nav_portfolio').offset(); //선택한 태그의 위치를 반환
+				// 	$('html').animate({scrollTop : offset.top}, 400);//animate()메서드를 이용해서 0.4초동안 부드럽게 해당 위치로 이동
+				// });
 
 
 				$(".scroll").click(function(event){            
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 300);
 					$('nav ul li').removeClass('active');
-                        		$(this).removeClass('active');
-			    	});
+                    $(this).removeClass('active');
+                });
+
+               
 			});
  
 	</script>

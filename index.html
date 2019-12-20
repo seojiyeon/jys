@@ -461,6 +461,16 @@
 			}
 			
 			$(document).ready(function(){
+				
+				
+				$(".scroll").click(function(event){            
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 300);
+					$('nav ul li').removeClass('active');
+				    $(this).removeClass('active');
+				});
+
+
 					
 				const vs = document.querySelector('.visual'),
 				      abs = document.querySelector('.about_skill '),
@@ -494,15 +504,7 @@
 				// });
 
 
-				$(".scroll").click(function(event){            
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 300);
-					$('nav ul li').removeClass('active');
-                    $(this).removeClass('active');
-                });
-
-               
-			});
+			});	
  
 	</script>
     

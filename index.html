@@ -29,9 +29,9 @@
 		</a>	
             <nav class="nav">
                 <ul>
-                    <li class="active"><a href="#nav_home">Main</a></li>
-                    <li><a href="#nav_about_me">About Me</a></li>
-                    <li><a href="#nav_portfolio">Portfolio</a></li>
+                    <li class="active scroll"><a href="#nav_home">Main</a></li>
+                    <li><a class="scroll" href="#nav_about_me">About Me</a></li>
+                    <li><a class="scroll" href="#nav_portfolio">Portfolio</a></li>
                     <!-- <li><a href="#nav_contact">CONTACT</a></li> -->
                 </ul>
             </nav>
@@ -455,6 +455,10 @@
 				var abs_h = abs.clientHeight;
 				var prt_h = prt.clientHeight;
 				
+				$(".scroll").click(function(event){            
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+				});
 
 
 
@@ -497,6 +501,7 @@
 				$(".scroll").click(function(event){            
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 300);
+					$(this).css('color', '#ffca00');
 			    	});
 			});
  

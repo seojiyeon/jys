@@ -17,14 +17,14 @@ section.sub{padding: 89px 0 0 369px;width: 100%;height: 1000px;background: #f2f0
 .conference_list .cont_all .conf_left .list_op::-ms-expand { display: none; } 
 .conference_list .cont_all .conf_left .list > li{position: relative;padding: 15px 0 0 32px; margin-top: 28px; width: 100%;height: 105px;box-shadow: 1px 2px 7px 0px #dddddd;border-radius: 10px;color: #8e8e8e;}
 .conference_list .cont_all .conf_left .list > li:focus,
-.conference_list .cont_all .conf_left .list > li.wit{background-color: #e0e0e0;}
+.conference_list .cont_all .conf_left .list > li.on{background-color: #e0e0e0;}
 .conference_list .cont_all .conf_left .list > li.on > a{text-decoration: underline;}
 .conference_list .cont_all .conf_left .list > li > a > span{display: block;max-width: 97%;font-size: 19px;color: #8e8e8e;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 .conference_list .cont_all .conf_left .list > li > a > span > strong{font-weight:600;}
 .conference_list .cont_all .conf_left .list > li >p.cnt{padding-top: 9px;width: 97%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
 .conference_list .cont_all .conf_left .list .approval{position: absolute;bottom: 8px;right: 22px;}
 .conference_list .cont_all .conf_left .list .approval::after{content: ''; display: block; clear: both;}
-.conference_list .cont_all .conf_left .list >li.wit .approval span{color: #59b5a0;}
+.conference_list .cont_all .conf_left .list >li.on .approval span{color: #59b5a0;}
 .conference_list .cont_all .conf_left .list .approval > span{float: left;margin-right: 9px;font-size: 18px; color: #b2b2b2;}
 .conference_list .cont_all .conf_left .list .approval .date{float: right;font-size: 16px;color: #b2b2b2;}
 .conference_list .cont_all .conf_right{overflow-y: scroll;float: right;width: 50%;height: 100%;box-shadow: 1px 2px 7px 0px #dddddd;border-radius: 10px;}

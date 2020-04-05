@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/sub.css">
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/sub.js"></script>
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="sidemenu">
+
+    </div>
+    <section class="sub">
+        <section class="sub_cnt conference_list">
+            <h2>회의목록</h2>
+            <ul class="conf_btn">
+                <li>
+                    <a href="">수정</a>
+                </li>
+                <li>
+                    <a href="">삭제</a>
+                </li>
+            </ul>
+            <div class="cont_all">
+                <div class="conf_left">
+                    <select class="list_op"> 
+                        <option value="1">이름 순</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                        <option value="4">Option 4</option>
+                        <option value="5">Option 5</option>
+                    </select>
+                    <ul class="list"> 
+                        <li>
+                            <a href="#" onclick="return false">
+                                <span>1차 정기회의 <strong>#1</strong></span>
+                            </a>
+                            <p class="cnt">화면 UI에 따른 스토리보드</p>
+                            <div class="approval">
+                                <span class="">승인완료</span>
+                                <p class="date">2019.09.17</p>
+                            </div>  
+                        </li>
+                        <li> 
+                            <a href="#" onclick="return false">
+                                <span>2차 정기회의 <strong>#1</strong></span>
+                            </a>
+                            <p class="cnt">전공종합설계(1)2차 발표</p>
+                            <div class="approval">
+                                <span class="">승인완료</span>
+                                <p class="date">2019.10.18</p>
+                            </div>  
+                        </li>
+                        <li class="on">
+                            <a href="#" onclick="return false">
+
+                                <span>3차 정기회의 <strong>#1</strong></span>
+                            </a>
+                            <p class="cnt">전공종합설계(1)최종 발표</p>
+                            <div class="approval">
+                                <span>승인완료</span>
+                                <p class="date">2019.10.08</p>
+                            </div>  
+                        </li>
+                        <li class="wit">
+                            <a href="#" onclick="return false">
+                                <span>1차 정기회의 <strong>#2</strong></span>
+                            </a>
+                            <p class="cnt">화면 UI에 따른 스토리보드</p>
+                            <div class="approval">
+                                <span class="">승인대기중</span>
+                                <p class="date">2019.10.24</p>
+                            </div>  
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false">
+                                <span>1차 정기회의 <strong>#1</strong></span>
+                            </a>
+                            <p class="cnt">화면 UI에 따른 스토리보드</p>
+                            <div class="approval wit">
+                                <span class="">승인완료</span>
+                                <p class="date">2019.09.17</p>
+                            </div>  
+                        </li>
+                    </ul>
+                </div>
+                <div class="conf_right">
+                    <div class="detial_cnt">
+                        <table class="tstyle1">
+                            <caption>회의상세내용(회의명, 회의안건, 희의일시, 내용)입니다.</caption>
+                            <colgroup>
+                                <col style="width: 20%;">
+                                <col style="width: 80%;">
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <th scope="row">회의명 :</th>
+                                <td>3차회의건</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">회의안건 : </th>
+                                <td class="agenda_cnt">전공종합설계(1)최종발표</td>
+                            </tr>
+                            
+                            <tr>
+                                <th scope="row">회의일시 : </th>
+                                <td>2019년 10월 08일(화)
+                                    <br>13:00-14:00</td>
+                            </tr>                
+                            <tr class="tr_cnt">
+                                <td colspan="2" class="tb_cnt">
+                                    <p>
+                                        1. 화면 UI설계방향
+                                        <br> &nbsp;&nbsp;1.1. 채팅창 기능
+                                        <br> &nbsp;&nbsp;&nbsp;&nbsp;- 파일 공유는 채팅창 내에서만 일어남
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-AI)채팅 내용과 주제에 맞는 키워드 분류
+                                        <br>&nbsp;&nbsp;1.2. 공유된 파일처리 방향
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-채팅방 단위로 목록생성
+                                        <br>1.3. 회의록 생성
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-회의록 목록, 승인대기, 승인완료로 구분
+                                        <br>2. 일정 
+                                        <br>&nbsp;&nbsp;2.1. 최종보고서작성 : ~12월 15알
+                                        <br>&nbsp;&nbsp;2.2. 최공발표 피피티:12월 20일
+
+                                    </p>
+                                </td>
+                            </tr>
+                            
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="detial_cnt">
+                        <table class="tstyle1">
+                            <caption>회의상세내용(회의명, 회의안건, 희의일시, 내용)입니다.</caption>
+                            <colgroup>
+                                <col style="width: 20%;">
+                                <col style="width: 80%;">
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <th scope="row">회의명 :</th>
+                                <td>3차회의건</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">회의안건 : </th>
+                                <td class="agenda_cnt">전공종합설계(2)최종발표</td>
+                            </tr>
+                            
+                            <tr>
+                                <th scope="row">회의일시 : </th>
+                                <td>2019년 10월 08일(화)
+                                    <br>13:00-14:00</td>
+                            </tr>                
+                            <tr class="tr_cnt">
+                                <td colspan="2" class="tb_cnt">
+                                    <p>
+                                        1. 화면 UI설계방향
+                                        <br> &nbsp;&nbsp;1.1. 채팅창 기능
+                                        <br> &nbsp;&nbsp;&nbsp;&nbsp;- 파일 공유는 채팅창 내에서만 일어남
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-AI)채팅 내용과 주제에 맞는 키워드 분류
+                                        <br>&nbsp;&nbsp;1.2. 공유된 파일처리 방향
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-채팅방 단위로 목록생성
+                                        <br>1.3. 회의록 생성
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-회의록 목록, 승인대기, 승인완료로 구분
+                                        <br>2. 일정 
+                                        <br>&nbsp;&nbsp;2.1. 최종보고서작성 : ~12월 15알
+                                        <br>&nbsp;&nbsp;2.2. 최공발표 피피티:12월 20일
+
+                                    </p>
+                                </td>
+                            </tr>
+                            
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="detial_cnt on">
+                        <table class="tstyle1">
+                            <caption>회의상세내용(회의명, 회의안건, 희의일시, 내용)입니다.</caption>
+                            <colgroup>
+                                <col style="width: 20%;">
+                                <col style="width: 80%;">
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <th scope="row">회의명 :</th>
+                                <td>3차회의건</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">회의안건 : </th>
+                                <td class="agenda_cnt">전공종합설계(3)최종발표</td>
+                            </tr>
+                            
+                            <tr>
+                                <th scope="row">회의일시 : </th>
+                                <td>2019년 10월 08일(화)
+                                    <br>13:00-14:00</td>
+                            </tr>                
+                            <tr class="tr_cnt">
+                                <td colspan="2" class="tb_cnt">
+                                    <p>
+                                        1. 화면 UI설계방향
+                                        <br> &nbsp;&nbsp;1.1. 채팅창 기능
+                                        <br> &nbsp;&nbsp;&nbsp;&nbsp;- 파일 공유는 채팅창 내에서만 일어남
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-AI)채팅 내용과 주제에 맞는 키워드 분류
+                                        <br>&nbsp;&nbsp;1.2. 공유된 파일처리 방향
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-채팅방 단위로 목록생성
+                                        <br>1.3. 회의록 생성
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-회의록 목록, 승인대기, 승인완료로 구분
+                                        <br>2. 일정 
+                                        <br>&nbsp;&nbsp;2.1. 최종보고서작성 : ~12월 15알
+                                        <br>&nbsp;&nbsp;2.2. 최공발표 피피티:12월 20일
+
+                                    </p>
+                                </td>
+                            </tr>
+                            
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="detial_cnt">
+                        <table class="tstyle1">
+                            <caption>회의상세내용(회의명, 회의안건, 희의일시, 내용)입니다.</caption>
+                            <colgroup>
+                                <col style="width: 20%;">
+                                <col style="width: 80%;">
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <th scope="row">회의명 :</th>
+                                <td>3차회의건</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">회의안건 : </th>
+                                <td class="agenda_cnt">전공종합설계(4)최종발표</td>
+                            </tr>
+                            
+                            <tr>
+                                <th scope="row">회의일시 : </th>
+                                <td>2019년 10월 08일(화)
+                                    <br>13:00-14:00</td>
+                            </tr>                
+                            <tr class="tr_cnt">
+                                <td colspan="2" class="tb_cnt">
+                                    <p>
+                                        1. 화면 UI설계방향
+                                        <br> &nbsp;&nbsp;1.1. 채팅창 기능
+                                        <br> &nbsp;&nbsp;&nbsp;&nbsp;- 파일 공유는 채팅창 내에서만 일어남
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-AI)채팅 내용과 주제에 맞는 키워드 분류
+                                        <br>&nbsp;&nbsp;1.2. 공유된 파일처리 방향
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-채팅방 단위로 목록생성
+                                        <br>1.3. 회의록 생성
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-회의록 목록, 승인대기, 승인완료로 구분
+                                        <br>2. 일정 
+                                        <br>&nbsp;&nbsp;2.1. 최종보고서작성 : ~12월 15알
+                                        <br>&nbsp;&nbsp;2.2. 최공발표 피피티:12월 20일
+
+                                    </p>
+                                </td>
+                            </tr>
+                            
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="detial_cnt">
+                        <table class="tstyle1">
+                            <caption>회의상세내용(회의명, 회의안건, 희의일시, 내용)입니다.</caption>
+                            <colgroup>
+                                <col style="width: 20%;">
+                                <col style="width: 80%;">
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <th scope="row">회의명 :</th>
+                                <td>3차회의건</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">회의안건 : </th>
+                                <td class="agenda_cnt">전공종합설계(5)최종발표</td>
+                            </tr>
+                            
+                            <tr>
+                                <th scope="row">회의일시 : </th>
+                                <td>2019년 10월 08일(화)
+                                    <br>13:00-14:00</td>
+                            </tr>                
+                            <tr class="tr_cnt">
+                                <td colspan="2" class="tb_cnt">
+                                    <p>
+                                        1. 화면 UI설계방향
+                                        <br> &nbsp;&nbsp;1.1. 채팅창 기능
+                                        <br> &nbsp;&nbsp;&nbsp;&nbsp;- 파일 공유는 채팅창 내에서만 일어남
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-AI)채팅 내용과 주제에 맞는 키워드 분류
+                                        <br>&nbsp;&nbsp;1.2. 공유된 파일처리 방향
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-채팅방 단위로 목록생성
+                                        <br>1.3. 회의록 생성
+                                        <br>&nbsp;&nbsp;&nbsp;&nbsp;-회의록 목록, 승인대기, 승인완료로 구분
+                                        <br>2. 일정 
+                                        <br>&nbsp;&nbsp;2.1. 최종보고서작성 : ~12월 15알
+                                        <br>&nbsp;&nbsp;2.2. 최공발표 피피티:12월 20일
+
+                                    </p>
+                                </td>
+                            </tr>
+                            
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+</html>

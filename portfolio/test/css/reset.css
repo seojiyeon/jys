@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+article, aside, figure, footer, header, hgroup, menu, nav, section {display:block;}
+body {width:100%; font-size: 17px; word-wrap:break-word;word-break:break-all}
+*{margin:0;padding:0;box-sizing:border-box;}
+body {font-family:sans-serif;font-size:17px;letter-spacing:-0.05em;margin:0;padding:0;line-height:1;}
+div,ul,ol,li,dl,dt,dd,p,input,textarea,select,h1,h2,h3,h4,h5,em,address,fieldset,form,iframe,object,menu,button {font-family:sans-serif;margin:0;padding:0;line-height:1.2;}
+img,fieldset,iframe {border:none;overflow:hidden;}
+menu,ul,ol,li {list-style:none; }
+img,input,select,textarea {vertical-align:top;}
+input,select,textarea {border-radius:0;}
+em,address {font-style:normal;}
+a {color:#444;text-decoration:none;} 
+a:focus,a:hover{text-decoration:underline;} 
+.rbx-2 a {color:#fffcfc;text-decoration:none;}
+button {border:0;background:none;cursor:pointer;}
+legend,caption{text-indent:-100000px;overflow:hidden;width:0;height:0;font-size:0;line-height:0;}
+input[type="text"] {font-size:1em;-webkit-appearance:none;}
+input[type="checkbox"], input[type="radio"] {vertical-align:middle;}
+strong {font-weight:bold;}
+select::-ms-expand {display:none;}
+textarea {background:#fff}        
+img{max-width:100%;}                 
+
+
+
+@media only screen and (max-width: 900px)
+{
+body{font-weight:600;}
+}                                                                          

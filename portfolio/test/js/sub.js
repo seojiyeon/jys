@@ -28,7 +28,4 @@ $(document).ready(function(){
             return false;
         }
     }
-
-
-출처: https://server-engineer.tistory.com/563 [HelloWorld]
 })

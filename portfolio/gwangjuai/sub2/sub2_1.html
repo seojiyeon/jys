@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>인공지능종합지원센터 상담분야</title>
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/sub.css">
+<script src="../js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+    // F12 버튼 방지
+    $(document).ready(function(){
+        $(document).bind('keydown',function(e){
+            if ( e.keyCode == 123 /* F12 */) {
+                e.preventDefault();
+                e.returnValue = false;
+            }
+        });
+    });
+    
+    // 우측 클릭 방지
+    document.onmousedown=disableclick;
+    status="Right click is not available.";
+    
+    function disableclick(event){
+        if (event.button==2) {
+            alert(status);
+            return false;
+        }
+    }
+</script>
+
+</head>
+<body oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
+<section class="sub sub2">
+<section class="sub_top">
+<header>
+<a class="logo"><img src="../images/subLogo.png" alt="인공지능 종합지원센터상담분야"></a>
+</header>
+<nav>
+<ul class="big_menu clearfix">
+	<li class=""><a href="../sub1/sub1_1.html">인공지능종합지원센터 소개</a></li>
+	<li class="on"><a href="../sub2/sub2_1.html">지원사업정보</a></li>
+	<li class=""><a href="../sub3/sub3_1.html">멘토링</a></li>
+</ul>
+<ul class="small_menu clearfix">
+	<li><a href="#sum2_1">인공지능종합지원센터소개</a></li>
+	<li><a href="#sum2_2">금융(융자)지원</a></li>
+	<li><a href="#sum2_3">공간/고용 및 교육/판로/인센티브 지원</a></li>
+	<li><a href="#sum2_4">기술, 연구 개발, 디자인 지원</a></li>
+</ul>
+</nav>
+</section>
+<section class="sub_mid">
+<div class="container">
+	<h2 class="h2" id="sum2_1"><img src="../images/subtit2.png" alt="광주테크노파크 지원사업"></h2>
+	<div class="cnt clearfix">
+		<table class="tstyle1">
+            <caption>광주테크노파크지원사업</caption>
+            <colgroup>
+                <col style="width: 17%;">
+                <col style="width: 9%;">
+                <col style="width: 25%;">
+                <col style="width: 25%;">
+                <col style="width: 26%;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>사업명</th>
+                    <th>시기</th>
+                    <th>지원내용</th>
+                    <th>지원자격</th>
+                    <th>지원규모</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        광주광역시 <br>Pre-명품강소기업 육성사업
+                    </td>
+                    <td>
+                        4월경
+                    </td>
+                    <td>
+                        경영지원 , R&D 지원 (기술고도화 ), 마케팅 지 원 , 기타지원
+                    </td>
+                    <td>
+                        전년도 매출액 10억 이상 ~ 50억 미만 <br>지식서비스업 5억 이상~10억 미만
+                    </td>
+                    <td></td>
+                </tr>
+               
+                <tr>
+                    <td>
+                        광주광역시 <br>명품강소기업 육성사업
+                    </td>
+                    <td>
+                        6월경
+                    </td>
+                    <td>
+                        경영지원 , R&D 지원 (기술고도화 ), 마케팅 지 원 , 후속지원 , 기타지원
+                    </td>
+                    <td>
+                        전년도 매출액 50억 이상(지식서비스업 10억 이상)
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        광주스타기업<br> 육성사업
+                    </td>
+                    <td>
+                        2~3월결
+                    </td>
+                    <td>
+                        컨설팅 , 기술혁신 , 수출상담회 , 정부지원사 업 연계 , 네트워크 활성화 등
+                    </td>
+                    <td>
+                        최근 3 년 평균 매출액 50 억 ~400 억 충족기 업으로 명품강소기업 선정 우대
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        지역·산업 맞춤형 일자리창출 <br>지원사업
+                    </td>
+                    <td>
+                        3월
+                    </td>
+                    <td>
+                        강소기업 대상 R&D 기획 역량강화 및 재직자 R&D 기획, 현장방문 과정 운영을 통하여 기 업의 R&D 부족인력 해소 및 재직자 역량강화
+                    </td>
+                    <td>
+                        Pre-명품, 명품강소, 지역스타, 글로벌강소기업
+                    </td>
+                    <td>
+                        기업당 2,200만원
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        청년예비창업가 <br>발굴육성사업 초기 창업기업<br> 경쟁력 강화 지원사업
+                    </td>
+                    <td>
+                        2월경
+                    </td>
+                    <td>
+                        - 패키지 지원 : 지원사업 중 중 2개의 세부사 업을 패키지로 수행 <br> - 자율 지원 : 세부 지원 사업 중 기업 맞춤형 자율 수행
+                    </td>
+                    <td>
+                        광주광역시에 본사를 두고 사업을 영위하는 공고개시일 기준 창업 3년 이내 청년창업 기업 2016 ~ 2018년 청년예비창업가 발굴육성사업 창업초기사업화 자금지원 수혜기업
+                    </td>
+                    <td>
+                        • 패키지지원 : 3건(건당 20백만원 내외)<br> • 맞춤형지원 : 2건(건당 10백만원 내외)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        청년예비창업가<br> 창업자금 지원
+                    </td>
+                    <td>
+                        3월, 5월,<br> 9월경
+                    </td>
+                    <td>
+                        우수 아이템을 보유한 광주청년 예비창업가에 게 시제품 제작, 전문가 컨설팅, 홍보비 등 창업실행에 필요한 자금 지원
+                    </td>
+                    <td>
+                        광주에 주소를 둔 만 15세 이상 39세 이하 예 비창업자
+                    </td>
+                    <td>
+                        업체당 최대 30백만원 이내(평균 25백만원) * 평가에 의한 차등지원
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        중장년 및 세대융합 <br>예비창업가 창업자금 지원
+                    </td>
+                    <td>
+                        3월,5월,<br> 9월경
+                    </td>
+                    <td>
+                        우수 아이템을 보유한 중장년 창업 및 기술을 보유한 중장년과 청년의 <br>아이디어를 매칭하는 세대융합 창업 자금 지원
+                    </td>
+                    <td>
+                        광주에 주소를 둔 중장년 및 중장년과 청년간 팀을 구성한 예비창업팀
+                    </td>
+                    <td>
+                        업체당 최대 30백만원 이내(평균 25백만원) * 평가에의한차등지원
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        광주지역기업 혁신성장<br> 바우처지원사업
+                    </td>
+                    <td>
+                        5월
+                    </td>
+                    <td>
+                        지역 내 주력산업 및 전·후방 연관 산업 분야 영위 중소기업의 경쟁력 향상을 위한 기술 및 사업화지원
+                    </td>
+                    <td></td>
+                    <td>
+                        기업당 최대 30,000천원 내외(지원금의 10% 이상 현금 부담)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        지역·산업 맞춤형 일자리창출<br> 지원사업
+                    </td>
+                    <td>
+                        3월
+                    </td>
+                    <td>
+                        강소기업 대상 R&D 기획 역량강화 및 재직자 R&D 기획, 현장방문 과정 운영을 통하여 기 업의 R&D 부족인력 해소 및 재직자 역량강화
+                    </td>
+                    <td></td>
+                    <td>
+                        기업당 2,200만원
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        광주지역기업 혁신성장<br> 바우처지원사업
+                    </td>
+                    <td>
+                        수시 5월~
+                    </td>
+                    <td>
+                        지역 내 주력산업 및 전·후방 연관 산업 분야 영위 중소기업의 경쟁력 향상을 위한 기술 및 사업화지원
+                    </td>
+                    <td>
+                        광주지역 주력산업 또는 전·후방 연관 산업분 야 기업
+                    </td>
+                    <td>
+                        기업당 최대 30,000천원 내외(지원금의 10% 이상 현금 부담)
+                    </td>
+                </tr>
+                <tr>
+                    <td>『광주청년창업지원센터』 <br>입주
+                    </td>
+                    <td>
+                        매년 1월,<br>7월경
+                    </td>
+                    <td>
+                        청년사업가 공간지원(공개 경연)
+                    </td>
+                    <td>
+                        광주광역시에 본사를 두고 사업을 영위하는 창업 3년(공고개시일 기준) 이내 기업이나 공 고개시일 기준으로 주민등록표(등본)상 광주 광역시에 주소지를 가진 예비창업자(팀) <br>- 공고개시일 기준 구성인력(대표)의 나이가 만 15~39세 이하 <br>- ｢중소기업 기술로드맵｣에서 제시한 40대 전략분야에 해당되는 (예비)창업자(팀)
+                    </td>
+                    <td>
+                        공간 임대료 무료
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <span><a class="pdfDown"href="http://" target="_blank" rel="noopener noreferrer">광주테크노파크 지원사업 세부 자료(링크)</a></span>
+        <h2 class="h2 h2_1" id="sum2_2"><img src="../images/subtit2.png" alt="광주테크노파크 지원사업"></h2>
+        <h3 class="h3">가.창업/사업화관련</h3>
+        <div class="cnt clearfix">
+            <table class="tstyle1">
+                <caption>광주테크노파크지원사업</caption>
+                <colgroup>
+                    <col style="width: 17%;">
+                    <col style="width: 9%;">
+                    <col style="width: 25%;">
+                    <col style="width: 25%;">
+                    <col style="width: 26%;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>사업명</th>
+                        <th>시기</th>
+                        <th>지원내용</th>
+                        <th>지원자격</th>
+                        <th>지원규모</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            신성장기반자금
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            (혁신성장유망) ｢중소기업기본법｣상의 업력 7 년 이상 중소기업
+                        </td>
+                        <td>
+                            * 2019년 11월말 신청기업 1,820개사 중<br> 1,695개사 선정지원, 업체당 평균 7.1억원
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            투융자복합금융자금
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            기술성과 미래 성장가치가 크고 기업공개 가능 성이 있는 기업
+                        </td>
+                        <td>
+                            2019년 성장공유형대출 62개사 선정지원, 업 체당 평균 12.6억원
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            IBK벤처기업대출
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            벤처인증기업<Br> BK창공(創工) 육성기업<br> TIPS프로그램 선정기업
+                        </td>
+                        <td>
+                            3,000억원
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            IBK성공창업대출
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            창업일로부터 7년이 경과하지 않은 중소기업
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            IBK창업기업지원 특례보증 부대출
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            창업 7년 이내의 제조업 또는 지식기반서비스 업 영위기업
+                        </td>
+                        <td>
+                            1,000억원
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            IBK시니어전용창업대출
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            시니어 창업 관련 보증재단의 신용보증서를 발 급받은 기업
+                        </td>
+                        <td>
+                            500억원
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            기술평가기반<br> 무보증 신용대출
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            운전자금
+                        </td>
+                        <td>
+                            창업 후 7년 이내인 중소기업 중 다음 조건을 충족하는 중소기업<br> IBK 기업은행 신용등급 BBB이상으로 기술등 급 T4 이상
+                        </td>
+                        <td>
+                            동일기업당 최대 5억원 이내
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+		</div>
+        <h3 class="h3">나.시설운전자금</h3>
+        <div class="cnt clearfix">
+            <table class="tstyle1">
+                <caption>광주테크노파크지원사업</caption>
+                <colgroup>
+                    <col style="width: 17%;">
+                    <col style="width: 9%;">
+                    <col style="width: 25%;">
+                    <col style="width: 25%;">
+                    <col style="width: 26%;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>사업명</th>
+                        <th>시기</th>
+                        <th>지원내용</th>
+                        <th>지원자격</th>
+                        <th>지원규모</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            중소기업육성 경영안정자금
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            제조업(제조 전업률 30% 이상), 제조업 관련 서비스업
+                        </td>
+                        <td>
+                            업체당 3억 원 이내
+                        </td>
+                    </tr>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td>
+                            중소기업 구조고도화자금
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            제조업, 제조업 관련 서비스업, 지식산업센터
+                        </td>
+                        <td>
+                            시설자금(10억원 이내), 운전자금(3억원 이내)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            벤처기업육성자금
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            벤처기업 및 창업 5년 이내 광 관련 기업
+                        </td>
+                        <td>
+                            시설자금(3억원 이내), 운전자금(2억원 이내)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            중소기업 공제사업기금
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            기금 가입 후 4회차 이상 부금 납부한 중소기 업
+                        </td>
+                        <td>
+                            납부부금잔액의 최대 3배 이내
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            IP사업화 자금대출
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            기업은행 신용평가등급 BBB+ 등급 이상 기업 으로 부채비율 400%미만, 2년간 무결손, 총자 산5억원 이상, 이자보상배율 1배 이상, 전년도 매출액 10억 이상, 기술등금 T4 이상
+                        </td>
+                        <td>
+                            2,000억원
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            IBK문화콘텐츠대출
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            문화콘텐츠 업무협약에 의한 문화콘텐츠 산업 분류코드’에 해당하는 중소기업 중 신용보증 서(90% 이상 부분보증서)를 발급 받은 기업
+                        </td>
+                        <td>
+                            신용보증서상 대출금액 범위 (최대 100억원 이내)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            고부가 서비스산업 지원대출
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            운전자금
+                        </td>
+                        <td>
+                            :‘혁신형 지식서비스산업과 선도콘텐츠산업 영 위기업’ 중 고부가서비스 용역공급(프로젝트) 계약을 체결하였거나, 체결이 예상되는 중소 기업
+                        </td>
+                        <td>
+                            보증지원 한도 기준
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            IBK일자리Plus대출
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            기업은행 신용평가등급 BB+ 이상 중소기업으 로 일자리 창출기업 내지 창업 3년 이내 기업
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            IBK시설투자대출
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금
+                        </td>
+                        <td>
+                            시설 취득시 소요자금 지원. 기업의 경상적인 영업활동 및 시설투자에 필요한 소요자금을 지원하는 대출상품
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            산업구조 고도화 지원 설비 투자펀드대출
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 운전자금
+                        </td>
+                        <td>
+                            주력산업또는 新 성장 분야를 영위하는 기업 중 기업 은행 내부 펀드운용 기준을 충족하는 기업
+                        </td>
+                        <td>
+                            운전자금(최대 30억원), 시설자금(최대 250억 원)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            혁신창업사업화자금(중소벤 처기업부)
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            시설자금, 투자자금, 운전자금
+                        </td>
+                        <td>
+                            사업 개시일로부터 7년 미만(신청･접수일 기 준)인 중소기업 및 창업을 준비 중인 자
+                        </td>
+                        <td>
+                            기업당 60억원(지방소재기업 70억원) 이내, 매 출액의 150%이내
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            중소기업 혁신지원 보증펀드
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            운전자금, 시설자금
+                        </td>
+                        <td>
+                            광주지역 제조업 중소기업 및 소상공인
+                        </td>
+                        <td>
+                            3억 원(센터 승인시 최대 5억 원)
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h3 class="h3">다.보증보험</h3>
+        <div class="cnt clearfix">
+            <table class="tstyle1">
+                <caption>광주테크노파크지원사업</caption>
+                <colgroup>
+                    <col style="width: 17%;">
+                    <col style="width: 9%;">
+                    <col style="width: 25%;">
+                    <col style="width: 25%;">
+                    <col style="width: 26%;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>사업명</th>
+                        <th>시기</th>
+                        <th>지원내용</th>
+                        <th>지원자격</th>
+                        <th>지원규모</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            청년창업 특례보증
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            우수한 기술력과 사업성을 가진 젊은 인재의 적극적인 창업을 유도하고 고용 창출 및 청년 창업기업 육성을 지원
+                        </td>
+                        <td>
+                            대표자가 만 39세 이하이고, 신용등급이 8등 급 이상이며 업력 5년 이하인 소기업·소상공 인
+                        </td>
+                        <td>
+                            5천만원 이내
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            기술보증 기술보증기금
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            담보력이 부족하나 기술력을 보유하고 있는 중 소기업의 기술성, 사업성 등 미래가치를 평가 하여 보증서를 발급해 줌으로써 금융기관 등 으로부터 원활 하게 자금 지원
+                        </td>
+                        <td>
+                            신기술사업을 영위하고 있는 중소기업
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            신용보증 신용보증기금
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            기업의 미래성장성을 평가하여 기업 경영에 필 요한 각종 채무에 대한 보증을 지원함으로써 중소기업이 자금융통을 원활히 할 수 있도록 지원
+                        </td>
+                        <td>
+                            영리를 목적으로 사업을 영위하는 개인 및 법 인과 이들의 단체
+                        </td>
+                        <td>
+                            30억원
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            보증연계투자<br>신용보증기금
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            중소기업의 원활한 자금조달 및 재무구조 개 선을 위해 보증과 투자를 연계 하여 지원하는 복합금융상품으로, 신용보증기금이 가치창출 능력과 미래성장 가능성이 높은 중소기업의 유가증권을 직접 인수하여 중소기업에 자금 지원
+                        </td>
+                        <td>
+                            신용보증을 이용 중이거나 투자와 보증을 동 시에 신청한 기업
+                        </td>
+                        <td>
+                            30억원으로 신보의 보증금액 2배 이내로 운용
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            투자옵션부보증<br>신용보증기금
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            미래성장성이 높은 창업초기 기업에 대하여, 기업의 자본증자에 참여할 수 있는 권리(증자 참여권)가 부여된 보증을 지원한 후, 기업의 경 영성과 등에 따라 투자전환을 결정하는 투･융 자 복합금융상품
+                        </td>
+                        <td>
+                            설립 후 7년 이내 비상장 중소기업
+                        </td>
+                        <td>
+                            같은 기업당 최대 10억원
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            매출채권보험
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            거래처의 채무불이행으로 손실이 발생할 경우 보험금을 받는 제도
+                        </td>
+                        <td>
+                            중소기업 및 중견기업
+                        </td>
+                        <td>
+                            10억원
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+		</div>
+        <span><a class="pdfDown"href="http://" target="_blank" rel="noopener noreferrer">금융(융자)지원 세부 자료(링크)</a></span>
+        <h2 class="h2 h2_1" id="sum2_4"><img src="../images/subtit2.png" alt="광주테크노파크 지원사업"></h2>
+        <h3 class="h3">가. 공간지원</h3>
+        <div class="cnt clearfix">
+            <table class="tstyle1">
+                <caption>광주테크노파크지원사업</caption>
+                <colgroup>
+                    <col style="width: 17%;">
+                    <col style="width: 9%;">
+                    <col style="width: 25%;">
+                    <col style="width: 25%;">
+                    <col style="width: 26%;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>사업명</th>
+                        <th>시기</th>
+                        <th>지원내용</th>
+                        <th>지원자격</th>
+                        <th>지원규모</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            청년(예비)창업가<br>사무실 지원
+                        </td>
+                        <td>
+                           1월, 7월경
+                        </td>
+                        <td>
+                            광주청년 예비 ‧ 초기 창업가의 안정적인 성 장 지원을 위해 ‘I-PLEX광주’ 내 사무실을 최 대3년간무상제공
+                        </td>
+                        <td>
+                            광주광역시에 본사를 두고 사업을 영위하는 창업 3년(공고개시일 기준) 이내 기업
+                        </td>
+                        <td>
+                            공간 임대료 무료
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+		</div>
+        <span><a class="pdfDown"href="http://" target="_blank" rel="noopener noreferrer">공간 지원 세부 자료(링크)</a></span>
+        <h3 class="h3">나.고용및교육지원</h3>
+        <div class="cnt clearfix">
+            <table class="tstyle1">
+                <caption>광주테크노파크지원사업</caption>
+                <colgroup>
+                    <col style="width: 17%;">
+                    <col style="width: 9%;">
+                    <col style="width: 25%;">
+                    <col style="width: 25%;">
+                    <col style="width: 26%;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>사업명</th>
+                        <th>시기</th>
+                        <th>지원내용</th>
+                        <th>지원자격</th>
+                        <th>지원규모</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            청년추가고용장려금<br>지원제도
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            청년을 정규직으로 추가로 고용한 중소·중견기 업에 인건비를 지원함으로써, 양질의 청년일 자리 창출
+                        </td>
+                        <td>
+                            청년(만15세 이상 34세 이하)을 정규직으로 신규 채용한 5인 이상 중소‧중견기업
+                        </td>
+                        <td>
+                            임금의 1/3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            광주 청년고용 우수기업 지원 사업
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            청년고용에 적극적인 기업에 인센티브를 제공 하여 지역 기업의 청년고용 유도, 중소기업의 고용환경 개선을 통한 청년이 일하고 싶은 기 업 만들기 지원사업
+                        </td>
+                        <td>
+                            광주소재 기업으로 2년 이상 정상 가동 중인 5 인 이상이며 연매출액 200억 이하 중소기업 청년고용증가율 5%이상이고 최소 고용증가 인원 2명 이상 기업
+                        </td>
+                        <td>
+                            업체당 2천만 원 이내
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            청년창업청년취업 WINWIN 프로젝트
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            고용에 따른 스타트업 인건비 지원
+                        </td>
+                        <td>
+                            광주소재 1년이상 7년 미만기업으로 상용근로 자 1인 이상, 대표가 만 39세 이하인 기업으로 청년 참여자는 만 34세 이사
+                        </td>
+                        <td>
+                            참여근로자 인건비 90% 지원(2년)
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+		</div>
+        <span><a class="pdfDown"href="http://" target="_blank" rel="noopener noreferrer">고용및교육지원세부자료(링크)</a></span>
+        <h3 class="h3">다.판로지원</h3>
+        <div class="cnt clearfix">
+            <table class="tstyle1">
+                <caption>광주테크노파크지원사업</caption>
+                <colgroup>
+                    <col style="width: 17%;">
+                    <col style="width: 9%;">
+                    <col style="width: 25%;">
+                    <col style="width: 25%;">
+                    <col style="width: 26%;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>사업명</th>
+                        <th>시기</th>
+                        <th>지원내용</th>
+                        <th>지원자격</th>
+                        <th>지원규모</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            외국어 홈페이지 등 홍보물 제작 지원
+                        </td>
+                        <td>
+                            3월
+                        </td>
+                        <td>
+                            외국어 홍보물 제작 지원을 통해 관내 중소수 출기업의 해외마케팅 활성화 및 수출경쟁력 증대
+                        </td>
+                        <td>
+                            전년도 수출실적 2,000만불 이하 중소기업
+                        </td>
+                        <td>
+                            <span class="bold fs11">외국어 홈페이지 및 홍보동영상 제작 <br>┗ </span>300만원 한도 <br><br><span class="bold fs11">외국어 제품 카탈로그, 매뉴얼 등 <br>┗</span>150만원 한도
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            다수공급자계약제도(MAS) 컨설팅 지원
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            지역 중소기업의 납품기회 제공을 통한 매출 향상을 위해 다수공급자계약 (MAS) 컨설팅 지원
+                        </td>
+                        <td>
+                            광주지역 중소기업
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            브리핑 룸을 통한 지역 기업 홍보활동 지원
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            광주상의 브리핑룸 활용, 중소기업 신제품 이 미지 홍보
+                        </td>
+                        <td>
+                            광주권 내 기업체
+                        </td>
+                        <td>
+                            무료
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h3 class="h3">라. 투자 인센티브</h3>
+        <div class="cnt clearfix">
+            <table class="tstyle1">
+                <caption>광주테크노파크지원사업</caption>
+                <colgroup>
+                    <col style="width: 17%;">
+                    <col style="width: 9%;">
+                    <col style="width: 25%;">
+                    <col style="width: 25%;">
+                    <col style="width: 26%;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>사업명</th>
+                        <th>시기</th>
+                        <th>지원내용</th>
+                        <th>지원자격</th>
+                        <th>지원규모</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            투자유치 보조금
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            광주에 투자·이전한 기업의 조기정착을 지원하 고 대규모 투자에 따른 자금난 해소에 기여하 고자 보조금 지원
+                        </td>
+                        <td>
+                            제조업, 정보통신업, 지식서비스산업을 영위하 는 법인
+                        </td>
+                        <td>
+                            설비투자금액의 14%이내 (중견 : 10%) (중견 : 11%)
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+		</div>
+        <span><a class="pdfDown"href="http://" target="_blank" rel="noopener noreferrer">인센티브(투자/이전) 세부 자료(링크)</a></span>
+        <h2 class="h2 h2_1" id="sum2_3"><img src="../images/subtit2.png" alt="기술, 연구 개발, 디자인 지원"></h2>
+        <h3 class="h3">가. 연구개발 지원</h3>
+        <div class="cnt clearfix">
+            <table class="tstyle1">
+                <caption>광주테크노파크지원사업</caption>
+                <colgroup>
+                    <col style="width: 17%;">
+                    <col style="width: 9%;">
+                    <col style="width: 25%;">
+                    <col style="width: 25%;">
+                    <col style="width: 26%;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>사업명</th>
+                        <th>시기</th>
+                        <th>지원내용</th>
+                        <th>지원자격</th>
+                        <th>지원규모</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            KISTI K-마루기업 지원사업
+                        </td>
+                        <td>
+                            2월경
+                        </td>
+                        <td>
+                            기업성장가치의 제고를 위한 KISTI 및 타 출연 (연)소속 전문가와의 협력체제 기반의 밀착형 R&D 종합지원 서비스
+                        </td>
+                        <td>
+                            광주, 전남, 전북, 제주지역 23개처 내외
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h3 class="h3">나. 기술이전.지식재산</h3>
+        <div class="cnt clearfix">
+            <table class="tstyle1">
+                <caption>광주테크노파크지원사업</caption>
+                <colgroup>
+                    <col style="width: 17%;">
+                    <col style="width: 9%;">
+                    <col style="width: 25%;">
+                    <col style="width: 25%;">
+                    <col style="width: 26%;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>사업명</th>
+                        <th>시기</th>
+                        <th>지원내용</th>
+                        <th>지원자격</th>
+                        <th>지원규모</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            광주저작권서비스<br> 센터운영사업
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            저작권에 취약한 1인창조‧중소기업 대상 저작 권서비스센터 운영으로 저작권 분쟁을 사전 예방하고 지식재산의 창출‧역량강화 등 저작 권 서비스 수요 대응
+                        </td>
+                        <td>
+                            광주지역 예비창업자 및 1인창조/중소기업
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            광주지역기업 혁신성장<br>바우처지원사업
+                    
+                        <td>
+                            5월
+                        </td>
+                        <td>
+                            지역 내 주력산업 및 전·후방 연관 산업 분야 영위 중소기업의 경쟁력 향상을 위한 기술 및 사업화지원
+                        </td>
+                        <td></td>
+                        <td>
+                            기업당 최대 30,000천원 내외(지원금의 10% 이상 현금 부담)
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            기술·시장 정보분석<br> 지원사업
+                        </td>
+                    
+                        <td>
+                            1~6월
+                        </td>
+                        <td>
+                            중소기업의 R&amp;D나 상품기획 단계에 필요한 국내외 기술과 시장에 관한 정보를 제공하여 기술개발, 시장 확대, 사업화 타진에 조력
+                        </td>
+                    
+                        <td>
+                            광주, 전남, 전북, 제주 지역 중소중견기업
+                        </td>
+                        <td>
+                            광주, 전남(2천만원)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            이전기술 사업화 지원
+                        </td>
+                        <td></td>
+                        <td>
+                            국내외 대학, 연구기관, 기업 등이 개발한 기술 을 이전받아 실용화·상품화를 위해 수행하는 이전기술사업화 지원
+                        </td>
+                    
+                        <td>
+                            산업단지내 입주 및 미니클러스터 활동기업
+                        </td>
+                        <td>
+                            2억원 이내
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            산업재산권 출원 지원
+                        </td>
+                       
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            상품출원, 특허 및 실용신안출원, KGMP 인증, 해외특허, PCT출원 등의 국내외 산업재산권 출원 지원
+                        </td>
+                        <td>
+                            산업단지내 입주 및 미니클러스터 활동기업
+                        </td>
+                        <td>
+                            소요비용의 70% 이내(10백만원 이내)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            기술이전 활성화 지원
+                        </td>
+                        <td>
+                            수시
+                        </td>
+                        <td>
+                            디자인 도안 및 연구개발 완료 후, 제품 제작도 면 또는 Working Mock-up 을 보유하고 신 제품을 제작하고자 하는 사업
+                        </td>
+                        <td>
+                            산업단지내 입주 및 미니클러스터 활동기업
+                        </td>
+                        <td>
+                            총 사업비의 60% 이내(20백만원 이내 / 건당)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            특허기술평가 지원사업
+                        </td>
+                        
+                        <td>
+                            2월, 6월경
+                        </td>
+                        <td>
+                            등록된 특허·실용신안에 대한 성능 및 비교분 석, 사업타당성, 가치평가를 수행 하는 데 소 요되는 평가비용을 지원하여 특허기술의 활용 성 제고 및 사업화 촉진을 위한 평가결과 제공
+                        </td>
+                        
+                        <td>
+                            중소기업으로서 등록된 특허·실용신안 권리자
+                        </td>
+                        <td>
+                            기술평가 1건당 평가비용 70%이내
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h3 class="h3">다. 디자인개발</h3>
+        <div class="cnt clearfix">
+            <table class="tstyle1">
+                <caption>광주테크노파크지원사업</caption>
+                <colgroup>
+                    <col style="width: 17%;">
+                    <col style="width: 9%;">
+                    <col style="width: 25%;">
+                    <col style="width: 25%;">
+                    <col style="width: 26%;">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>사업명</th>
+                        <th>시기</th>
+                        <th>지원내용</th>
+                        <th>지원자격</th>
+                        <th>지원규모</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            광주산업화디자인프로젝트
+                        </td>
+                        
+                        <td>
+                            2월경
+                        </td>
+                        <td>
+                            광주지역 중소기업 및 디자인기업의 양산제품<Br> 디자인개발, 양산지원 및 마케팅 지원
+                        </td>
+                    
+                        <td>
+                            지역 제조기업, 지역 디자인기업
+                        </td>
+                        <td>
+                            디자인개발 및 목업제작 지원 : 과제당 44,000 천원 <br>국내·외 마케팅 지원 : 과제당 8,000천원<br> 전문가 자문단 : 횟수 제한 없음 (간접지원)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            서남권 디자인거점<br>활성화사업
+                        </td>
+                        <td>
+                            8월경
+                        </td>
+                        <td>
+                            전 산업에 디자인경영 확산과 지역 디자인기업 역량강화 등 우리 센터의 서남권 디자인 거점 기능 강화 및 지역산업 고도화 지원
+                        </td>
+                    
+                        <td>
+                            서남권역 지역 중소기업
+                        </td>
+                        <td>
+                            19백만원
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            북구 중소기업 <br>디자인개발 지원
+                        </td>
+                    
+                        <td>
+                            3월경
+                        </td>
+                        <td>
+                            디자인개발지원 : 8건<br> 디자인개발 결과물 및 샘플제작 : 8건 <Br>지식재산권(디자인, 상표) 출원 지원 : 8건<br> 성과보고회 및 기업사랑전시회 개최 : 1건
+                        </td>
+                        <td>
+                            광주 북구지역 중소기업
+                        </td>
+                        <td>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+	</div>
+</section>
+<footer class="clearfix">
+<p>
+    <img src="../images/footerimg1.png" alt="AI종합지원센터">
+</p>
+<div class="address">
+    <address>광주광역시 북구 첨단과기로 333 본부동 1층</address>
+    <p>
+        TEL:062)062-0801,0803,0807,0809/fax 062)062-0815
+    </p>
+</div>
+<ul class="footericon_inner clearfix">
+    <li><img src="../images/footerlogo1.png" alt="광주테크노파크"></li>
+    <li><img src="../images/footerlogo2.png" alt="AI종합지원센터"></li>
+</ul>
+</footer>
+</body>
+</html>

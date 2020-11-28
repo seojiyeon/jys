@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인공지능종합지원센터 상담분야</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/sub.css">
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        // F12 버튼 방지
+        $(document).ready(function(){
+            $(document).bind('keydown',function(e){
+                if ( e.keyCode == 123 /* F12 */) {
+                    e.preventDefault();
+                    e.returnValue = false;
+                }
+            });
+        });
+        
+        // 우측 클릭 방지
+        document.onmousedown=disableclick;
+        status="Right click is not available.";
+        
+        function disableclick(event){
+            if (event.button==2) {
+                alert(status);
+                return false;
+            }
+        }
+    </script>
+    
+</head>
+<body oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
+    <section class="sub sub3_2">
+        <section class="sub_top">
+            <header>
+                <a class="logo"><img src="../images/subLogo.png" alt="인공지능 종합지원센터상담분야"></a>
+            </header>
+            <nav>
+                <ul class="big_menu clearfix">
+                    <li><a href="../sub1/sub1_1.html" >인공지능종합지원센터 소개</a></li>
+                    <li><a href="../sub2/sub2_1.html" >지원사업정보</a></li>
+                    <li class="on"><a href="../sub3/sub3_1.html" >멘토링</a></li>
+                </ul>
+                <ul class="small_menu clearfix">
+                    <li><a href="../sub3/sub3_1.html">멘토링 상담절차</a></li>
+                    <li><a href="../sub3/sub3_2.html">멘토현황</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <section class="sub_mid">
+            <div class="container">
+                <h2 class="h2"><img src="../images/subtit3_2.png" alt="AI인공지능종합지원센터소개"></h2>
+                <ul class="sub3_2menu clearfix">
+                    <li><a href="../sub3/sub3_2.html">기술분야</a></li>
+                    <li><a href="../sub3/sub3_3.html">창업/경영</a></li>
+                    <li class="on"><a href="../sub3/sub3_4.html">비즈니스</a></li>
+                    <li><a href="../sub3/sub3_5.html">법률/특허</a></li>
+                </ul>
+                <div class="cnt clearfix">
+                    <ul class="profile clearfix">
+                        
+                        <li class="row37">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp38.jpg">
+                            </p>
+                            <p class="comname">
+                                    광주연합기술지주
+                            </p>
+                            <p class="name">
+                                    손세창
+                            </p>
+                            <p class="prof">
+                                    기술사업화
+                            </p>
+                            <ul class="his">
+                                <li>현) 광주연합기술지주 기술사업화 실장</li>
+                                <li> 중기부(TP창업드림팀) 창업멘토</li>
+                                <li> 기술지주회사 자회사 R&amp;BD 총괄책임자</li>
+                            </ul>
+                            </li>
+                            <li class="row38">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp39.jpg">
+                            </p>
+                            <p class="comname">
+                                    광주창조경제혁신센터
+                            </p>
+                            <p class="name">
+                                    이윤희
+                            </p>
+                            <p class="prof">
+                                    비즈니스
+                            </p>
+                            <ul class="his">
+                                <li>현) 광주창조경제혁신센터 본부장</li>
+                                <li> 한국예탁결제원 투자 멘토</li>
+                                <li> 2020년 광주연구개발특구 혁신주체 네트워크 운영사업 투자지원</li>
+                            </ul>
+                            </li>
+                            <li class="row39">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp40.png">
+                            </p>
+                            <p class="comname">
+                                    인라이트벤처스(유)
+                            </p>
+                            <p class="name">
+                                    유동기
+                            </p>
+                            <p class="prof">
+                                    ICT(AI포함)
+                            </p>
+                            <ul class="his">
+                                <li>현) 인라이트벤처스(유) 대표이사</li>
+                                <li> 계명대 창업지원단 스타트업 전문멘토</li>
+                                <li> 전문펀드 운용을 통한 다수의 ICT업체 투자</li>
+                            </ul>
+                            </li>
+                            <li class="row40">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp41.jpg">
+                            </p>
+                            <p class="comname">
+                                    피앤제이㈜
+                            </p>
+                            <p class="name">
+                                    김종욱
+                            </p>
+                            <p class="prof">
+                                    비즈니스
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜피앤제이 대표전문위원</li>
+                                <li> 전남창조경제혁신센터 창업/경영/AI특화분야 멘토</li>
+                                <li> 경영, 자금관리, 마케팅, 기술 현장 클리닉 PM</li>
+                            </ul>
+                            </li>
+                            <li class="row41">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp42.png">
+                            </p>
+                            <p class="comname">
+                                    LSK인베스트먼트
+                            </p>
+                            <p class="name">
+                                    김명기
+                            </p>
+                            <p class="prof">
+                                    투자유치
+                            </p>
+                            <ul class="his">
+                                <li>현) LSK인베스트먼트 대표이사</li>
+                                <li> 한국생명공학연구원 성장멘토</li>
+                                <li> 한국생명공학연구원 투자멘토</li>
+                            </ul>
+                            </li>
+                            <li class="row42">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp43.jpg">
+                            </p>
+                            <p class="comname">
+                                    조선대학교
+                            </p>
+                            <p class="name">
+                                    성백섭
+                            </p>
+                            <p class="prof">
+                                    창업/경영
+                            </p>
+                            <ul class="his">
+                                <li>현) 조선대학교 교수</li>
+                                <li> 조선대학교 LINC+사업단 (예비)창업분야 동아리멘토</li>
+                                <li> 특구 기술창업 과제책임</li>
+                            </ul>
+                            </li>
+                            <li class="row43">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp44.png">
+                            </p>
+                            <p class="comname">
+                                    광주창조경제혁신센터
+                            </p>
+                            <p class="name">
+                                    강태근
+                            </p>
+                            <p class="prof">
+                                    비즈니스
+                            </p>
+                            <ul class="his">
+                                <li>현) 광주창조경제혁신센터 팀장</li>
+                                <li> 2020년 광주연구개발특구 혁신주체 네트워크 운영사업 투자지원</li>
+                                <li> 벤처창업활성화지원사업 3,4,5기 기업발굴 및 사업수행</li>
+                            </ul>
+                            </li>
+                            <li class="row44">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp45.jpg">
+                            </p>
+                            <p class="comname">
+                                    ㈜씨에스아이스튜디오
+                            </p>
+                            <p class="name">
+                                    신종수
+                            </p>
+                            <p class="prof">
+                                    ICT창업, 투자유치, 정부지원사업 선정, 글로벌진출, 개발진 협업
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜씨에스아이스튜디오 대표이사</li>
+                                <li> 중앙대학원 행정학과(표준화최고위과정)</li>
+                                <li> 정보통신산업진흥원 SW마에스트로멘토 </li>
+                            </ul>
+                            </li>
+                            <li class="row45">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp46.jpg">
+                            </p>
+                            <p class="comname">
+                                    -
+                            </p>
+                            <p class="name">
+                                    이종성
+                            </p>
+                            <p class="prof">
+                                    비즈니스(VC투자유치)
+                            </p>
+                            <ul class="his">
+                                <li>광주테크노파크 경영분야 GFD</li>
+                                <li> 광주테크노파크 자금조달(투자유치)분야 GFD 및 PM</li>
+                            </ul>
+                            </li>
+                            <li class="row46">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp47.jpg">
+                            </p>
+                            <p class="comname">
+                                    ㈜리키인베스트먼트
+                            </p>
+                            <p class="name">
+                                    한상민
+                            </p>
+                            <p class="prof">
+                                    VC투자유치
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜리키인베스트먼트 이사</li>
+                                <li> 한국발명진흥회(특허청) 지식재산멘토</li>
+                                <li> 2019 광주특고 액셀러레이팅 지원사업 총괄</li>
+                            </ul>
+                            </li>
+                            <li class="row47">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp48.jpg">
+                            </p>
+                            <p class="comname">
+                                    ㈜지티티비
+                            </p>
+                            <p class="name">
+                                    박장호
+                            </p>
+                            <p class="prof">
+                                    정부정책자금
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜지티티비 본부장</li>
+                                <li> 전남창조경제혁신센터 창업지원멘토</li>
+                                <li> 중소기업 네트워크형 기술개발 사업화 지원</li>
+                            </ul>
+                            </li>
+                            <li class="row48">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp49.png">
+                            </p>
+                            <p class="comname">
+                                    ㈜디티앤인베스트먼트
+                            </p>
+                            <p class="name">
+                                    조동건
+                            </p>
+                            <p class="prof">
+                                    비즈니스
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜디티앤인베스트먼트 상무</li>
+                                <li> 신한은행 VC멘토</li>
+                                <li> 전문 VC로써 기업의 투자 유치 등 사업 자금 확보 및 운영 관련 지원 가능</li>
+                            </ul>
+                            </li>
+                            <li class="row49">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp50.jpg">
+                            </p>
+                            <p class="comname">
+                                    ㈜이드로 경영파트너스
+                            </p>
+                            <p class="name">
+                                    정문수
+                            </p>
+                            <p class="prof">
+                                    비즈니스
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜이드로경영파트너스 대표</li>
+                                <li> 광주 창업드림팀 투자분야 멘토</li>
+                                <li> (사)한국창업지도사협회 부회장으로서 지도자 육성</li>
+                            </ul>
+                            </li>
+                            <li class="row50">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp51.jpg">
+                            </p>
+                            <p class="comname">
+                                    LSK인베스트먼트
+                            </p>
+                            <p class="name">
+                                    한상엽
+                            </p>
+                            <p class="prof">
+                                    사업모델개발
+                            </p>
+                            <ul class="his">
+                                <li>현) LSK인베스트먼트 전무</li>
+                                <li> 벤처기업 투자 담당 및 다양한 사업모델에 대한 검증 수행</li>
+                            </ul>
+                            </li>
+                            <li class="row51">
+                            <span class="mento_tit">비즈니스</span>
+                            <p class="photo">
+                                <img src="../images/bmp52.jpg">
+                            </p>
+                            <p class="comname">
+                                    LSK인베스트먼트
+                            </p>
+                            <p class="name">
+                                    이영훈
+                            </p>
+                            <p class="prof">
+                                    사업모델개발
+                            </p>
+                            <ul class="his">
+                                <li>현) LSK인베스트먼트 이사</li>
+                                <li> 서울바이오허브 투자심사 및 멘토</li>
+                            </ul>
+                            </li>
+                           
+                            
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer class="clearfix">
+        <p><img src="../images/footerimg1.png" alt="AI종합지원센터"></p>
+        <div class="address">
+            <address>광주광역시 북구 첨단과기로 333 본부동 1층</address>
+            <p>TEL:062)062-0801,0803,0807,0809/fax 062)062-0815</p>
+        </div>
+        <ul class="footericon_inner clearfix">
+            <li><img src="../images/footerlogo1.png" alt="광주테크노파크"></li>
+            <li><img src="../images/footerlogo2.png" alt="AI종합지원센터"></li>
+        </ul>
+    </footer>
+</body>
+</html>

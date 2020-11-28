@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인공지능종합지원센터 상담분야</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/sub.css">
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        // F12 버튼 방지
+        $(document).ready(function(){
+            $(document).bind('keydown',function(e){
+                if ( e.keyCode == 123 /* F12 */) {
+                    e.preventDefault();
+                    e.returnValue = false;
+                }
+            });
+        });
+        
+        // 우측 클릭 방지
+        document.onmousedown=disableclick;
+        status="Right click is not available.";
+        
+        function disableclick(event){
+            if (event.button==2) {
+                alert(status);
+                return false;
+            }
+        }
+    </script>
+    
+   
+</head>
+<body oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
+    <section class="sub sub3_2">
+        <section class="sub_top">
+            <header>
+                <a class="logo"><img src="../images/subLogo.png" alt="인공지능 종합지원센터상담분야"></a>
+            </header>
+            <nav>
+                <ul class="big_menu clearfix">
+                    <li><a href="../sub1/sub1_1.html" >인공지능종합지원센터 소개</a></li>
+                    <li><a href="../sub2/sub2_1.html" >지원사업정보</a></li>
+                    <li class="on"><a href="../sub3/sub3_1.html" >멘토링</a></li>
+                </ul>
+                <ul class="small_menu clearfix">
+                    <li><a href="../sub3/sub3_1.html">멘토링 상담절차</a></li>
+                    <li><a href="../sub3/sub3_2.html">멘토현황</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <section class="sub_mid">
+            <div class="container">
+                <h2 class="h2"><img src="../images/subtit3_2.png" alt="AI인공지능종합지원센터소개"></h2>
+                <ul class="sub3_2menu clearfix">
+                    <li class="on"><a href="../sub3/sub3_2.html">기술분야</a></li>
+                    <li><a href="../sub3/sub3_3.html">창업/경영</a></li>
+                    <li><a href="../sub3/sub3_4.html">비즈니스</a></li>
+                    <li><a href="../sub3/sub3_5.html">법률/특허</a></li>
+                </ul>
+                <div class="cnt clearfix">
+                    <ul class="profile clearfix">
+                        <li class="row1">
+                        <span class="mento_tit">기술분야</span>
+                        <p class="photo">
+                            <img src="../images/bmp1.bmp">
+                        </p>
+                        <p class="comname">
+                            ㈜바이오브레인
+                        </p>
+                        <p class="name">
+                            김기성
+                        </p>
+                        <p class="prof">
+                            AI주요기술전문가 
+                        </p>
+                        <ul class="his">
+                            <li>현) ㈜바이오브레인 대표</li>
+                            <li>현 KAIST 바이오 및 뇌공학과 TA</li>
+                            <li>현 HIRA(건강보험심사평가원) 자문위원</li>
+                        </ul>
+                        </li>
+                        <li class="row1">
+                            <span class="mento_tit">기술분야</span>
+                            <p class="photo">
+                                <img src="../images/bmp2.bmp">
+                            </p>
+                            <p class="comname">
+                                    한국전자통신연구원
+                            </p>
+                            <p class="name">
+                                    김도형
+                            </p>
+                            <p class="prof">
+                                    시각지능
+                            </p>
+                            <ul class="his">
+                                <li>현) 한국전자통신연구원 책임연구원</li>
+                                <li> 한국정보화진흥원(NIA) 자문위원</li>
+                            </ul>
+                            </li>
+                            <li class="row2">
+                            <span class="mento_tit">기술분야</span>
+                            <p class="photo">
+                                <img src="../images/bmp3.bmp">
+                            </p>
+                            <p class="comname">
+                                    서울과학기술대학교
+                            </p>
+                            <p class="name">
+                                    이승은
+                            </p>
+                            <p class="prof">
+                                    머신러닝
+                            </p>
+                            <ul class="his">
+                                <li>현) 서울과학기술대학교 전자IT미디어공학과 교수</li>
+                                <li> 호흡치료기 디바이스용 경량 SW-Soc 솔루션 개발</li>
+                                <li> 인공지능 뉴로모픽 프로세서 연구개발</li>
+                            </ul>
+                            </li>
+                            <li class="row3">
+                            <span class="mento_tit">기술분야</span>
+                            <p class="photo">
+                                <img src="../images/bmp4.bmp">
+                            </p>
+                            <p class="comname">
+                                    ㈜케이티엔에프
+                            </p>
+                            <p class="name">
+                                    이중연
+                            </p>
+                            <p class="prof">
+                                    기술
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜케이티엔에프 대표이사</li>
+                                <li> AI 주요기술을 중심으로 H/W 제품개발 </li>
+                                <li> 컴퓨티 집약적 엣지 서비스 제공을 위한 서버 컴퓨팅 모듈 기술 개발</li>
+                            </ul>
+                            </li>
+                            <li class="row4">
+                            <span class="mento_tit">기술분야</span>
+                            <p class="photo">
+                                <img src="../images/bmp5.bmp">
+                            </p>
+                            <p class="comname">
+                                    서강대학교
+                            </p>
+                            <p class="name">
+                                    박형민
+                            </p>
+                            <p class="prof">
+                                    청각지능
+                            </p>
+                            <ul class="his">
+                                <li>현) 서강대학교 전자공학과 교수</li>
+                                <li> 청각지능·시각지능·상황인지 분야에서 다수 논문 발표, 특허 출원 /등록</li>
+                                <li> 시청각 정보에 대한 멀티모달 딥러닝 기반의 강인한 연속음성인식 기술 개발</li>
+                            </ul>
+                            </li>
+                            <li class="row5">
+                            <span class="mento_tit">기술분야</span>
+                            <p class="photo">
+                                <img src="../images/bmp6.bmp">
+                            </p>
+                            <p class="comname">
+                                    창원대학교
+                            </p>
+                            <p class="name">
+                                    차정원
+                            </p>
+                            <p class="prof">
+                                    기술
+                            </p>
+                            <ul class="his">
+                                <li>현) 창원대학교 컴퓨터공학과 교수</li>
+                                <li> GANs를 이용한 딥러닝용 학습데이터 자가 증식 기술 및 유효성 검증 기술개발 </li>
+                            </ul>
+                            </li>
+                            <li class="row6">
+                            <span class="mento_tit">기술분야</span>
+                            <p class="photo">
+                                <img src="../images/bmp7.bmp">
+                            </p>
+                            <p class="comname">
+                                    한국광기술원
+                            </p>
+                            <p class="name">
+                                    김선만
+                            </p>
+                            <p class="prof">
+                                    청각지능
+                            </p>
+                            <ul class="his">
+                                <li>현) 한국광기술원 공간광정보연구센터 선임연구원</li>
+                                <li> 인공지능을 이용한 음향기반 위급상황 분석 비상벨 관제 시스템 개발</li>
+                            </ul>
+                            </li>
+                            <li class="row7">
+                            <span class="mento_tit">기술분야</span>
+                            <p class="photo">
+                                <img src="../images/bmp8.bmp">
+                            </p>
+                            <p class="comname">
+                                    한양대학교
+                            </p>
+                            <p class="name">
+                                    김재하
+                            </p>
+                            <p class="prof">
+                                    언어 및 청각지능
+                            </p>
+                            <ul class="his">
+                                <li>현) 한양대학교 산학협력중점교수</li>
+                                <li> 자동차 주행소음에 강인한 딥러닝 기반 화자인식 기술 개발 책임</li>
+                                <li> AI 스피커 음성비서를 위한 지능형 음성신호처리 기술개발</li>
+                            </ul>
+                            </li>
+                            <li class="row8">
+                            <span class="mento_tit">기술분야</span>
+                            <p class="photo">
+                                <img src="../images/bmp9.bmp">
+                            </p>
+                            <p class="comname">
+                                    상지대학교
+                            </p>
+                            <p class="name">
+                                    고광만
+                            </p>
+                            <p class="prof">
+                                    머신러닝
+                            </p>
+                            <ul class="his">
+                                <li>현) 상지대학교 컴퓨터공학과 교수</li>
+                                <li> 광역산업 지역R&amp;D 공동연구 책임자</li>
+                            </ul>
+                            </li>
+                            <li class="row9">
+                            <span class="mento_tit">기술분야</span>
+                            <p class="photo">
+                                <img src="../images/bmp10.bmp">
+                            </p>
+                            <p class="comname">
+                                    광주대학교
+                            </p>
+                            <p class="name">
+                                    장휘일
+                            </p>
+                            <p class="prof">
+                                    기술
+                            </p>
+                            <ul class="his">
+                                <li>현)광주대학교 교수</li>
+                                <li> 한국사회적기업진흥원 소셜벤처 경연대회 심사위원</li>
+                                <li> 전전자교환기(pX)개발 </li>
+                            </ul>
+                            </li>
+                            <li class="row10">
+                            <span class="mento_tit">기술분야</span>
+                            <p class="photo">
+                                <img src="../images/bmp11.bmp">
+                            </p>
+                            <p class="comname">
+                                    더이노베이터스
+                            </p>
+                            <p class="name">
+                                    최광선
+                            </p>
+                            <p class="prof">
+                                    기술
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜더이노베이터스 대표이사</li>
+                                <li> &nbsp;과학기술정보통신부 혁신성장 청년인재 기술 멘토 (인공지능, 빅데이터)</li>
+                                <li> 소셜 스트림 리즈닝을 통한 비매체 판촉활동(BTL)기회탐색 및 사후 평가 서비스 플랫폼 개발</li>
+                            </ul>
+                            </li>
+                            <li class="row11">
+                            <span class="mento_tit">기술분야</span>
+                            <p class="photo">
+                                <img src="../images/bmp12.bmp">
+                            </p>
+                            <p class="comname">
+                                    비에스소프트
+                            </p>
+                            <p class="name">
+                                    장범석
+                            </p>
+                            <p class="prof">
+                                    머신러닝
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜비에스소프트 대표 </li>
+                                <li> 인공지능을 이용한 음향기반 위급상황 분석 물리보안장치 관제 시스템 개발</li>
+                                <li> Tensorflow, Keras를 활용한 딥러닝 모델 구현</li>
+                            </ul>
+                            </li>
+                            <li class="row12">
+                            <span class="mento_tit">기술분야</span>
+                            <p class="photo">
+                                <img src="../images/bmp13.bmp">
+                            </p>
+                            <p class="comname">
+                                    한국과학기술정보연구원
+                            </p>
+                            <p class="name">
+                                    이상민
+                            </p>
+                            <p class="prof">
+                                    AI모델링기획
+                            </p>
+                            <ul class="his">
+                                <li>현) 한국과학기술정보연구원 책임연구원</li>
+                                <li> IITP 주관 인공지능 기술청사진 기획위원 </li>
+                                <li> 딥러닝 기반 도심지 교통혼잡 예측 및 신호제어 솔루션 시스템 개발</li>
+                            </ul>
+                            </li>
+                            <li class="row13">
+                                <span class="mento_tit">기술분야</span>
+                                <p class="photo">
+                                    <img src="../images/bmp14.jpg">
+                                </p>
+                                <p class="comname">
+                                        SK㈜ C&amp;C
+                                </p>
+                                <p class="name">
+                                        문용준
+                                </p>
+                                <p class="prof">
+                                        빅데이터
+                                </p>
+                                <ul class="his">
+                                    <li>현) SK㈜ C&amp;C 수석</li>
+                                </ul>
+                            </li>
+                            <li class="row14">
+                                <span class="mento_tit">기술분야</span>
+                                <p class="photo">
+                                    <img src="../images/bmp15.bmp">
+                                </p>
+                                <p class="comname">
+                                        호남대산학협력단
+                                </p>
+                                <p class="name">
+                                        정호채
+                                </p>
+                                <p class="prof">
+                                        기타기술/제품개발
+                                </p>
+                                <ul class="his">
+                                    <li>현) 호남대산학협력단 산중교수 (전문위원)</li>
+                                    <li> 중소벤처기업부 K - STARTUP 분야 시제품 제작</li>
+                                </ul>
+                            </li>
+                            <li class="row15">
+                                <span class="mento_tit">기술분야</span>
+                                <p class="photo">
+                                    <img src="../images/bmp16.bmp">
+                                </p>
+                                <p class="comname">
+                                        전남도립대학교
+                                </p>
+                                <p class="name">
+                                        주재한
+                                </p>
+                                <p class="prof">
+                                        사업계획서 작성 및 발표
+                                </p>
+                                <ul class="his">
+                                    <li>현) 전남도립대학교 산학중점교수</li>
+                                    <li> 에너지밸리산학융합사업단 애로기술 자문</li>
+                                    <li> 스마트제조혁신추진단 스마트공장구축사업 자문</li>
+                                </ul>
+                            </li>
+                            <li class="row16">
+                                <span class="mento_tit">기술분야</span>
+                                <p class="photo">
+                                    <img src="../images/bmp17.bmp">
+                                </p>
+                                <p class="comname">
+                                        비앤엠경영연구소
+                                </p>
+                                <p class="name">
+                                        최우석
+                                </p>
+                                <p class="prof">
+                                        기술
+                                </p>
+                                <ul class="his">
+                                    <li>현)비앤엠경영연구소 대표</li>
+                                    <li> 광주테크노파크 광통신제품 관련 기술멘토</li>
+                                    <li> 고정밀, 고신뢰선 128ch FIBER ARRAY and FAN-OUT 개발</li>
+                                </ul>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer class="clearfix">
+        <p><img src="../images/footerimg1.png" alt="AI종합지원센터"></p>
+        <div class="address">
+            <address>광주광역시 북구 첨단과기로 333 본부동 1층</address>
+            <p>TEL:062)062-0801,0803,0807,0809/fax 062)062-0815</p>
+        </div>
+        <ul class="footericon_inner clearfix">
+            <li><img src="../images/footerlogo1.png" alt="광주테크노파크"></li>
+            <li><img src="../images/footerlogo2.png" alt="AI종합지원센터"></li>
+        </ul>
+    </footer>
+</body>
+</html>

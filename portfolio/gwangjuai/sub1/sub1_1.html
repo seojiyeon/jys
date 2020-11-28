@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인공지능종합지원센터 상담분야</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/sub.css">
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        // F12 버튼 방지
+        $(document).ready(function(){
+            $(document).bind('keydown',function(e){
+                if ( e.keyCode == 123 /* F12 */) {
+                    e.preventDefault();
+                    e.returnValue = false;
+                }
+            });
+        });
+        
+        // 우측 클릭 방지
+        document.onmousedown=disableclick;
+        status="Right click is not available.";
+        
+        function disableclick(event){
+            if (event.button==2) {
+                alert(status);
+                return false;
+            }
+        }
+    </script>
+    
+</head>
+<body oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
+    <section class="sub sub1">
+        <section class="sub_top">
+            <header>
+                <a class="logo"><img src="../images/subLogo.png" alt="인공지능 종합지원센터상담분야"></a>
+            </header>
+            <nav>
+                <ul class="big_menu clearfix">
+                    <li class="on"><a href="../sub1/sub1_1.html" >인공지능종합지원센터 소개</a></li>
+                    <li><a href="../sub2/sub2_1.html" >지원사업정보</a></li>
+                    <li><a href="../sub3/sub3_1.html" >멘토링</a></li>
+                </ul>
+                <ul class="small_menu clearfix">
+                    <li><a href="../sub1/sub1_1.html">인공지능종합지원센터소개</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <section class="sub_mid">
+            <div class="container">
+                <h2 class="h2"><img src="../images/subtit1.png" alt="AI인공지능종합지원센터소개"></h2>
+                <p class="page_explan">인공지능 종합지원센터는 인공지능 관련 기업의 입주공간 제공, 투자유치, 기술개발, 인력수급, 법률ㆍ특허ㆍ금융ㆍ경영 컨설팅 등을 패키지로 지원하는 원스톱서비스를 제공합니다.<br>
+                    인공지능 업체들의 애로사항을 원스톱으로 해결하기 위해 종합지원센터는 기술, 비즈니스, 창업, 금융, 법률 전문가로 멘토단을 구성하고 기업별 상황에 맞는 맞춤형 지원서비스를<br>
+                    위한 멘토링 프로그램을 운영 중입니다.</p>
+                <div class="cnt clearfix">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.2236353884487!2d126.8598490110847!3d35.2258026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35718e05c83f1595%3A0x820504c00d5d1cd5!2z6rSR7KO87YWM7YGs64W47YyM7YGs!5e0!3m2!1sko!2skr!4v1606484045799!5m2!1sko!2skr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="comeon">
+                        <span>오시는길</span>
+                        <p>
+                            <strong>주소</strong>
+                            광주광역시 북구 첨단과기로 333 본부동 1층
+                        </p>
+                        <p> <strong>전화</strong>
+                            062)602-0801,0803,0807,0809 / FAX: 062)602-0815
+                        </p>
+                        <p> <strong>버스</strong>
+                            [간선]첨단40, [지선]첨단94
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer class="clearfix">
+        <p><img src="../images/footerimg1.png" alt="AI종합지원센터"></p>
+        <div class="address">
+            <address>광주광역시 북구 첨단과기로 333 본부동 1층</address>
+            <p>TEL:062)062-0801,0803,0807,0809/fax 062)062-0815</p>
+        </div>
+        <ul class="footericon_inner clearfix">
+            <li><img src="../images/footerlogo1.png" alt="광주테크노파크"></li>
+            <li><img src="../images/footerlogo2.png" alt="AI종합지원센터"></li>
+        </ul>
+    </footer>
+</body>
+</html>

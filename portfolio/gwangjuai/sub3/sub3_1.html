@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인공지능종합지원센터 상담분야</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/sub.css">
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        // F12 버튼 방지
+        $(document).ready(function(){
+            $(document).bind('keydown',function(e){
+                if ( e.keyCode == 123 /* F12 */) {
+                    e.preventDefault();
+                    e.returnValue = false;
+                }
+            });
+        });
+        
+        // 우측 클릭 방지
+        document.onmousedown=disableclick;
+        status="Right click is not available.";
+        
+        function disableclick(event){
+            if (event.button==2) {
+                alert(status);
+                return false;
+            }
+        }
+    </script>
+    
+    
+</head>
+<body oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
+    <section class="sub sub3">
+        <section class="sub_top">
+            <header>
+                <a class="logo"><img src="../images/subLogo.png" alt="인공지능 종합지원센터상담분야"></a>
+            </header>
+            <nav>
+                <ul class="big_menu clearfix">
+                    <li><a href="../sub1/sub1_1.html" >인공지능종합지원센터 소개</a></li>
+                    <li><a href="../sub2/sub2_1.html" >지원사업정보</a></li>
+                    <li class="on"><a href="../sub3/sub3_1.html" >멘토링</a></li>
+                </ul>
+                <ul class="small_menu clearfix">
+                    <li><a href="../sub3/sub3_1.html">멘토링 상담절차</a></li>
+                    <li><a href="../sub3/sub3_2.html">멘토현황</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <section class="sub_mid">
+            <div class="container">
+                <h2 class="h2"><img src="../images/subtitle3.png" alt="AI인공지능종합지원센터소개"></h2>
+             
+                <div class="cnt clearfix">
+                    <img src="../images/sum3_1Img.png" alt="">
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer class="clearfix">
+        <p><img src="../images/footerimg1.png" alt="AI종합지원센터"></p>
+        <div class="address">
+            <address>광주광역시 북구 첨단과기로 333 본부동 1층</address>
+            <p>TEL:062)062-0801,0803,0807,0809/fax 062)062-0815</p>
+        </div>
+        <ul class="footericon_inner clearfix">
+            <li><img src="../images/footerlogo1.png" alt="광주테크노파크"></li>
+            <li><img src="../images/footerlogo2.png" alt="AI종합지원센터"></li>
+        </ul>
+    </footer>
+</body>
+</html>

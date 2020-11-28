@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인공지능종합지원센터 상담분야</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/sub.css">
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        // F12 버튼 방지
+        $(document).ready(function(){
+            $(document).bind('keydown',function(e){
+                if ( e.keyCode == 123 /* F12 */) {
+                    e.preventDefault();
+                    e.returnValue = false;
+                }
+            });
+        });
+        
+        // 우측 클릭 방지
+        document.onmousedown=disableclick;
+        status="Right click is not available.";
+        
+        function disableclick(event){
+            if (event.button==2) {
+                alert(status);
+                return false;
+            }
+        }
+    </script>
+    
+</head>
+<body oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
+    <section class="sub sub3_2">
+        <section class="sub_top">
+            <header>
+                <a class="logo"><img src="../images/subLogo.png" alt="인공지능 종합지원센터상담분야"></a>
+            </header>
+            <nav>
+                <ul class="big_menu clearfix">
+                    <li><a href="../sub1/sub1_1.html" >인공지능종합지원센터 소개</a></li>
+                    <li><a href="../sub2/sub2_1.html" >지원사업정보</a></li>
+                    <li class="on"><a href="../sub3/sub3_1.html" >멘토링</a></li>
+                </ul>
+                <ul class="small_menu clearfix">
+                    <li><a href="../sub3/sub3_1.html">멘토링 상담절차</a></li>
+                    <li><a href="../sub3/sub3_2.html">멘토현황</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <section class="sub_mid">
+            <div class="container">
+                <h2 class="h2"><img src="../images/subtit3_2.png" alt="AI인공지능종합지원센터소개"></h2>
+                <ul class="sub3_2menu clearfix">
+                    <li><a href="../sub3/sub3_2.html">기술분야</a></li>
+                    <li><a href="../sub3/sub3_3.html">창업/경영</a></li>
+                    <li><a href="../sub3/sub3_4.html">비즈니스</a></li>
+                    <li class="on"><a href="../sub3/sub3_5.html">법률/특허</a></li>
+                </ul>
+                <div class="cnt clearfix">
+                    <ul class="profile clearfix">
+                            <li class="row52">
+                            <span class="mento_tit">법률/특허</span>
+                            <p class="photo">
+                                <img src="../images/bmp53.jpg">
+                            </p>
+                            <p class="comname">
+                                    특허법인 지원
+                            </p>
+                            <p class="name">
+                                    심성렬
+                            </p>
+                            <p class="prof">
+                                    특허
+                            </p>
+                            <ul class="his">
+                                <li>현) 특허법인 지원 대표변리사</li>
+                                <li> 한국발명진흥회(특허청) 지식재산멘토</li>
+                                <li> 2019 광주특구 액셀러레이팅 지원사업 총괄</li>
+                            </ul>
+                            </li>
+                            <li class="row53">
+                            <span class="mento_tit">법률/특허</span>
+                            <p class="photo">
+                                <img src="../images/bmp54.jpg">
+                            </p>
+                            <p class="comname">
+                                    특허법인 아이엠
+                            </p>
+                            <p class="name">
+                                    송진영
+                            </p>
+                            <p class="prof">
+                                    법률/특허
+                            </p>
+                            <ul class="his">
+                                <li>현) 특허법인 아이엠 대표변리사</li>
+                                <li> 광주지식재산센터 재능 나눔</li>
+                                <li> 전남테크노파크 특허/인증 분야 멘토</li>
+                            </ul>
+                            </li>
+                            <li class="row54">
+                            <span class="mento_tit">법률/특허</span>
+                            <p class="photo">
+                                <img src="../images/bmp55.png">
+                            </p>
+                            <p class="comname">
+                                    일비특허법률사무소
+                            </p>
+                            <p class="name">
+                                    김진규
+                            </p>
+                            <p class="prof">
+                                    특허
+                            </p>
+                            <ul class="his">
+                                <li>현)일비특허법률사무소 공동대표변리사</li>
+                                <li> 서울산업진흥원 IP 컨설팅</li>
+                            </ul>
+                            </li>
+                            <li class="row55">
+                            <span class="mento_tit">법률/특허</span>
+                            <p class="photo">
+                                <img src="../images/bmp56.png">
+                            </p>
+                            <p class="comname">
+                                    일비특허법률사무소
+                            </p>
+                            <p class="name">
+                                    김종필
+                            </p>
+                            <p class="prof">
+                                    특허
+                            </p>
+                            <ul class="his">
+                                <li>현)일비특허법률사무소 공동대표변리사</li>
+                                <li> 서울산업진흥원 IP 컨설팅</li>
+                            </ul>
+                            </li>
+                            <li class="row56">
+                            <span class="mento_tit">법률/특허</span>
+                            <p class="photo">
+                                <img src="../images/bmp57.jpg">
+                            </p>
+                            <p class="comname">
+                                    법무법인 제하
+                            </p>
+                            <p class="name">
+                                    전세준
+                            </p>
+                            <p class="prof">
+                                    법률/특허
+                            </p>
+                            <ul class="his">
+                                <li>현) (사)타이드인스티튜트 대표이사</li>
+                                <li> 현) 법무법인제하 대표변호사</li>
+                                <li> 중소벤처기업부 법률/특허, 창업/경영 분야 멘토</li>
+                            </ul>
+                            </li>
+                            <li class="row57">
+                            <span class="mento_tit">법률/특허</span>
+                            <p class="photo">
+                                <img src="../images/bmp58.png">
+                            </p>
+                            <p class="comname">
+                                    법무법인 태성
+                            </p>
+                            <p class="name">
+                                    임정훈
+                            </p>
+                            <p class="prof">
+                                    법률
+                            </p>
+                            <ul class="his">
+                                <li>현) 법무법인 태성 변호사</li>
+                                <li> 광주신용보증재단 자문변호사</li>
+                                <li> 한국자산관리공사 자문변호사</li>
+                            </ul>
+                            </li>
+                            <li class="row58">
+                            <span class="mento_tit">법률/특허</span>
+                            <p class="photo">
+                                <img src="../images/bmp59.jpg">
+                            </p>
+                            <p class="comname">
+                                    한국발명진흥회
+                            </p>
+                            <p class="name">
+                                    문해민
+                            </p>
+                            <p class="prof">
+                                    특허
+                            </p>
+                            <ul class="his">
+                                <li>현) 한국발명진흥회 전문위원</li>
+                                <li> 한국예탁결제원 특허분야 멘토</li>
+                                <li> 얼굴 추출 및 실시간 다수 얼굴 추적 R&amp;D를 통한 기술개발</li>
+                            </ul>
+                            </li>
+                            <li class="row59">
+                            <span class="mento_tit">법률/특허</span>
+                            <p class="photo">
+                                <img src="../images/bmp60.png">
+                            </p>
+                            <p class="comname">
+                                    도울국제특허법률사무소
+                            </p>
+                            <p class="name">
+                                    이창재
+                            </p>
+                            <p class="prof">
+                                    특허 등록/유지
+                            </p>
+                            <ul class="his">
+                                <li>현)도울국제특허법률사무소 대표변리사</li>
+                                <li> 과학기술정보통신부 정보통신기획평가원 SW마에스트로 분야 멘토</li>
+                            </ul>
+                            </li>
+                            <li class="row60">
+                            <span class="mento_tit">법률/특허</span>
+                            <p class="photo">
+                                <img src="../images/bmp61.jpg">
+                            </p>
+                            <p class="comname">
+                                    한국발명진흥회
+                            </p>
+                            <p class="name">
+                                    임인선
+                            </p>
+                            <p class="prof">
+                                    법률/특허
+                            </p>
+                            <ul class="his">
+                                <li>현) 한국발명진흥회 팀장</li>
+                                <li> 광주창조경제혁신센터 지식재산컨설팅 멘토</li>
+                                <li> ISO9001, ISO14001 심사원</li>
+                            </ul>
+                            </li>
+                            <li class="row61">
+                            <span class="mento_tit">법률/특허</span>
+                            <p class="photo">
+                                <img src="../images/bmp62.jpg">
+                            </p>
+                            <p class="comname">
+                                    베스트법률경영사무소
+                            </p>
+                            <p class="name">
+                                    이정봉
+                            </p>
+                            <p class="prof">
+                                    인사노무관리
+                            </p>
+                            <ul class="his">
+                                <li>현) 베스트법률경영사무소 공인노무사</li>
+                                <li> (재)광주테크노파크 인사노무 GFD</li>
+                                <li> (재)전남창조경제혁신센터 인사노무 멘토</li>
+                            </ul>
+                            </li>
+                            <li class="row62">
+                            <span class="mento_tit">법률/특허</span>
+                            <p class="photo">
+                                <img src="../images/bmp63.jpg">
+                            </p>
+                            <p class="comname">
+                                    한국발명진흥회
+                            </p>
+                            <p class="name">
+                                    주용진
+                            </p>
+                            <p class="prof">
+                                    특허
+                            </p>
+                            <ul class="his">
+                                <li>현)한국발명진흥회 전문위원</li>
+                                <li> 20년 IP창출지원사업 35개사 27건 컨설팅</li>
+                                <li> 19년 IP창출지원사업 32개사 50건 컨설팅</li>
+                            </ul>
+                            </li>
+                            <li class="row63">
+                            <span class="mento_tit">법률/특허</span>
+                            <p class="photo">
+                                <img src="../images/bmp64.jpg">
+                            </p>
+                            <p class="comname">
+                                    LSK인베스트먼트
+                            </p>
+                            <p class="name">
+                                    이명권
+                            </p>
+                            <p class="prof">
+                                    비즈니스
+                            </p>
+                            <ul class="his">
+                                <li>현) LSK인베스트먼트 이사</li>
+                                <li> 대통령직속 국가일자리위원회 운영위원</li>
+                                <li> 마이크로의료로봇 실용화공통기반 기술개발센터 운영위원</li>
+                            </ul>
+                            </li>
+                            <li class="row64">
+                            <span class="mento_tit">법률/특허</span>
+                            <p class="photo">
+                                <img src="../images/bmp65.jpg">
+                            </p>
+                            <p class="comname">
+                                    한국발명진흥회
+                            </p>
+                            <p class="name">
+                                    김진현
+                            </p>
+                            <p class="prof">
+                                    법률/특허
+                            </p>
+                            <ul class="his">
+                                <li>현) 한국발명진흥회 전문위원</li>
+                                <li> 4차산업혁명 인력양성사업 IP교육 실무책임</li>
+                                <li> 중소기업 우수기술시제품지작지원사업 실무책임</li>
+                            </ul>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer class="clearfix">
+        <p><img src="../images/footerimg1.png" alt="AI종합지원센터"></p>
+        <div class="address">
+            <address>광주광역시 북구 첨단과기로 333 본부동 1층</address>
+            <p>TEL:062)062-0801,0803,0807,0809/fax 062)062-0815</p>
+        </div>
+        <ul class="footericon_inner clearfix">
+            <li><img src="../images/footerlogo1.png" alt="광주테크노파크"></li>
+            <li><img src="../images/footerlogo2.png" alt="AI종합지원센터"></li>
+        </ul>
+    </footer>
+</body>
+</html>

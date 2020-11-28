@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인공지능종합지원센터 상담분야</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/sub.css">
+    <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        // F12 버튼 방지
+        $(document).ready(function(){
+            $(document).bind('keydown',function(e){
+                if ( e.keyCode == 123 /* F12 */) {
+                    e.preventDefault();
+                    e.returnValue = false;
+                }
+            });
+        });
+        
+        // 우측 클릭 방지
+        document.onmousedown=disableclick;
+        status="Right click is not available.";
+        
+        function disableclick(event){
+            if (event.button==2) {
+                alert(status);
+                return false;
+            }
+        }
+    </script>
+    
+    
+</head>
+<body  oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
+    <section class="sub sub3_2">
+        <section class="sub_top">
+            <header>
+                <a class="logo"><img src="../images/subLogo.png" alt="인공지능 종합지원센터상담분야"></a>
+            </header>
+            <nav>
+                <ul class="big_menu clearfix">
+                    <li><a href="../sub1/sub1_1.html" >인공지능종합지원센터 소개</a></li>
+                    <li><a href="../sub2/sub2_1.html" >지원사업정보</a></li>
+                    <li class="on"><a href="../sub3/sub3_1.html" >멘토링</a></li>
+                </ul>
+                <ul class="small_menu clearfix">
+                    <li><a href="../sub3/sub3_1.html">멘토링 상담절차</a></li>
+                    <li><a href="../sub3/sub3_2.html">멘토현황</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <section class="sub_mid">
+            <div class="container">
+                <h2 class="h2"><img src="../images/subtit3_2.png" alt="AI인공지능종합지원센터소개"></h2>
+                <ul class="sub3_2menu clearfix">
+                    <li><a href="../sub3/sub3_2.html">기술분야</a></li>
+                    <li class="on"><a href="../sub3/sub3_3.html">창업/경영</a></li>
+                    <li><a href="../sub3/sub3_4.html">비즈니스</a></li>
+                    <li><a href="../sub3/sub3_5.html">법률/특허</a></li>
+                </ul>
+                <div class="cnt clearfix">
+                    <ul class="profile clearfix">
+                        
+                        <li class="row17">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp18.bmp">
+                            </p>
+                            <p class="comname">
+                                    ㈜JCM PARTNERS
+                            </p>
+                            <p class="name">
+                                    이현태
+                            </p>
+                            <p class="prof">
+                                    시장진출전략
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜JCM PARTNERS 대표컨설턴트</li>
+                                <li> 창업진흥원 창업기술사업화 멘토</li>
+                                <li> 창진원, 전남중소기업진흥원, 창조경제센터 멘토수행</li>
+                            </ul>
+                            </li>
+                            <li class="row18">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp19.bmp">
+                            </p>
+                            <p class="comname">
+                                    광주대학교
+                            </p>
+                            <p class="name">
+                                    김용호
+                            </p>
+                            <p class="prof">
+                                    창업/경영
+                            </p>
+                            <ul class="his">
+                                <li>현) 광주대학교 IT자동차학과 교수</li>
+                                <li> 전남창조경제센터 창업지원멘토</li>
+                                <li> &quot;유해가스제거 및 산소발생 공기정화기&quot; 인공지능 알고리즘 개발</li>
+                            </ul>
+                            </li>
+                            <li class="row19">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp20.bmp">
+                            </p>
+                            <p class="comname">
+                                    전남중소기업진흥원
+                            </p>
+                            <p class="name">
+                                    박정훈
+                            </p>
+                            <p class="prof">
+                                    사업계획서 작성 및 발표
+                            </p>
+                            <ul class="his">
+                                <li>현) 전남중소기업진흥원 기업지원부 부장</li>
+                                <li> 전남창조경제혁신센터 AI창업지도 멘토</li>
+                            </ul>
+                            </li>
+                            <li class="row20">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp21.bmp">
+                            </p>
+                            <p class="comname">
+                                    광주대학교
+                            </p>
+                            <p class="name">
+                                    이충수
+                            </p>
+                            <p class="prof">
+                                    마케팅전략
+                            </p>
+                            <ul class="his">
+                                <li>현) 광주대학교 물류무역학과 교수</li>
+                                <li> 창업진흥원 창업경영 전담멘토</li>
+                                <li> ㈜넷은 AI 안면인식 솔루션 마케팅 전량 수립 컨설턴트</li>
+                            </ul>
+                            </li>
+                            <li class="row21">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp22.bmp">
+                            </p>
+                            <p class="comname">
+                                    광주대학교
+                            </p>
+                            <p class="name">
+                                    윤인철
+                            </p>
+                            <p class="prof">
+                                    창업/경영
+                            </p>
+                            <ul class="his">
+                                <li>현) 광주대학교 물류무역학과 교수</li>
+                                <li> 창업진흥원 창업경영 전담멘토</li>
+                                <li> 창업선도대학 육성사업 실무책임자</li>
+                            </ul>
+                            </li>
+                            <li class="row22">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp23.png">
+                            </p>
+                            <p class="comname">
+                                    호남대학교
+                            </p>
+                            <p class="name">
+                                    정선리
+                            </p>
+                            <p class="prof">
+                                    비즈니스모델 개발
+                            </p>
+                            <ul class="his">
+                                <li>현) 호남대학교 창업학과 교수</li>
+                                <li> 창업진흥원 예비창업패키지분야 경영전문 멘토</li>
+                            </ul>
+                            </li>
+                            <li class="row23">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp24.bmp">
+                            </p>
+                            <p class="comname">
+                                    늘푸른경영
+                            </p>
+                            <p class="name">
+                                    윤봉주
+                            </p>
+                            <p class="prof">
+                                    창업/경영
+                            </p>
+                            <ul class="his">
+                                <li>현) 늘푸른경영 대표</li>
+                                <li> 창업진흥원 중소벤처진흥공단 무역창업 멘토</li>
+                                <li> 무역조정 멘토링 멘토/컨설턴트</li>
+                            </ul>
+                            </li>
+                            <li class="row24">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp25.bmp">
+                            </p>
+                            <p class="comname">
+                                    ㈜날리지바인
+                            </p>
+                            <p class="name">
+                                    이경재
+                            </p>
+                            <p class="prof">
+                                    창업/경영
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜날리지바인 대표</li>
+                                <li> 조선대학교 창업지원단 일반인창업멘토</li>
+                                <li> 지역 ICT 이노베이션 스퀘어 조성사업 계획서 사업계획서 작성 PM</li>
+                            </ul>
+                            </li>
+                            <li class="row25">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp26.bmp">
+                            </p>
+                            <p class="comname">
+                                    ㈜동명경영컨설팅
+                            </p>
+                            <p class="name">
+                                    이일범
+                            </p>
+                            <p class="prof">
+                                    비지니스모델
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜동명경영컨설팅 이사</li>
+                                <li> 중소벤처기업부 비즈니스지원단 컨설턴트</li>
+                            </ul>
+                            </li>
+                            <li class="row26">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp27.bmp">
+                            </p>
+                            <p class="comname">
+                                    ㈜동명경영컨설팅
+                            </p>
+                            <p class="name">
+                                    김태호
+                            </p>
+                            <p class="prof">
+                                    창업/경영
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜동명경영컨설팅 대표컨설턴트</li>
+                                <li> 광주시경제고용진흥원 창업 및 경영상담</li>
+                                <li> 중소벤처기업진흥공단 R&amp;D과제기획 기관선정 전문위원</li>
+                            </ul>
+                            </li>
+                            <li class="row27">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp28.bmp">
+                            </p>
+                            <p class="comname">
+                                    창업성장전략연구소
+                            </p>
+                            <p class="name">
+                                    안향숙
+                            </p>
+                            <p class="prof">
+                                    사업계획서 작성 및 발표
+                            </p>
+                            <ul class="his">
+                                <li>현) 창업성장전략연구소 소장</li>
+                                <li> 중소벤처지원부 초기창업패키지 멘토</li>
+                            </ul>
+                            </li>
+                            <li class="row28">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp29.bmp">
+                            </p>
+                            <p class="comname">
+                                    조선대학교이노폴리스 캠퍼스사업단
+                            </p>
+                            <p class="name">
+                                    정금남
+                            </p>
+                            <p class="prof">
+                                    사업계획서 작성 및 발표
+                            </p>
+                            <ul class="his">
+                                <li>현) 조선대이노폴리스캠퍼스사업단 팀장</li>
+                                <li> ㈜인프라비즈 창업지원</li>
+                                <li> 중소벤처기업부 예창·초창멘토</li>
+                                <li> 2016스타트업 엑셀러레이팅 지원사업 창업전문위원</span></li>
+                            </ul>
+                            </li>
+                            <li class="row29">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp30.bmp">
+                            </p>
+                            <p class="comname">
+                                    베스트인
+                            </p>
+                            <p class="name">
+                                    김선일
+                            </p>
+                            <p class="prof">
+                                    사업계획서 작성 및 발표
+                            </p>
+                            <ul class="his">
+                                <li>현) 베스트인 컨설팅 대표</li>
+                                <li> 중소기업청 전략과제 PM으로 기업의 비전, 전략목표 등을 통해 평가시스템 생성</li>
+                            </ul>
+                            </li>
+                            <li class="row30">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp31.bmp">
+                            </p>
+                            <p class="comname">
+                                    ㈜벨류서치
+                            </p>
+                            <p class="name">
+                                    류재희
+                            </p>
+                            <p class="prof">
+                                    사업계획서 작성 및 발표
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜밸류서치 대표이사</li>
+                                <li> 한국장학재단 창업 멘토</li>
+                                <li> 신용보증기금 전문위원</li>
+                            </ul>
+                            </li>
+                            <li class="row31">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp32.bmp">
+                            </p>
+                            <p class="comname">
+                                    ㈜뉴비전
+                            </p>
+                            <p class="name">
+                                    김수동
+                            </p>
+                            <p class="prof">
+                                    창업/경영
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜뉴비전 대표이사</li>
+                                <li> 한국산업단지공단 기술코디네이터, 기업성장지원단 전문위원</li>
+                                <li> 소상공인시장진흥원 소상공인 우수컨설턴트상 수상</li>
+                            </ul>
+                            </li>
+                            <li class="row32">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp33.jpg">
+                            </p>
+                            <p class="comname">
+                                    ㈜삼정종합컨설팅
+                            </p>
+                            <p class="name">
+                                    이종희
+                            </p>
+                            <p class="prof">
+                                    창업/경영
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜삼정종합컨설팅 대표이사</li>
+                                <li> 광주대 기술창업 멘토</li>
+                            </ul>
+                            </li>
+                            <li class="row33">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp34.jpg">
+                            </p>
+                            <p class="comname">
+                                    ㈜모모파트너즈
+                            </p>
+                            <p class="name">
+                                    김경호
+                            </p>
+                            <p class="prof">
+                                    사업계획서 작성 및 발표
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜모모파트너즈 대표</li>
+                                <li> 중소벤처기업부 창업지원 멘토</li>
+                                <li> GIST AI특화분야(마이크로소프트) 사업계획서 작성 및 심사</li>
+                            </ul>
+                            </li>
+                            <li class="row34">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp35.jpeg">
+                            </p>
+                            <p class="comname">
+                                    (사)한국인공지능협회
+                            </p>
+                            <p class="name">
+                                    김건훈
+                            </p>
+                            <p class="prof">
+                                    창업/경영
+                            </p>
+                            <ul class="his">
+                                <li>현) (사)한국인공지능협회 이사</li>
+                                <li> ㈜지유솔루션 대표이사</li>
+                                <li> 광주광역시 인공지능 자문위원</li>
+                            </ul>
+                            </li>
+                            <li class="row35">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp36.jpg">
+                            </p>
+                            <p class="comname">
+                                    한국지역산업연구원㈜
+                            </p>
+                            <p class="name">
+                                    손길선
+                            </p>
+                            <p class="prof">
+                                    비지니스모델
+                            </p>
+                            <ul class="his">
+                                <li>현) 한국지역산업연구원㈜ 전문위원</li>
+                                <li> 오렌지나무시스템㈜ 전문위원</li>
+                                <li> 소상공인시장진흥공단 2018,2019 재창업패키지 멘토위원</li>
+                            </ul>
+                            </li>
+                            <li class="row36">
+                            <span class="mento_tit">창업/경영</span>
+                            <p class="photo">
+                                <img src="../images/bmp37.png">
+                            </p>
+                            <p class="comname">
+                                    ㈜지티티비
+                            </p>
+                            <p class="name">
+                                    박용선
+                            </p>
+                            <p class="prof">
+                                    정부정책자금
+                            </p>
+                            <ul class="his">
+                                <li>현) ㈜지티티비 대표이사</li>
+                                <li> 중소기업기술분쟁조정중재위원회 조정중재위원</li>
+                                <li> 중소기업기술정보진흥원(TIPA) 기술개발사업 평가위원</li>
+                            </ul>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer class="clearfix">
+        <p><img src="../images/footerimg1.png" alt="AI종합지원센터"></p>
+        <div class="address">
+            <address>광주광역시 북구 첨단과기로 333 본부동 1층</address>
+            <p>TEL:062)062-0801,0803,0807,0809/fax 062)062-0815</p>
+        </div>
+        <ul class="footericon_inner clearfix">
+            <li><img src="../images/footerlogo1.png" alt="광주테크노파크"></li>
+            <li><img src="../images/footerlogo2.png" alt="AI종합지원센터"></li>
+        </ul>
+    </footer>
+</body>
+</html>

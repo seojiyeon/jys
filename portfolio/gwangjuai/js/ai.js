@@ -17,5 +17,3 @@ $(function(){
     });
 });
 
-
-출처: https://baejangho.com/entry/prevent-mouse-right-click [호짱의 개발 블로그]

@@ -11,10 +11,10 @@
 .main_mid .container{margin:0 auto;width: 682px;text-align: center;}
 .main_mid .container > img{display: block;margin: 40px auto 0;}
 .main_mid .container >ul{width: 100%;margin-top: 22px;}
-.main_mid .container >ul >li{float: left;text-align: left;margin-left: 183px;}
+.main_mid .container >ul >li{float: left;text-align: left;margin-left: 141px;}
 .main_mid .container >ul >li:first-child{margin-left: 32px;}
-.main_mid .container >ul >li:last-child{margin-left: 117px;}
-.main_mid .container >ul >li >a{display: block;padding-bottom: 18px;font-weight: 800;color: #2a318a;font-size: 17px;line-height: 1.9;}
+.main_mid .container >ul >li:last-child{margin-left: 157px;}
+.main_mid .container >ul >li >a{display: block;padding-bottom: 18px;font-weight: 800;color: #2a318a;font-size: 17px;text-align: center;line-height: 1.9;}
 .main_mid .container >ul >li >ul.submenutit_inner{position: relative;}
 .main_mid .container >ul >li >ul.submenutit_inner::before{content: '';background: url(../images/main_icon.png) no-repeat;background-size: 100% 100%;width: 7px;height: 114px;position: absolute;left: -8px;top: 4px;}
 .main_mid .container >ul >li:last-child >ul.submenutit_inner::before{content: '';background: url(../images/main_icon2.png) no-repeat;background-size: 100% 100%;width: 8px;height: 36px;position: absolute;left: -8px;top: 6px;}

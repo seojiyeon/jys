@@ -10,28 +10,6 @@
 <link rel="stylesheet" href="../css/layout.css">
 <link rel="stylesheet" href="../css/sub.css">
 <script src="../js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript">
-    // F12 버튼 방지
-    $(document).ready(function(){
-        $(document).bind('keydown',function(e){
-            if ( e.keyCode == 123 /* F12 */) {
-                e.preventDefault();
-                e.returnValue = false;
-            }
-        });
-    });
-    
-    // 우측 클릭 방지
-    document.onmousedown=disableclick;
-    status="Right click is not available.";
-    
-    function disableclick(event){
-        if (event.button==2) {
-            alert(status);
-            return false;
-        }
-    }
-</script>
 
 </head>
 <body oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
@@ -56,6 +34,7 @@
 </section>
 <section class="sub_mid">
 <div class="container">
+    <span><a class="pdfDown"href="/pdf/광주광역시 지원사업정보.pdf" target="_blank" rel="noopener noreferrer">광주테크노파크 지원사업 세부 자료(링크)</a></span>
 	<h2 class="h2" id="sum2_1"><img src="../images/subtit2.png" alt="광주테크노파크 지원사업"></h2>
 	<div class="cnt clearfix">
 		<table class="tstyle1">
@@ -257,7 +236,7 @@
             </tbody>
         </table>
     </div>
-    <span><a class="pdfDown"href="http://" target="_blank" rel="noopener noreferrer">광주테크노파크 지원사업 세부 자료(링크)</a></span>
+    
         <h2 class="h2 h2_1" id="sum2_2"><img src="../images/sub2tit2.png" alt="광주테크노파크 지원사업"></h2>
         <h3 class="h3">가.창업/사업화관련</h3>
         <div class="cnt clearfix">
@@ -750,7 +729,7 @@
                 </tbody>
             </table>
 		</div>
-        <span><a class="pdfDown"href="http://" target="_blank" rel="noopener noreferrer">금융(융자)지원 세부 자료(링크)</a></span>
+        <!-- <span><a class="pdfDown"href="http://" target="_blank" rel="noopener noreferrer">금융(융자)지원 세부 자료(링크)</a></span> -->
         <h2 class="h2 h2_1" id="sum2_3"><img src="../images/sub2tit3.png" alt="광주테크노파크 지원사업"></h2>
         <h3 class="h3">가. 공간지원</h3>
         <div class="cnt clearfix">

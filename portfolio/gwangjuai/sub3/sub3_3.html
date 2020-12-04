@@ -10,28 +10,7 @@
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/sub.css">
     <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript">
-        // F12 버튼 방지
-        $(document).ready(function(){
-            $(document).bind('keydown',function(e){
-                if ( e.keyCode == 123 /* F12 */) {
-                    e.preventDefault();
-                    e.returnValue = false;
-                }
-            });
-        });
-        
-        // 우측 클릭 방지
-        document.onmousedown=disableclick;
-        status="Right click is not available.";
-        
-        function disableclick(event){
-            if (event.button==2) {
-                alert(status);
-                return false;
-            }
-        }
-    </script>
+    
     
     
 </head>
@@ -50,6 +29,7 @@
                 <ul class="small_menu clearfix">
                     <li><a href="../sub3/sub3_1.html">멘토링 상담절차</a></li>
                     <li><a href="../sub3/sub3_2.html">멘토현황</a></li>
+                    <li><a href="../pdf/광주테크노파크_AI창업상담매뉴얼(BOOK)_B5_5_1.pdf" target="_blank">AI 창업상담 매뉴얼</a></li>
                 </ul>
             </nav>
         </section>

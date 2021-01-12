@@ -10,7 +10,28 @@
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/sub.css">
     <script type="text/javascript" src="../js/jquery-1.11.3.min.js"></script>
-    
+    <!-- <script type="text/javascript">
+        // F12 버튼 방지
+        $(document).ready(function(){
+            $(document).bind('keydown',function(e){
+                if ( e.keyCode == 123 /* F12 */) {
+                    e.preventDefault();
+                    e.returnValue = false;
+                }
+            });
+        });
+        
+        // 우측 클릭 방지
+        document.onmousedown=disableclick;
+        status="Right click is not available.";
+        
+        function disableclick(event){
+            if (event.button==2) {
+                alert(status);
+                return false;
+            }
+        }
+    </script> -->
     
 </head>
 <body oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
@@ -36,11 +57,22 @@
             <div class="container">
                 <h2 class="h2"><img src="../images/subtit1.png" alt="AI인공지능종합지원센터소개"></h2>
                 <div class="cnt clearfix">
-                    <img src="../images/smart_c01.jpg" alt="" class="mg_b30">
-                    <img src="../images/smart_c02.jpg" alt="" class="mg_b30">
-                    <img src="../images/smart_c03.jpg" alt="" class="mg_b30">
-                    <img src="../images/smart_c04.jpg" alt="" class="mg_b30">
-                    
+                    <div class="map">
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.2236353884487!2d126.8598490110847!3d35.2258026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35718e05c83f1595%3A0x820504c00d5d1cd5!2z6rSR7KO87YWM7YGs64W47YyM7YGs!5e0!3m2!1sko!2skr!4v1606484045799!5m2!1sko!2skr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.2000947363335!2d126.91294231524449!3d35.1516301803212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35718c862027a709%3A0xf67b1e334977a891!2z6rSR7KO86rSR7Jet7IucIOuPmeq1rCDquIjrgqjroZw06rCAIOq4iOuCqOuhnCAxOTMtMjI!5e0!3m2!1sko!2skr!4v1610345245009!5m2!1sko!2skr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="comeon">
+                        <p>
+                            <strong>주소</strong>
+                            광주 동구 금남로 193-22 AI창업캠프(유오워크 금남점)
+                        </p>
+                        <p> <strong>전화</strong>
+                            062)602-0801,0803,0807,0809 / FAX: 062)602-0815
+                        </p>
+                        <p> <strong>버스</strong>
+                            [간선]첨단40, [지선]첨단94
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>

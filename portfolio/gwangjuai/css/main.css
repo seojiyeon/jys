@@ -7,17 +7,27 @@
 .main_top header a.logo > img{}
 .main_top > img{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
 
-.main_mid{}
+.mainn_top header a.logo{display: inline-block;margin: 30px 0 0 273px;}
+.mainn_top > img{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+
+.mainn_top nav{background: #f5f5fa;}
+.mainn_top nav > ul.big_menu{height: 56px;margin-left: 268px;line-height: 54px;}
+.mainn_top nav > ul.big_menu > li{position: relative;float: left;margin-right: 68px;}
+.mainn_top nav > ul.big_menu > li.on::after{content: '';background: url(../images/navPoint.png);width: 6px;height: 14px;position: absolute;left: 50%;bottom: 0px;transform: translateX(-50%);}
+.mainn_top nav > ul.big_menu > li > a{font-size: 16px;color: #9fa0a0;line-height: 56px;font-weight: 600;}
+.mainn_top nav > ul.big_menu > li.on > a{color: #231815;}
+
 .main_mid .container{margin:0 auto;width: 682px;text-align: center;}
 .main_mid .container > img{display: block;margin: 40px auto 0;}
 .main_mid .container >ul{width: 100%;margin-top: 22px;}
-.main_mid .container >ul >li{float: left;text-align: left;margin-left: 20.2%;}
+.main_mid .container >ul >li{float: left;text-align: left;margin-left: 26.2%;}
 .main_mid .container >ul >li:first-child{margin-left: 4.2%;}
-.main_mid .container >ul >li:last-child{margin-left: 23%;}
+.main_mid .container >ul >li:last-child{margin-left: 26%;}
 .main_mid .container >ul >li >a{display: block;padding-bottom: 18px;font-weight: 800;color: #2a318a;font-size: 17px;text-align: center;line-height: 1.9;}
 .main_mid .container >ul >li >ul.submenutit_inner{position: relative;}
 .main_mid .container >ul >li >ul.submenutit_inner::before{content: '';background: url(../images/main_icon.png) no-repeat;background-size: 100% 100%;width: 7px;height: 114px;position: absolute;left: -8px;top: 4px;}
 .main_mid .container >ul >li:last-child >ul.submenutit_inner::before{content: '';background: url(../images/main_icon2.png) no-repeat;background-size: 100% 100%;width: 8px;height: 36px;position: absolute;left: -8px;top: 6px;}
-.main_mid .container >ul >li >ul.submenutit_inner >li{margin-left: 6px;margin-bottom: 13px;}
+.main_mid .container >ul >li >ul.submenutit_inner >li{margin-left: 6px;margin-bottom: 11px;}
 .main_mid .container >ul >li >ul.submenutit_inner >li >a{font-size: 14px;}
+.main_mid .container >ul >li:last-child >ul.submenutit_inner >li{margin-bottom: 14px;}
 

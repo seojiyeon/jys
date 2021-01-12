@@ -15,9 +15,12 @@ footer .footericon_inner >li >img{}
 
 .tstyle1{border-top: 2px solid #3b3c97;}
 .tstyle1 thead >tr{border-bottom: 1px solid #3b3c97;}
-.tstyle1 thead >tr >th{height: 35px;line-height: 35px;color: #fff;background: #c1b9d9;border-right: 1px solid #fff;text-shadow: -1px 0 #2a318a, 0 1px #2a318a , 1px 0 #2a318a, 0 -1px #2a318a;}
+.tstyle1 thead >tr >th{padding: 15px 0;vertical-align: middle;color: #fff;background: #c1b9d9;border-right: 1px solid #fff;text-shadow: -1px 0 #2a318a, 0 1px #2a318a , 1px 0 #2a318a, 0 -1px #2a318a;}
 
 .tstyle1 thead >tr >th:last-child{border-right: 0;}
+
 .tstyle1 tbody > tr{border-bottom: 1px dashed #3b3c97;}
-.tstyle1 tbody > tr > td{padding: 9px 11px;font-size: 11px;line-height: 1.6;border-right: 1px dashed #3b3c97;vertical-align: middle;}
+.tstyle1 tbody > tr > td{padding: 9px 11px;font-size: 11px;line-height: 1.6;border-right: 1px dashed #3b3c97;vertical-align: middle; text-align: center;}
+.tstyle1 tbody >tr >td:nth-child(2),
+.tstyle1 tbody >tr >td:nth-child(3){text-align: left;}
 .tstyle1 tbody > tr > td:last-child{border-right: 0;}

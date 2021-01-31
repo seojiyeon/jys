@@ -1,13 +1,14 @@
 @charset "utf-8";
 
-.main{padding-bottom: 140px;}
-.main_top{position: relative;height: 444px;background: url(../images/mainSum.png);}
+.main{padding-bottom: 140px;position: relative;}
+.main_top{position: relative;margin-top: 135px;height: 444px;background: url(../images/mainSum.png);}
 .main_top header{border-bottom: 0px;}
 .main_top header a.logo{display: inline-block;margin: 30px 0 0 49px;}
 .main_top header a.logo > img{}
 .main_top > img{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
 
-.mainn_top header a.logo{display: inline-block;margin: 30px 0 0 273px;}
+.mainn_top{position: fixed;top: 0;left: 0; right: 0; background: #fff; z-index: 99999; border-bottom: 1px solid #e6e6e6;}
+.mainn_top header a.logo{display: inline-block;margin: 25px 0 0 258px;}
 .mainn_top > img{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
 
 .mainn_top nav{background: #f5f5fa;}

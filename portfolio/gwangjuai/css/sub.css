@@ -1,12 +1,21 @@
 .container{margin: 0 auto;width: 1120px;background-color: #fff;}
-.sub{}
-.sub_top{}
+.sub{
+    position: relative;
+}
+.sub_top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 9999;
+}
 .sub_top header{}
-.sub_top header a.logo{display: inline-block;margin: 30px 0 0 273px;}
+.sub_top header a.logo{display: inline-block;margin: 25px 0 0 258px;}
 .sub_top header a.logo > img{}
 .sub_top > img{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
 
-.sub .sub_mid{background: #fafafa;}
+.sub .sub_mid{padding-top: 167px;background: #fafafa;}
 .sub .sub_mid .container{padding: 66px 127px 140px;}
 
 .sub nav{
@@ -34,11 +43,11 @@
 .sub1 .cnt > .comeon >p{padding-bottom: 24px;}
 .sub1 .cnt > .comeon >p > strong{display: block;padding-bottom: 6px;}
 .point_txt{font-weight: 700;}
-.sub2 h3.h3{padding-bottom: 12px;}
+.sub2 h3.h3{padding-bottom: 19px;font-size: 24px;}
 .sub3 .cnt{padding-top: 60px;padding-bottom: 30px;}
 .aimento{
 }
-.aimento p{display: inline-block;padding: 10px 52px 10px 10px;   background: #1d2088;color: #fff;}
+.aimento a{display: inline-block;padding: 10px 52px 10px 10px;   background: #1d2088;color: #fff;}
 .sub3_2{}
 .sub3_2 h2.h2{
     margin-bottom: 0;
@@ -98,7 +107,7 @@
     padding-top: 18px;
     text-align: left;
 }
-.sub3_2 .profile > li > .his >li::before{content:'·';display: inline-block;position: absolute;top: 0;left: 0;}
+.sub3_2 .profile > li > .his >li::before{content:'Â·';display: inline-block;position: absolute;top: 0;left: 0;}
 .sub3_2 .profile > li > .his >li{
     position: relative;
     font-size: 10px;
